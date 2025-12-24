@@ -25,26 +25,10 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
 
-options = Options()
-options.binary_location = "/snap/chromium/current/usr/lib/chromium-browser/chrome"
-
-options.add_argument("--headless=new")
-options.add_argument("--no-sandbox")
-options.add_argument("--disable-dev-shm-usage")
-options.add_argument("--window-size=1920,1080")
-
-# 실행마다 고유 프로필 디렉토리
-profile_dir = tempfile.mkdtemp(prefix="selenium-profile-")
-options.add_argument(f"--user-data-dir={profile_dir}")
-
-# snap chromium에서 크래시 줄이는 옵션(자주 도움됨)
-options.add_argument("--remote-debugging-port=0")
-service = Service("/usr/bin/chromedriver")
-driver = webdriver.Chrome(service=service, options=options)
-
+# --------------------------------------------------------------------------- #
+# 환경 설정
+# --------------------------------------------------------------------------- #
 load_dotenv(override=True)
 
 DB_HOST = os.getenv("PG_HOST")
@@ -54,7 +38,6 @@ DB_DATABASE = os.getenv("PG_DATABASE")
 DB_USER = os.getenv("PG_USER")
 DB_PASSWORD = os.getenv("PG_PASSWORD")
 USE_DB = os.getenv("STYLEVANA_USE_DB", "true").lower() in ("1", "true", "yes")
-
 
 SEOUL_TZ = ZoneInfo("Asia/Seoul")
 
@@ -310,7 +293,7 @@ def _ensure_empty_pgpass():
 
 def ensure_yesstyle_table_exists(connection) -> None:
     """
-    yesstyle 스키마와 yesstyle 테이블이 없으면 생성합니다.
+    suncream_crawling 스키마와 yesstyle 테이블이 없으면 생성합니다.
     """
     cursor = connection.cursor()
     cursor.execute("CREATE SCHEMA IF NOT EXISTS suncream_crawling;")
@@ -359,7 +342,7 @@ def insert_into_postgresql(rows: List[Tuple]):
         cursor.executemany(query, rows)
         connection.commit()
         cursor.close()
-        print(f"Inserted {len(rows)} rows into suncream_crawling.yesstyle .")
+        print(f"Inserted {len(rows)} rows into suncream_crawling.yesstyle.")
     except Error as exc:
         if connection:
             connection.rollback()
@@ -378,6 +361,11 @@ def main():
     options.add_argument("--start-maximized")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--disable-notifications")
+    options.add_argument("--disable-background-networking")
+    options.add_experimental_option("prefs", {
+        "profile.default_content_setting_values.notifications": 2
+    })
     options.add_argument(f"--user-data-dir={temp_profile}")
 
     driver = webdriver.Chrome(options=options)
@@ -388,8 +376,6 @@ def main():
     iso_timestamp = run_time.strftime("%Y-%m-%d %H:%M:%S")
 
     category_configs = [
-        # {"name": "Skincare", "url": SKINCARE_URL, "limit": CRAWL_LIMIT},
-        # {"name": "Numbuzin", "url": NUMBUZIN_URL, "limit": CRAWL_LIMIT},
         {"name": "Bestsellers", "url": BESTSELLER_URL, "limit": CRAWL_LIMIT},
     ]
 
@@ -434,7 +420,7 @@ def main():
     combined_df_all = pd.concat(category_frames.values(), ignore_index=True)
 
     data_dir = ensure_data_directory()
-
+    
     db_rows = []
     for _, row in combined_df_all.iterrows():
         price = row[COL_PRICE]
@@ -452,7 +438,6 @@ def main():
                 row[COL_CHANNEL],
             )
         )
-
     insert_into_postgresql(db_rows)
 
     print("YesStyle 크롤링 완료.")

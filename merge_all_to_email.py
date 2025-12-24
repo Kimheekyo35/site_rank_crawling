@@ -21,6 +21,7 @@ from dotenv import load_dotenv
 SEOUL_TZ = ZoneInfo("Asia/Seoul")
 
 USE_DB = os.getenv("CRAWLING_USE_DB", "true").lower() in ("1", "true", "yes")  
+# true 해야 email 보내짐
 SEND_EMAIL = os.getenv("CRAWLING_SEND_EMAIL", "true").lower() in ("1", "true", "yes")
 REPORT_LIMIT = 50
 
@@ -47,31 +48,31 @@ load_dotenv(override=True)
 CHANNEl_CONFIGS = [{
     "Channel": "jolse",
     "db":{
-        "host":os.getenv("DB_HOST"),
-        "port":os.getenv("DB_PORT"),
-        "dbname":os.getenv("DB_DATABASE"),
-        "user":os.getenv("DB_USER"),
-        "password":os.getenv("DB_PASSWORD")
+        "host":os.getenv("PG_HOST"),
+        "port":os.getenv("PG_PORT"),
+        "dbname":os.getenv("PG_DATABASE"),
+        "user":os.getenv("PG_USER"),
+        "password":os.getenv("PG_PASSWORD")
     },
 },
 {
     "Channel":"yesstyle",
     "db":{
-        "host":os.getenv("DB_HOST"),
-        "port":os.getenv("DB_PORT"),
-        "dbname":os.getenv("DB_DATABASE"),
-        "user":os.getenv("DB_USER"),
-        "password":os.getenv("DB_PASSWORD")
+        "host":os.getenv("PG_HOST"),
+        "port":os.getenv("PG_PORT"),
+        "dbname":os.getenv("PG_DATABASE"),
+        "user":os.getenv("PG_USER"),
+        "password":os.getenv("PG_PASSWORD")
     },
 },
 {
     "Channel":"stylevana",
     "db":{
-        "host":os.getenv("DB_HOST"),
-        "port":os.getenv("DB_PORT"),
-        "dbname":os.getenv("DB_DATABASE"),
-        "user":os.getenv("DB_USER"),
-        "password":os.getenv("DB_PASSWORD")
+        "host":os.getenv("PG_HOST"),
+        "port":os.getenv("PG_PORT"),
+        "dbname":os.getenv("PG_DATABASE"),
+        "user":os.getenv("PG_USER"),
+        "password":os.getenv("PG_PASSWORD")
     },
 }]
 
@@ -134,26 +135,40 @@ def _preprocess_rank_dataframe(df: Optional[pd.DataFrame]) -> Optional[pd.DataFr
     return work
 
 
-def fetch_channel_data(db_cfg,Channel, start_ts, end_ts):
+def fetch_channel_data(db_cfg, Channel, start_ts, end_ts):
     conn = psycopg2.connect(**db_cfg)
+    columns = ["Rank", "Brand", "Product", "Old_price", "Price", "DateTime", "Channel"]
     with conn, conn.cursor() as cursor:
         schema_identifier = sql.Identifier("suncream_crawling")
-        table_identifier = sql.Identifier(f"{Channel}")
+        table_identifier = sql.Identifier(Channel)
+
+        latest_query = sql.SQL(
+            """
+            SELECT MAX("DateTime")
+            FROM {}.{}
+            WHERE "Channel" = %s
+            AND "DateTime" >= %s
+            AND "DateTime" < %s
+            """
+        ).format(schema_identifier, table_identifier)
+        cursor.execute(latest_query, (Channel, start_ts, end_ts))
+        latest_datetime_row = cursor.fetchone()
+        latest_datetime = latest_datetime_row[0] if latest_datetime_row else None
+        if latest_datetime is None:
+            return pd.DataFrame(columns=columns)
+
         query = sql.SQL(
             """
             SELECT "Rank", "Brand", "Product", "Old_price", "Price", "DateTime", "Channel"
             FROM {}.{}
-            WHERE "Channel" = %s                                                                                                                                                                                           
-            AND "DateTime" >= %s                                                                                                                                                                                         
-            AND "DateTime" < %s                                                                                                                                                                                          
-            ORDER BY "Rank"                                                                                                                                                                                                
+            WHERE "Channel" = %s
+            AND "DateTime" = %s
+            ORDER BY "Rank"
             """
         ).format(schema_identifier, table_identifier)
-        cursor.execute(query,(Channel,start_ts,end_ts))
+        cursor.execute(query, (Channel, latest_datetime))
         rows = cursor.fetchall()
-        columns = ["Rank", "Brand", "Product", "Old_price", "Price", "DateTime", "Channel"]
     return pd.DataFrame(rows, columns=columns)
-
 
 def fetch_previous_snapshot_from_db(
     Channel: str,
@@ -167,11 +182,11 @@ def fetch_previous_snapshot_from_db(
     connection = None
     try:
         connection = psycopg2.connect(
-            host=os.getenv("DB_HOST"),
-            port=os.getenv("DB_PORT"),
-            dbname=os.getenv("DB_DATABASE"),
-            user=os.getenv("DB_USER"),
-            password=os.getenv("DB_PASSWORD"),
+            host=os.getenv("PG_HOST"),
+            port=os.getenv("PG_PORT"),
+            dbname=os.getenv("PG_DATABASE"),
+            user=os.getenv("PG_USER"),
+            password=os.getenv("PG_PASSWORD"),
         )
         cursor = connection.cursor()
 
@@ -180,8 +195,8 @@ def fetch_previous_snapshot_from_db(
         start_ts = desired_time.replace(hour=0, minute=0, second=0, microsecond=0)
         end_ts = start_ts + timedelta(days=1)
 
-        schema_identifier = sql.Identifier(Channel)
-        table_identifier = sql.Identifier(f"{Channel}_table")
+        schema_identifier = sql.Identifier("suncream_crawling")
+        table_identifier = sql.Identifier(f"{Channel}")
 
         snapshot_query = sql.SQL(
             """
@@ -388,8 +403,7 @@ def start_email(run_time: datetime) -> str:
         "안녕하세요 위마케팅 사업지원팀 김희교입니다.",
         f"금일자 채널별 선크림 전일·전주 대비 랭킹 변동 현황 보고드립니다.",
         "",
-        f"수집 일시 (KST): {run_time.strftime('%Y-%m-%d %H:%M')}",
-        ""
+        f"수집 일시 (KST): {run_time.strftime('%Y-%m-%d %H시')}",
     ]
     return "\n".join(lines)
 
@@ -521,12 +535,15 @@ def write_channel_sheet(
             COL_RANK: "랭킹",
             COL_BRAND: "브랜드",
             COL_PRODUCT_NAME: "제품명",
-            COL_PRICE: "할인가",
+            COL_PRICE: "가격",
             COL_STATUS: "전일대비 증감",
             COL_WEEK_STATUS: "전주대비 증감",
         },
         inplace=True,
     )
+    if channel =="jolse" or channel == "stylevana":
+        # jolse랑 stylevana 일 때만 앞에 "$" 붙이기
+        display_df["가격"] = display_df["가격"].apply(lambda v: f"${v}" if pd.notna(v) else v)
     display_df["전일대비 증감"] = display_df["전일대비 증감"].fillna("-")
     display_df["전주대비 증감"] = display_df["전주대비 증감"].fillna("-")
     display_df["비고"] = ""
@@ -685,18 +702,12 @@ def send_email_from_memory(Channel: str, excel_bytes: bytes, file_name: str, bod
     sender_password = os.getenv("EMAIL_PASSWORD") or os.getenv("SENDER_PASSWORD")
 
     # 받는 사람(TO) — 기존 변수를 유지
-    to_list = _split(
-        os.getenv("EMAIL_RECIPIENTS")
-        or os.getenv("EMAIL_RECIPIENT")
-        or os.getenv("RECIPIENT_EMAIL")
-        or "diana0305@wemarketing.co.kr"
-    )
+    to_list = list(dict.fromkeys(
+        _split(os.getenv("EMAIL_RECIPIENTS"))
+        + _split(os.getenv("EMAIL_RECIPIENT"))
+    ))
 
-    channel_env_key = f"{Channel.upper()}_CC"
-    cc_env = (
-        os.getenv(channel_env_key)
-        or os.getenv("RANKING_CC")
-    )
+    cc_env = os.getenv("EMAIL_CC","")
     cc_list, bcc_list = _parse_cc_tokens(cc_env)
 
     if not sender_email or not sender_password or not (to_list or cc_list or bcc_list):
@@ -709,7 +720,7 @@ def send_email_from_memory(Channel: str, excel_bytes: bytes, file_name: str, bod
         msg["To"] = ", ".join(to_list)
     if cc_list:
         msg["Cc"] = ", ".join(cc_list)
-    subject_date = datetime.now(SEOUL_TZ).strftime("%Y%m%d")  # KST 기준 오늘 날짜
+    subject_date = datetime.now(SEOUL_TZ).strftime("%y%m%d")  # KST 기준 오늘 날짜
     msg["Subject"] = f"{Channel} 랭킹 리포트_{subject_date}"
 
     body = body_text or f"{Channel} crawling completed.\nPlease see the attached report: {file_name}"
@@ -762,7 +773,10 @@ def main():
         return
 
     timestamp_str = run_time.strftime("%Y%m%d_%H%M")
-    report_path = output_dir / f"{timestamp_str}_ranking.xlsx"
+    #날짜 바꾸기
+    timestamp_str_md = run_time.strftime("%y%m%d")
+    report_path = output_dir / f"suncream_ranking_{timestamp_str_md}.xlsx"
+    
     with pd.ExcelWriter(report_path, engine="openpyxl") as writer:
         for result in channel_results:
             channel = result["channel"]

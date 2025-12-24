@@ -19,8 +19,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from dotenv import load_dotenv
-from selenium.webdriver.chrome.service import Service
 
+# ======postgreSQL 연결 ==========
 load_dotenv(override=True)
 
 DB_HOST = os.getenv("PG_HOST")
@@ -51,24 +51,12 @@ COL_WEEK_DELTA = "전주 변동"
 COL_WEEK_STATUS = "전주대비 증감"
 
 options = Options()
-options.binary_location = "/snap/chromium/current/usr/lib/chromium-browser/chrome"
-
-options.add_argument("--headless=new")
-options.add_argument("--no-sandbox")
-options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--window-size=1920,1080")
 
-# 실행마다 고유 프로필 디렉토리
-profile_dir = tempfile.mkdtemp(prefix="selenium-profile-")
-options.add_argument(f"--user-data-dir={profile_dir}")
+# Use Service so ChromeDriver is picked up reliably on Windows.
+driver = webdriver.Chrome(options=options)
 
-# snap chromium에서 크래시 줄이는 옵션(자주 도움됨)
-options.add_argument("--remote-debugging-port=0")
-service = Service("/usr/bin/chromedriver")
-driver = webdriver.Chrome(service=service, options=options)
-
-
-DEFAULT_BESTSELLER_URL="https://jolse.com/category/suncare/1032/"
+DEFAULT_BESTSELLER_URL="https://jolse.com/category/suncare/1032/?cate_no=1032&sort_method=6&"
 BESTSELLER_URL = os.getenv("JOLSE_BESTSELLER_URL", DEFAULT_BESTSELLER_URL)
 
 CRAWL_LIMIT = 100
@@ -101,7 +89,7 @@ def _ensure_empty_pgpass():
 # sql 스키마 생성
 def ensure_jolse_table_exists(connection) -> None:
     """
-    jolse 스키마와 jolse 테이블이 없으면 생성합니다.
+    suncream_crawling 스키마와 jolse 테이블이 없으면 생성합니다.
     """
     cursor = connection.cursor()
     cursor.execute("CREATE SCHEMA IF NOT EXISTS suncream_crawling;")
@@ -150,7 +138,7 @@ def insert_into_postgresql(rows: List[Tuple]):
         cursor.executemany(query, rows)
         connection.commit()
         cursor.close()
-        print(f"Inserted {len(rows)} rows into suncream_crawling.jolse .")
+        print(f"Inserted {len(rows)} rows into suncream_crawling.jolse.")
     except Error as exc:
         if connection:
             connection.rollback()
@@ -158,7 +146,6 @@ def insert_into_postgresql(rows: List[Tuple]):
     finally:
         if connection:
             connection.close()
-
 
 # 각 상품의 브랜드, 가격, 할인 전 가격, 제품명 가져오기
 def parse_jolse_product_detail(
@@ -224,8 +211,8 @@ def jolse_category_crawling(
 
         if len(id_list) >= target_count:
             break
-
-        page_url = f"{url_prefix}?page={page_no}"
+# https://jolse.com/category/suncare/1032/?cate_no=1032&sort_method=6&page=1
+        page_url = f"{url_prefix}page={page_no}"
         driver.get(page_url)
         time.sleep(random.uniform(1.0, 1.8))
 
@@ -274,18 +261,6 @@ def jolse_category_crawling(
 
     return gathered_ranks, gathered_brands, gathered_products, gathered_discounted_prices, gathered_original_prices
 
-# COL_COLLECTED_AT = "수집일시"
-# COL_PREVIOUS_RANK = "전일 순위"
-# COL_RANK_DELTA = "전일 변동"
-# COL_STATUS = "전일대비 증감"
-# COL_PREVIOUS_RANK_WEEK = "전주 순위"
-# COL_WEEK_DELTA = "전주 변동"
-# COL_WEEK_STATUS = "전주대비 증감"
-
-def make_excel(dataframe):
-    dataframe[COL_COLLECTED_AT] = dataframe[COL_DATETIME_TEXT]
-    dataframe[COL_BRAND]
-
 
 def main():
     """
@@ -293,9 +268,6 @@ def main():
     """
     run_time = datetime.now(SEOUL_TZ)
     iso_timestamp = run_time.strftime("%Y-%m-%d %H:%M:%S")
-
-    # postgresql 에서 갖고 올 때 순수한 datetime만 갖고옴.
-    run_time_naive = run_time.astimezone(SEOUL_TZ).replace(tzinfo=None)
 
     category_configs = [{"name": "Bestsellers", "url_prefix": BESTSELLER_URL, "limit": CRAWL_LIMIT}]
 
@@ -344,7 +316,6 @@ def main():
                 row.Channel,
             )
         )
-    # postgresql에 저장
     insert_into_postgresql(db_rows)
 
     ensure_data_directory()
@@ -353,3 +324,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
