@@ -22,7 +22,7 @@ SEOUL_TZ = ZoneInfo("Asia/Seoul")
 
 USE_DB = os.getenv("CRAWLING_USE_DB", "true").lower() in ("1", "true", "yes")  
 # true 해야 email 보내짐
-SEND_EMAIL = os.getenv("CRAWLING_SEND_EMAIL", "true").lower() in ("1", "true", "yes")
+SEND_EMAIL = os.getenv("CRAWLING_SEND_EMAIL", "false").lower() in ("1", "true", "yes")
 REPORT_LIMIT = 50
 
 COL_RANK = "Rank"
@@ -401,7 +401,7 @@ def add_weekly_rank_changes(
 def start_email(run_time: datetime) -> str:
     lines: List[any] = [
         "안녕하세요 위마케팅 사업지원팀 김희교입니다.",
-        f"금일자 채널별 선크림 전일·전주 대비 랭킹 변동 현황 보고드립니다.",
+        f"금일자 채널별(JOLSE,YESSTYLE,STYLE) 선크림 전일·전주 대비 랭킹 변동 현황 보고드립니다.",
         "",
         f"수집 일시 (KST): {run_time.strftime('%Y-%m-%d %H시')}",
     ]
@@ -792,7 +792,7 @@ def main():
         email_body = "\n\n".join(body_sections)
         
         with report_path.open("rb") as fp:
-            send_email_from_memory("ALL_CHANNELS", fp.read(), report_path.name, email_body)
+            send_email_from_memory("선크림", fp.read(), report_path.name, email_body)
     else:
         print("이메일 전송 비활성화(STYLEVANA_SEND_EMAIL=false)")
 
