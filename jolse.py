@@ -116,7 +116,7 @@ def insert_into_postgresql(rows: List[Tuple]):
     if not rows:
         return
     if not USE_DB:
-        print("DB 저장 비활성화(YESSTYLE_USE_DB=false); 저장을 건너뜁니다.")
+        print("DB 저장 비활성화(JOLSE_USE_DB=false); 저장을 건너뜁니다.")
         return
     connection = None
     try:
@@ -139,6 +139,44 @@ def insert_into_postgresql(rows: List[Tuple]):
         connection.commit()
         cursor.close()
         print(f"Inserted {len(rows)} rows into suncream_crawling.jolse.")
+    except Error as exc:
+        if connection:
+            connection.rollback()
+        print(f"PostgreSQL insert error: {exc}")
+    finally:
+        if connection:
+            connection.close()
+
+def delete_query(rows: List[Tuple]):
+    if not rows:
+        return
+    if not USE_DB:
+        print("DB 저장 비활성화(JOLSE_USE_DB=false); 저장을 건너뜁니다.")
+        return
+    connection = None
+    try:
+        _ensure_empty_pgpass()
+        connection = psycopg2.connect(
+            host=DB_HOST,
+            port=DB_PORT,
+            database=DB_DATABASE,
+            user=DB_USER,
+            password=DB_PASSWORD
+        )
+        ensure_jolse_table_exists(connection)
+        cursor = connection.cursor()
+        query = """
+            DELETE FROM suncream_crawling.jolse
+            WHERE id NOT IN (
+                SELECT MIN(id)
+                FROM suncream_crawling.jolse
+                GROUP BY "Brand", "Product", "Old_price", "Price", "DateTime"
+            );
+        """
+        cursor.executemany(query,rows)
+        connection.commit()
+        cursor.close()
+        print(f"Deleted {len(rows)} rows into suncream_crawling.jolse.")
     except Error as exc:
         if connection:
             connection.rollback()
@@ -317,6 +355,7 @@ def main():
             )
         )
     insert_into_postgresql(db_rows)
+    delete_query(db_rows)
 
     ensure_data_directory()
     print("jolse 크롤링 완료.")
