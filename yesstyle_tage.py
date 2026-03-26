@@ -4,6 +4,7 @@ import re
 import random
 import tempfile
 import shutil
+import logging
 from pathlib import Path
 from typing import Optional, Iterable, Tuple, List
 
@@ -13,17 +14,23 @@ from psycopg2 import Error
 from zoneinfo import ZoneInfo
 from dotenv import load_dotenv
 
+from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.remote.webdriver import WebDriver
-from seleniumbase import Driver
 from datetime import datetime
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 # --------------------------------------------------------------------------- #
 # 환경 설정
 # --------------------------------------------------------------------------- #
 load_dotenv(override=True)
+logging.basicConfig(
+    level=os.getenv("LOG_LEVEL", "INFO").upper(),
+    format="%(asctime)s %(levelname)s [%(name)s] %(message)s",
+)
+logger = logging.getLogger(__name__)
 
 PROXY_USER = os.getenv("USERNAME", "").strip()
 PROXY_PASSWORD = os.getenv("PASSWORD", "").strip()
@@ -63,8 +70,6 @@ COL_WEEK_STATUS = "전주대비 증감"
 # 환경변수(또는 .env)의 YESSTYLE_BESTSELLER_URL 값으로 덮어쓸 수 있습니다.
 DEFAULT_BESTSELLER_URL = "https://www.yesstyle.com/en/beauty-sun-care/list.html/bcc.15600_bpt.46"
 BESTSELLER_URL = os.getenv("YESSTYLE_BESTSELLER_URL", DEFAULT_BESTSELLER_URL)
-# SKINCARE_URL = "https://www.yesstyle.com/en/beauty-skin-care/list.html/bcc.15544_bpt.46"
-# NUMBUZIN_URL = "https://www.yesstyle.com/en/numbuzin/list.html/bpt.299_bid.326359"
 
 COL_BRAND_KEY = "_brand_key"    
 COL_PRODUCT_KEY = "_product_key"
@@ -76,6 +81,31 @@ def build_proxy_url() -> str:
     if PROXY_USER and PROXY_PASSWORD:
         return f"{PROXY_USER}:{PROXY_PASSWORD}@{PROXY_HOST}:{PROXY_PORT}"
     return f"{PROXY_HOST}:{PROXY_PORT}"
+
+
+def build_paged_url(url: str, page_num: int) -> str:
+    parsed = urlparse(url)
+    query = dict(parse_qsl(parsed.query, keep_blank_values=True))
+    query["pn"] = str(page_num)
+    return urlunparse(parsed._replace(query=urlencode(query)))
+
+
+def create_yesstyle_driver(proxy_url: str, user_data_dir: str) -> WebDriver:
+    options = webdriver.ChromeOptions()
+    options.add_argument("--headless=new")
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--disable-notifications")
+    options.add_argument("--disable-background-networking")
+    if proxy_url:
+        options.add_argument(f"--proxy-server=http://{proxy_url}")
+    options.add_experimental_option("prefs", {
+        "profile.default_content_setting_values.notifications": 2
+    })
+    options.add_argument(f"--user-data-dir={user_data_dir}")
+    return webdriver.Chrome(options=options)
 
 # --------------------------------------------------------------------------- #
 # 유틸 함수
@@ -184,9 +214,10 @@ def parse_list_grid_products(products: Iterable, start_rank: int = 1):
     return names, prices, ranks, brands
 
 
-def yesstyle_scroll_crawling(
-    driver: WebDriver,
-    url: str,       
+def crawl_yesstyle_page(
+    url: str,
+    proxy_url: str,
+    start_rank: int,
     product_selector: str = "a[class*='itemContainer']",
 ) -> Tuple[
     List[Optional[str]],
@@ -194,17 +225,11 @@ def yesstyle_scroll_crawling(
     List[Optional[int]],
     List[Optional[str]],
 ]:
+    temp_profile = tempfile.mkdtemp(prefix="yesstyle_profile_")
+    driver = create_yesstyle_driver(proxy_url, temp_profile)
     driver.get(url)
     time.sleep(random.uniform(2.5, 3.5))
-
-    gathered_names: List[Optional[str]] = []
-    gathered_prices: List[Optional[str]] = []
-    gathered_ranks: List[Optional[int]] = []
-    gathered_brands: List[Optional[str]] = []
-
-    page_index = 0
-    while True:
-        page_index += 1
+    try:
         try:
             WebDriverWait(driver, 15).until(
                 EC.presence_of_all_elements_located((By.CSS_SELECTOR, product_selector))
@@ -214,49 +239,56 @@ def yesstyle_scroll_crawling(
 
         products = driver.find_elements(By.CSS_SELECTOR, product_selector)
         if not products:
-            print(f"[WARN] No products found with selector '{product_selector}' at {url}.")
-            break
+            logger.warning("No products found with selector '%s' at %s.", product_selector, url)
+            return [], [], [], []
 
         names, prices, ranks, brands = parse_list_grid_products(
-            products, start_rank=len(gathered_names) + 1
+            products, start_rank=start_rank
         )
+        return names, prices, ranks, brands
+    finally:
+        driver.quit()
+        shutil.rmtree(temp_profile, ignore_errors=True)
+
+
+def yesstyle_scroll_crawling(
+    url: str,
+    proxy_url: str,
+) -> Tuple[
+    List[Optional[str]],
+    List[Optional[str]],
+    List[Optional[int]],
+    List[Optional[str]],
+]:
+    gathered_names: List[Optional[str]] = []
+    gathered_prices: List[Optional[str]] = []
+    gathered_ranks: List[Optional[int]] = []
+    gathered_brands: List[Optional[str]] = []
+    seen_page_signatures = set()
+    page_num = 1
+
+    while True:
+        page_url = build_paged_url(url, page_num)
+        names, prices, ranks, brands = crawl_yesstyle_page(
+            page_url,
+            proxy_url,
+            start_rank=len(gathered_names) + 1,
+        )
+        if not names:
+            break
+
+        page_signature = (names[0], prices[0], brands[0])
+        if page_signature in seen_page_signatures:
+            break
+        seen_page_signatures.add(page_signature)
+
         gathered_names.extend(names)
         gathered_prices.extend(prices)
         gathered_ranks.extend(ranks)
         gathered_brands.extend(brands)
-
-        first_old = products[0]
-        if not _find_and_click_next(driver):
-            break
-        try:
-            WebDriverWait(driver, 10).until(EC.staleness_of(first_old))
-        except Exception:
-            pass
-        time.sleep(random.uniform(1.0, 2.0))
+        page_num += 1
 
     return gathered_names, gathered_prices, gathered_ranks, gathered_brands
-
-
-def _find_and_click_next(driver: WebDriver) -> bool:
-    selectors = [
-        "a[class*='simpleDirectionButton'][class*='nextPage']",
-        "a[class*='nextPage']",
-        "button[class*='productListingMain_blackButton__']",
-    ]
-    for selector in selectors:
-        try:
-            elements = WebDriverWait(driver, 5).until(
-                lambda d: d.find_elements(By.CSS_SELECTOR, selector)
-            )
-            element = elements[-1]
-            driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", element)
-            WebDriverWait(driver, 5).until(lambda d: element.is_displayed() and element.is_enabled())
-            driver.execute_script("arguments[0].click();", element)
-            time.sleep(0.2)
-            return True
-        except Exception:
-            continue
-    return False
 
 
 # --------------------------------------------------------------------------- #
@@ -274,7 +306,7 @@ def _ensure_empty_pgpass():
         os.environ["PGPASSFILE"] = str(pgpass_path)
     except Exception as exc:
         # 실패해도 치명적이지 않으므로 로그만 남김
-        print(f"[WARN] PGPASSFILE 설정 실패: {exc}")
+        logger.warning("PGPASSFILE setting failed: %s", exc)
 
 
 def ensure_yesstyle_table_exists(connection) -> None:
@@ -306,7 +338,7 @@ def insert_into_postgresql(rows: List[Tuple]):
     if not rows:
         return
     if not USE_DB:
-        print("DB 저장 비활성화(YESSTYLE_USE_DB=false); 저장을 건너뜁니다.")
+        logger.info("DB save disabled (YESSTYLE_USE_DB=false); skipping insert.")
         return
     connection = None
     try:
@@ -328,18 +360,18 @@ def insert_into_postgresql(rows: List[Tuple]):
         cursor.executemany(query, rows)
         connection.commit()
         cursor.close()
-        print(f"Inserted {len(rows)} rows into suncream_crawling.yesstyle.")
+        logger.info("Inserted %s rows into suncream_crawling.yesstyle.", len(rows))
     except Error as exc:
         if connection:
             connection.rollback()
-        print(f"PostgreSQL insert error: {exc}")
+        logger.exception("PostgreSQL insert error")
     finally:
         if connection:
             connection.close()
 
 def delete_db_col():
     if not USE_DB:  
-        print("DB 저장 비활성화(YESSTYLE_USE_DB=false); 저장을 건너뜁니다.")
+        logger.info("DB save disabled (YESSTYLE_USE_DB=false); skipping alter table.")
         return
     connection = None
     try:
@@ -391,11 +423,11 @@ def insert_into_postgresql_tage(rows: List[Tuple]):
     if not rows:
         return
     if not USE_DB:
-        print("DB 저장 비활성화(YESSTYLE_USE_DB=false); 저장을 건너뜁니다.")
+        logger.info("DB save disabled (YESSTYLE_USE_DB=false); skipping Tage insert.")
         return
     tage_rows = [row for row in rows if len(row) > 1 and str(row[1]).strip().lower() == "tage"]
     if not tage_rows:
-        print("Brand가 Tage인 데이터가 없어 yesstyle_tage 저장을 건너뜁니다. ")
+        logger.info("No rows with Brand='Tage'; skipping yesstyle_tage insert.")
     
     connection = None
     try:
@@ -420,12 +452,12 @@ def insert_into_postgresql_tage(rows: List[Tuple]):
         connection.commit()
         cursor.close()
 
-        print(f"Inserted {len(tage_rows)} rows into suncream_crawling.yesstyle_tage .")
+        logger.info("Inserted %s rows into suncream_crawling.yesstyle_tage.", len(tage_rows))
     
     except Error as exc:
         if connection:
             connection.rollback()
-        print(f"PostgreSQL insert error: {exc}")
+        logger.exception("PostgreSQL insert error")
     
     finally:
         if connection:
@@ -434,16 +466,7 @@ def insert_into_postgresql_tage(rows: List[Tuple]):
 # 메인 로직
 # --------------------------------------------------------------------------- #
 def main():
-    temp_profile = tempfile.mkdtemp(prefix="yesstyle_profile_")
-    # proxy_url = build_proxy_url()
-    driver = Driver(
-        browser="chrome",
-        uc=True,
-        # proxy=proxy_url or None,
-        user_data_dir=temp_profile,
-        chromium_arg="--start-maximized,--no-sandbox,--disable-dev-shm-usage,"
-        "--disable-notifications,--disable-background-networking",
-    )
+    proxy_url = build_proxy_url()
 
     run_time = datetime.now(SEOUL_TZ)
     run_time_naive = run_time.astimezone(SEOUL_TZ).replace(tzinfo=None)
@@ -455,29 +478,25 @@ def main():
     ]
 
     category_frames: dict[str, pd.DataFrame] = {}
-    try:
-        for config in category_configs:
-            print(f"Start crawling {config['name']}...")
-            names, prices, ranks, brands = yesstyle_scroll_crawling(
-                driver,
-                config["url"],
-            )
-            df = pd.DataFrame(
-                {
-                    COL_RANK: ranks,
-                    COL_BRAND: brands,
-                    COL_PRODUCT_NAME: names,
-                    COL_PRICE: prices,
-                    COL_DATETIME_TEXT:iso_timestamp ,
-                    COL_CHANNEL: ["yesstyle"] * len(names),
-                }
-            )
-            df[COL_COLLECTED_AT] = iso_timestamp
-            _add_match_keys_inplace(df)
-            category_frames[config["name"]] = df.dropna(subset=[COL_RANK, COL_PRODUCT_NAME]).copy()
-    finally:
-        driver.quit()
-        shutil.rmtree(temp_profile, ignore_errors=True)
+    for config in category_configs:
+        logger.info("Start crawling %s...", config["name"])
+        names, prices, ranks, brands = yesstyle_scroll_crawling(
+            config["url"],
+            proxy_url,
+        )
+        df = pd.DataFrame(
+            {
+                COL_RANK: ranks,
+                COL_BRAND: brands,
+                COL_PRODUCT_NAME: names,
+                COL_PRICE: prices,
+                COL_DATETIME_TEXT:iso_timestamp ,
+                COL_CHANNEL: ["yesstyle"] * len(names),
+            }
+        )
+        df[COL_COLLECTED_AT] = iso_timestamp
+        _add_match_keys_inplace(df)
+        category_frames[config["name"]] = df.dropna(subset=[COL_RANK, COL_PRODUCT_NAME]).copy()
 
     for df in category_frames.values():
         df[COL_RANK] = pd.to_numeric(df[COL_RANK], errors="coerce")
@@ -509,7 +528,7 @@ def main():
         )
     insert_into_postgresql(db_rows[:100])
     insert_into_postgresql_tage(db_rows[100:])
-    print("YesStyle 크롤링 완료.")
+    logger.info("YesStyle crawling completed.")
 
 
 if __name__ == "__main__":
