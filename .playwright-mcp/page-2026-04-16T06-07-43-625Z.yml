@@ -1,0 +1,2369 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - button [ref=e2651] [cursor=pointer]:
+      - generic [ref=e5]: "Up to 18% OFF code:"
+      - generic [ref=e6]: WARM26
+      - timer [ref=e8]: 17h 52m 16s
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - button [ref=e2652] [cursor=pointer]:
+          - img [ref=e2653]
+        - button [ref=e2654] [cursor=pointer]:
+          - img [ref=e18]
+        - button [ref=e2655] [cursor=pointer]:
+          - generic [ref=e21]: 
+        - text: 
+      - link [ref=e2656] [cursor=pointer]:
+        - /url: /en/home.html
+        - img [ref=e2657]
+      - generic [ref=e27]:
+        - button [ref=e2658] [cursor=pointer]:
+          - img [ref=e30]
+        - link [ref=e2659] [cursor=pointer]:
+          - /url: /en/saved-items.html
+          - generic [ref=e34]: 
+        - link [ref=e2660] [cursor=pointer]:
+          - /url: /en/shopping-bag.html
+          - img [ref=e37]
+    - navigation [ref=e40]:
+      - link [ref=e2661] [cursor=pointer]:
+        - /url: /en/home.html
+        - text: Beauty
+      - link [ref=e2662] [cursor=pointer]:
+        - /url: /en/women-fashion.html
+        - text: Women
+      - link [ref=e2663] [cursor=pointer]:
+        - /url: /en/men-men/list.html/bcc.14069_bpt.46
+        - text: Men
+      - link [ref=e2664] [cursor=pointer]:
+        - /url: /en/health.html
+        - text: Health
+      - link [ref=e2665] [cursor=pointer]:
+        - /url: /en/special-offers.html
+        - text: Sale
+      - link [ref=e2666] [cursor=pointer]:
+        - /url: https://yesstyle.com/blog
+        - text: Blog
+  - main [ref=e48]:
+    - generic [ref=e49]:
+      - generic [ref=e52]:
+        - generic [ref=e55] [cursor=pointer]: Free Express Shipping with any ₩ 56,000 purchase
+        - link [ref=e2667] [cursor=pointer]:
+          - /url: /en/beauty-beauty/list.html/bcc.15478_bpt.46?sb=158&sfa=false&vn=35&oc=91
+          - generic [ref=e2643]:
+            - text: "New Bundle Drop: Snag more, save more"
+            - generic [ref=e2644]: 🔥
+        - link [ref=e2668] [cursor=pointer]:
+          - /url: /en/app
+          - generic [ref=e2646]: Download YS App & Get 50 YS Points
+      - list [ref=e69]:
+        - listitem [ref=e70]:
+          - text: 
+          - link [ref=e2669] [cursor=pointer]:
+            - /url: /en/beauty-beauty/list.html/bcc.15478_bpt.46
+            - text: Beauty
+        - listitem [ref=e72]: Skin Care
+      - generic [ref=e73]:
+        - heading [level=1] [ref=e2670]: Skin Care for Women
+        - generic [ref=e75]:
+          - generic [ref=e76]: Whether your skin care regimen involves three steps or ten, our face care products for women have got you covered. Cleansers, spot treatments, ampoules, essences, facial scrubs and peels, toners, masks and anti-aging solutions - YesStyle has them all!
+          - button [ref=e2671] [cursor=pointer]: More
+      - generic [ref=e80]:
+        - link [ref=e2672] [cursor=pointer]:
+          - /url: /en/beauty-face-serums/list.html/bcc.15556_bpt.46
+          - text: Face Serums
+        - link [ref=e2673] [cursor=pointer]:
+          - /url: /en/beauty-moisturizers/list.html/bcc.15569_bpt.46
+          - text: Moisturizers
+        - link [ref=e2674] [cursor=pointer]:
+          - /url: /en/beauty-face-cleansers/list.html/bcc.15545_bpt.46
+          - text: Face Cleansers
+        - link [ref=e2675] [cursor=pointer]:
+          - /url: /en/beauty-face-masks/list.html/bcc.15561_bpt.46
+          - text: Face Masks
+        - link [ref=e2676] [cursor=pointer]:
+          - /url: /en/beauty-toners/list.html/bcc.15552_bpt.46
+          - text: Toners
+        - link [ref=e2677] [cursor=pointer]:
+          - /url: /en/beauty-eye-care/list.html/bcc.15565_bpt.46
+          - text: Eye Care
+        - link [ref=e2678] [cursor=pointer]:
+          - /url: /en/beauty-acne-treatments/list.html/bcc.15553_bpt.46
+          - text: Acne Treatments
+        - link [ref=e2679] [cursor=pointer]:
+          - /url: /en/beauty-lip-care/list.html/bcc.15557_bpt.46
+          - text: Lip Care
+      - generic [ref=e89]:
+        - button [ref=e2680] [cursor=pointer]:
+          - img [ref=e93]
+          - generic [ref=e97]: Refine
+        - paragraph [ref=e100]: 10,000+ items sorted by Bestsellers
+        - generic [ref=e102]:
+          - button [disabled]:
+            - generic: 
+          - button [disabled]:
+            - generic: 
+          - generic [ref=e103]: 1/191
+          - button [ref=e2681] [cursor=pointer]:
+            - generic [ref=e105]: 
+        - generic [ref=e107]:
+          - link [ref=e2682] [cursor=pointer]:
+            - /url: /en/skinfood-carrot-carotene-calming-water-pad-60-pads/info.html/pid.1093254315
+            - generic [ref=e109]:
+              - generic [ref=e111]:
+                - generic [ref=e112]: Value Set Available
+                - img [ref=e113]
+              - img [ref=e2683]
+              - button [ref=e2684]:
+                - generic [ref=e119]: 
+            - generic [ref=e120]:
+              - generic [ref=e121]:
+                - generic [ref=e122]: Sponsored
+                - generic [ref=e123]: SKINFOOD - Carrot Carotene Calming Water Pad
+              - generic [ref=e124]: ₩ 28,167₩ 40,238
+              - generic [ref=e125]:
+                - generic [ref=e126]:
+                  - text: 
+                  - generic [ref=e127]: 
+                - generic [ref=e128]: 3,295
+            - generic [ref=e131]: 30% OFF
+          - link [ref=e2685] [cursor=pointer]:
+            - /url: /en/celimax-the-vita-a-retinal-shot-tightening-booster-15ml/info.html/pid.1130946339
+            - generic [ref=e133]:
+              - generic [ref=e135]:
+                - generic [ref=e136]: Value Set Available
+                - img [ref=e137]
+              - img [ref=e2686]
+              - button [ref=e2687]:
+                - generic [ref=e143]: 
+            - generic [ref=e144]:
+              - generic [ref=e145]:
+                - generic [ref=e146]: FLASH SALE
+                - generic [ref=e147]: celimax - The Vita-A Retinal Shot Tightening Booster
+              - generic [ref=e148]: ₩ 17,307₩ 19,230
+              - generic [ref=e149]:
+                - generic [ref=e150]:
+                  - text: 
+                  - generic [ref=e151]: 
+                - generic [ref=e152]: 9,595
+            - generic [ref=e155]: 10% OFF
+            - generic [ref=e156]: "#1"
+          - link [ref=e2688] [cursor=pointer]:
+            - /url: /en/dr-althea-345-relief-cream-renewed-50ml/info.html/pid.1124698946
+            - generic [ref=e158]:
+              - generic [ref=e160]:
+                - generic [ref=e161]: Value Set Available
+                - img [ref=e162]
+              - img [ref=e2689]
+              - button [ref=e2690]:
+                - generic [ref=e168]: 
+            - generic [ref=e169]:
+              - generic [ref=e170]:
+                - generic [ref=e171]: FLASH SALE
+                - generic [ref=e172]: Dr. Althea - 345 Relief Cream
+              - generic [ref=e173]: ₩ 37,087₩ 43,632
+              - generic [ref=e174]:
+                - generic [ref=e175]:
+                  - text: 
+                  - generic [ref=e176]: 
+                - generic [ref=e177]: 23,128
+            - generic [ref=e180]: 15% OFF
+            - generic [ref=e181]: "#2"
+          - link [ref=e2691] [cursor=pointer]:
+            - /url: /en/aplb-glutathione-niacinamide-sheet-mask-25ml/info.html/pid.1124536886
+            - generic [ref=e183]:
+              - img [ref=e2692]
+              - button [ref=e2693]:
+                - generic [ref=e189]: 
+            - generic [ref=e190]:
+              - generic [ref=e191]:
+                - generic [ref=e192]: FLASH SALE
+                - generic [ref=e193]: APLB - Glutathione Niacinamide Sheet Mask
+              - generic [ref=e194]: ₩ 1,568₩ 6,816
+              - generic [ref=e195]:
+                - generic [ref=e196]:
+                  - text: 
+                  - generic [ref=e197]: 
+                - generic [ref=e198]: 10,070
+            - generic [ref=e201]: 77% OFF
+            - generic [ref=e202]: "#3"
+          - link [ref=e2694] [cursor=pointer]:
+            - /url: /en/anua-azelaic-acid-10-hyaluron-redness-soothing-serum-30ml/info.html/pid.1132449411
+            - generic [ref=e204]:
+              - generic [ref=e206]:
+                - generic [ref=e207]: Value Set Available
+                - img [ref=e208]
+              - img [ref=e2695]
+              - button [ref=e2696]:
+                - generic [ref=e214]: 
+            - generic [ref=e215]:
+              - generic [ref=e216]:
+                - generic [ref=e217]: FLASH SALE
+                - generic [ref=e218]: Anua - Azelaic Acid 10 Hyaluron Redness Soothing Serum
+              - generic [ref=e219]: ₩ 28,442₩ 32,482
+              - generic [ref=e220]:
+                - generic [ref=e221]:
+                  - text: 
+                  - generic [ref=e222]: 
+                - generic [ref=e223]: 7,375
+            - generic [ref=e226]: 12% OFF
+            - generic [ref=e227]: "#4"
+          - link [ref=e2697] [cursor=pointer]:
+            - /url: /en/purito-seoul-mighty-bamboo-panthenol-cream-100ml/info.html/pid.1129733663
+            - generic [ref=e229]:
+              - generic [ref=e231]:
+                - generic [ref=e232]: Value Set Available
+                - img [ref=e233]
+              - img [ref=e2698]
+              - button [ref=e2699]:
+                - generic [ref=e239]: 
+            - generic [ref=e240]:
+              - generic [ref=e241]:
+                - generic [ref=e242]: FLASH SALE
+                - generic [ref=e243]: Purito SEOUL - Mighty Bamboo Panthenol Cream
+              - generic [ref=e244]: ₩ 18,277₩ 28,118
+              - generic [ref=e245]:
+                - generic [ref=e246]:
+                  - text: 
+                  - generic [ref=e247]: 
+                - generic [ref=e248]: 15,273
+            - generic [ref=e251]: 35% OFF
+            - generic [ref=e252]: "#5"
+          - link [ref=e2700] [cursor=pointer]:
+            - /url: /en/arencia-vitamin-c-booster-shot-30ml/info.html/pid.1136616200
+            - generic [ref=e254]:
+              - img [ref=e2701]
+              - button [ref=e2702]:
+                - generic [ref=e259]: 
+            - generic [ref=e260]:
+              - generic [ref=e261]:
+                - generic [ref=e262]: FLASH SALE
+                - generic [ref=e263]: Arencia - Vitamin C Booster Shot
+              - generic [ref=e264]: ₩ 10,827₩ 21,654
+              - generic [ref=e265]:
+                - generic [ref=e266]:
+                  - text: 
+                  - generic [ref=e267]: 
+                - generic [ref=e268]: 1,206
+            - generic [ref=e271]: 50% OFF
+            - generic [ref=e272]: "#6"
+          - link [ref=e2703] [cursor=pointer]:
+            - /url: /en/purito-seoul-oat-in-calming-gel-cream-100ml/info.html/pid.1105145092
+            - generic [ref=e274]:
+              - generic [ref=e276]:
+                - generic [ref=e277]: Value Set Available
+                - img [ref=e278]
+              - img [ref=e2704]
+              - button [ref=e2705]:
+                - generic [ref=e284]: 
+            - generic [ref=e285]:
+              - generic [ref=e286]:
+                - generic [ref=e287]: FLASH SALE
+                - generic [ref=e288]: Purito SEOUL - Oat-In Calming Gel Cream
+              - generic [ref=e289]: ₩ 20,491₩ 25,210
+              - generic [ref=e290]:
+                - generic [ref=e291]:
+                  - text: 
+                  - generic [ref=e292]: 
+                - generic [ref=e293]: 8,472
+            - generic [ref=e296]: 18% OFF
+            - generic [ref=e297]: "#7"
+          - link [ref=e2706] [cursor=pointer]:
+            - /url: /en/aplb-collagen-egf-peptide-sheet-mask-25ml/info.html/pid.1133472805
+            - generic [ref=e299]:
+              - img [ref=e2707]
+              - button [ref=e2708]:
+                - generic [ref=e305]: 
+            - generic [ref=e306]:
+              - generic [ref=e307]:
+                - generic [ref=e308]: FLASH SALE
+                - generic [ref=e309]: APLB - Collagen EGF Peptide Sheet Mask
+              - generic [ref=e310]: ₩ 1,584₩ 6,884
+              - generic [ref=e311]:
+                - generic [ref=e312]:
+                  - text: 
+                  - generic [ref=e313]: 
+                - generic [ref=e314]: 2,833
+            - generic [ref=e317]: 77% OFF
+            - generic [ref=e318]: "#8"
+          - link [ref=e2709] [cursor=pointer]:
+            - /url: /en/skin1004-madagascar-centella-light-cleansing-oil-200ml/info.html/pid.1077182361
+            - generic [ref=e320]:
+              - generic [ref=e322]:
+                - generic [ref=e323]: Value Set Available
+                - img [ref=e324]
+              - img [ref=e2710]
+              - button [ref=e2711]:
+                - generic [ref=e330]: 
+            - generic [ref=e331]:
+              - generic [ref=e332]:
+                - generic [ref=e333]: FLASH SALE
+                - generic [ref=e334]: SKIN1004 - Madagascar Centella Light Cleansing Oil
+              - generic [ref=e335]: ₩ 20,200₩ 32,320
+              - generic [ref=e336]:
+                - generic [ref=e337]:
+                  - text: 
+                  - generic [ref=e338]: 
+                - generic [ref=e339]: 21,429
+            - generic [ref=e342]: 37% OFF
+            - generic [ref=e343]: "#9"
+          - link [ref=e2712] [cursor=pointer]:
+            - /url: /en/mary-may-tranexamic-acid-glutathione-eye-cream-mini-12g/info.html/pid.1120355496
+            - generic [ref=e345]:
+              - generic [ref=e347]:
+                - generic [ref=e348]: Value Set Available
+                - img [ref=e349]
+              - img [ref=e2713]
+              - button [ref=e2714]:
+                - generic [ref=e355]: 
+            - generic [ref=e356]:
+              - generic [ref=e357]:
+                - generic [ref=e358]: FLASH SALE
+                - generic [ref=e359]: Mary&May - Tranexamic Acid + Glutathione Eye Cream Mini
+              - generic [ref=e360]: ₩ 4,202₩ 6,674
+              - generic [ref=e361]:
+                - generic [ref=e362]:
+                  - text: 
+                  - generic [ref=e363]: 
+                - generic [ref=e364]: 7,381
+            - generic [ref=e367]: 37% OFF
+            - generic [ref=e368]: "#10"
+          - link [ref=e2715] [cursor=pointer]:
+            - /url: /en/dr-althea-345-relief-cream-mini-15ml/info.html/pid.1137028002
+            - generic [ref=e370]:
+              - img [ref=e2716]
+              - button [ref=e2717]:
+                - generic [ref=e375]: 
+            - generic [ref=e376]:
+              - generic [ref=e377]:
+                - generic [ref=e378]: FLASH SALE
+                - generic [ref=e379]: Dr. Althea - 345 Relief Cream Mini
+              - generic [ref=e380]: ₩ 14,399₩ 15,998
+              - generic [ref=e381]:
+                - generic [ref=e382]:
+                  - text: 
+                  - generic [ref=e383]: 
+                - generic [ref=e384]: "372"
+            - generic [ref=e387]: 10% OFF
+            - generic [ref=e388]: "#11"
+          - link [ref=e2718] [cursor=pointer]:
+            - /url: /en/skin1004-madagascar-centella-asiatica-100-ampoule-100ml/info.html/pid.1067114916
+            - generic [ref=e390]:
+              - generic [ref=e392]:
+                - generic [ref=e393]: Value Set Available
+                - img [ref=e394]
+              - img [ref=e2719]
+              - button [ref=e2720]:
+                - generic [ref=e400]: 
+            - generic [ref=e401]:
+              - generic [ref=e402]:
+                - generic [ref=e403]: FLASH SALE
+                - generic [ref=e404]: SKIN1004 - Madagascar Centella Asiatica 100 Ampoule
+              - generic [ref=e405]: ₩ 23,432₩ 37,491
+              - generic [ref=e406]:
+                - generic [ref=e407]:
+                  - text: 
+                  - generic [ref=e408]: 
+                - generic [ref=e409]: 17,620
+            - generic [ref=e412]: 37% OFF
+            - generic [ref=e413]: "#12"
+          - link [ref=e2721] [cursor=pointer]:
+            - /url: /en/eqqualberry-vitamin-illuminating-serum-30ml/info.html/pid.1131568455
+            - generic [ref=e415]:
+              - generic [ref=e417]:
+                - generic [ref=e418]: Value Set Available
+                - img [ref=e419]
+              - img [ref=e2722]
+              - button [ref=e2723]:
+                - generic [ref=e425]: 
+            - generic [ref=e426]:
+              - generic [ref=e427]:
+                - generic [ref=e428]: FLASH SALE
+                - generic [ref=e429]: EQQUALBERRY - Vitamin Illuminating Serum
+              - generic [ref=e430]: ₩ 32,142₩ 35,714
+              - generic [ref=e431]:
+                - generic [ref=e432]:
+                  - text: 
+                  - generic [ref=e433]: 
+                - generic [ref=e434]: 4,900
+            - generic [ref=e437]: 10% OFF
+            - generic [ref=e438]: "#13"
+          - link [ref=e2724] [cursor=pointer]:
+            - /url: /en/skin1004-madagascar-centella-poremizing-quick-clay-stick-mask-27g/info.html/pid.1123474314
+            - generic [ref=e440]:
+              - generic [ref=e442]:
+                - generic [ref=e443]: Value Set Available
+                - img [ref=e444]
+              - img [ref=e2725]
+              - button [ref=e2726]:
+                - generic [ref=e450]: 
+            - generic [ref=e451]:
+              - generic [ref=e452]:
+                - generic [ref=e453]: FLASH SALE
+                - generic [ref=e454]: SKIN1004 - Madagascar Centella Poremizing Quick Clay Stick Mask
+              - generic [ref=e455]: ₩ 19,376₩ 25,371
+              - generic [ref=e456]:
+                - generic [ref=e457]:
+                  - text: 
+                  - generic [ref=e458]: 
+                - generic [ref=e459]: 17,058
+            - generic [ref=e462]: 23% OFF
+            - generic [ref=e463]: "#14"
+          - link [ref=e2727] [cursor=pointer]:
+            - /url: /en/ksecret-seoul-1988-serum-retinal-liposome-2-black-ginseng-30ml/info.html/pid.1126934079
+            - generic [ref=e465]:
+              - generic [ref=e467]:
+                - generic [ref=e468]: Value Set Available
+                - img [ref=e469]
+              - img [ref=e2728]
+              - button [ref=e2729]:
+                - generic [ref=e475]: 
+            - generic [ref=e476]:
+              - generic [ref=e477]:
+                - generic [ref=e478]: FLASH SALE
+                - generic [ref=e479]: "KSECRET - SEOUL 1988 Serum : Retinal Liposome 2% + Black Ginseng"
+              - generic [ref=e480]: ₩ 22,689₩ 25,210
+              - generic [ref=e481]:
+                - generic [ref=e482]:
+                  - text: 
+                  - generic [ref=e483]: 
+                - generic [ref=e484]: 10,945
+            - generic [ref=e487]: 10% OFF
+            - generic [ref=e488]: "#15"
+          - link [ref=e2730] [cursor=pointer]:
+            - /url: /en/anua-niacinamide-10-txa-4-serum-2024-version-30ml/info.html/pid.1132942898
+            - generic [ref=e490]:
+              - generic [ref=e492]:
+                - generic [ref=e493]: Value Set Available
+                - img [ref=e494]
+              - img [ref=e2731]
+              - button [ref=e2732]:
+                - generic [ref=e500]: 
+            - generic [ref=e501]:
+              - generic [ref=e502]:
+                - generic [ref=e503]: FLASH SALE
+                - generic [ref=e504]: Anua - Niacinamide 10 TXA 4 Serum
+              - generic [ref=e505]: ₩ 28,442₩ 32,482
+              - generic [ref=e506]:
+                - generic [ref=e507]:
+                  - text: 
+                  - generic [ref=e508]: 
+                - generic [ref=e509]: 13,315
+            - generic [ref=e512]: 12% OFF
+            - generic [ref=e513]: "#16"
+          - link [ref=e2733] [cursor=pointer]:
+            - /url: /en/cosrx-acne-pimple-master-patch-24-patches/info.html/pid.1052684647
+            - generic [ref=e515]:
+              - img [ref=e2734]
+              - button [ref=e2735]:
+                - generic [ref=e521]: 
+            - generic [ref=e522]:
+              - generic [ref=e523]:
+                - generic [ref=e524]: FLASH SALE
+                - generic [ref=e525]: COSRX - Acne Pimple Master Patch
+              - generic [ref=e526]: ₩ 5,090₩ 6,787
+              - generic [ref=e527]:
+                - generic [ref=e528]:
+                  - text: 
+                  - generic [ref=e529]: 
+                - generic [ref=e530]: 42,354
+            - generic [ref=e533]: 25% OFF
+            - generic [ref=e534]: "#17"
+          - link [ref=e2736] [cursor=pointer]:
+            - /url: /en/skin1004-madagascar-centella-double-cleansing-duo-set-2-pcs/info.html/pid.1129356822
+            - generic [ref=e536]:
+              - img [ref=e2737]
+              - button [ref=e2738]:
+                - generic [ref=e542]: 
+            - generic [ref=e543]:
+              - generic [ref=e544]:
+                - generic [ref=e545]: FLASH SALE
+                - generic [ref=e546]: SKIN1004 - Madagascar Centella Double Cleansing Duo Set
+              - generic [ref=e547]: ₩ 33,128₩ 52,520
+              - generic [ref=e548]:
+                - generic [ref=e549]:
+                  - text: 
+                  - generic [ref=e550]: 
+                - generic [ref=e551]: 11,645
+            - generic [ref=e554]: 36% OFF
+            - generic [ref=e555]: "#18"
+          - link [ref=e2739] [cursor=pointer]:
+            - /url: /en/dr-althea-345-relief-cream-mist-100ml/info.html/pid.1135801052
+            - generic [ref=e557]:
+              - generic [ref=e559]:
+                - generic [ref=e560]: Value Set Available
+                - img [ref=e561]
+              - img [ref=e2740]
+              - button [ref=e2741]:
+                - generic [ref=e567]: 
+            - generic [ref=e568]:
+              - generic [ref=e569]:
+                - generic [ref=e570]: FLASH SALE
+                - generic [ref=e571]: Dr. Althea - 345 Relief Cream Mist
+              - generic [ref=e572]: ₩ 27,343₩ 32,158
+              - generic [ref=e573]:
+                - generic [ref=e574]:
+                  - text: 
+                  - generic [ref=e575]: 
+                - generic [ref=e576]: 1,477
+            - generic [ref=e579]: 14% OFF
+            - generic [ref=e580]: "#19"
+          - link [ref=e2742] [cursor=pointer]:
+            - /url: /en/jumiso-niacinamide-20-serum-40ml/info.html/pid.1135350144
+            - generic [ref=e582]:
+              - generic [ref=e584]:
+                - generic [ref=e585]: Value Set Available
+                - img [ref=e586]
+              - img [ref=e2743]
+              - button [ref=e2744]:
+                - generic [ref=e592]: 
+            - generic [ref=e593]:
+              - generic [ref=e594]:
+                - generic [ref=e595]: FLASH SALE
+                - generic [ref=e596]: JUMISO - Niacinamide 20 Serum
+              - generic [ref=e597]: ₩ 27,149₩ 30,704
+              - generic [ref=e598]:
+                - generic [ref=e599]:
+                  - text: 
+                  - generic [ref=e600]: 
+                - generic [ref=e601]: 3,057
+            - generic [ref=e604]: 11% OFF
+            - generic [ref=e605]: "#20"
+          - link [ref=e2745] [cursor=pointer]:
+            - /url: /en/beauty-of-joseon-revive-eye-serum-30ml/info.html/pid.1114255822
+            - generic [ref=e607]:
+              - img [ref=e2746]
+              - button [ref=e2747]:
+                - generic [ref=e613]: 
+            - generic [ref=e614]:
+              - generic [ref=e615]:
+                - generic [ref=e616]: FLASH SALE
+                - generic [ref=e617]: Beauty of Joseon - Revive Eye Serum
+              - generic [ref=e618]: ₩ 18,180₩ 24,240
+              - generic [ref=e619]:
+                - generic [ref=e620]:
+                  - text: 
+                  - generic [ref=e621]: 
+                - generic [ref=e622]: 13,950
+            - generic [ref=e625]: 25% OFF
+            - generic [ref=e626]: "#21"
+          - link [ref=e2748] [cursor=pointer]:
+            - /url: /en/skin1004-madagascar-centella-tone-brightening-capsule-ampoule-jumbo/info.html/pid.1107199865
+            - generic [ref=e628]:
+              - generic [ref=e630]:
+                - generic [ref=e631]: Value Set Available
+                - img [ref=e632]
+              - img [ref=e2749]
+              - button [ref=e2750]:
+                - generic [ref=e638]: 
+            - generic [ref=e639]:
+              - generic [ref=e640]:
+                - generic [ref=e641]: FLASH SALE
+                - generic [ref=e642]: SKIN1004 - Madagascar Centella Tone Brightening Capsule Ampoule Jumbo
+              - generic [ref=e643]: ₩ 22,608₩ 34,582
+              - generic [ref=e644]:
+                - generic [ref=e645]:
+                  - text: 
+                  - generic [ref=e646]: 
+                - generic [ref=e647]: 16,008
+            - generic [ref=e650]: 34% OFF
+            - generic [ref=e651]: "#22"
+          - link [ref=e2751] [cursor=pointer]:
+            - /url: /en/axis-y-dark-spot-correcting-glow-serum-50ml/info.html/pid.1078919512
+            - generic [ref=e653]:
+              - generic [ref=e655]:
+                - generic [ref=e656]: Value Set Available
+                - img [ref=e657]
+              - img [ref=e2752]
+              - button [ref=e2753]:
+                - generic [ref=e663]: 
+            - generic [ref=e664]:
+              - generic [ref=e665]:
+                - generic [ref=e666]: FLASH SALE
+                - generic [ref=e667]: AXIS-Y - Dark Spot Correcting Glow Serum
+              - generic [ref=e668]: ₩ 20,362₩ 22,624
+              - generic [ref=e669]:
+                - generic [ref=e670]:
+                  - text: 
+                  - generic [ref=e671]: 
+                - generic [ref=e672]: 11,735
+            - generic [ref=e675]: 10% OFF
+            - generic [ref=e676]: "#23"
+          - link [ref=e2754] [cursor=pointer]:
+            - /url: /en/medicube-pdrn-pink-peptide-serum-30ml/info.html/pid.1129886159
+            - generic [ref=e678]:
+              - generic [ref=e680]:
+                - generic [ref=e681]: Value Set Available
+                - img [ref=e682]
+              - img [ref=e2755]
+              - button [ref=e2756]:
+                - generic [ref=e688]: 
+            - generic [ref=e689]:
+              - generic [ref=e690]:
+                - generic [ref=e691]: FLASH SALE
+                - generic [ref=e692]: medicube - PDRN Pink Peptide Serum
+              - generic [ref=e693]: ₩ 26,325₩ 29,250
+              - generic [ref=e694]:
+                - generic [ref=e695]:
+                  - text: 
+                  - generic [ref=e696]: 
+                - generic [ref=e697]: 5,542
+            - generic [ref=e700]: 10% OFF
+            - generic [ref=e701]: "#24"
+          - link [ref=e2757] [cursor=pointer]:
+            - /url: /en/aplb-retinol-vitamin-c-vitamin-e-sheet-mask-25ml/info.html/pid.1133472802
+            - generic [ref=e703]:
+              - img [ref=e2758]
+              - button [ref=e2759]:
+                - generic [ref=e709]: 
+            - generic [ref=e710]:
+              - generic [ref=e711]:
+                - generic [ref=e712]: FLASH SALE
+                - generic [ref=e713]: APLB - Retinol Vitamin C Vitamin E Sheet Mask
+              - generic [ref=e714]: ₩ 1,584₩ 6,884
+              - generic [ref=e715]:
+                - generic [ref=e716]:
+                  - text: 
+                  - generic [ref=e717]: 
+                - generic [ref=e718]: 2,084
+            - generic [ref=e721]: 77% OFF
+            - generic [ref=e722]: "#25"
+          - link [ref=e2760] [cursor=pointer]:
+            - /url: /en/medicube-zero-pore-pad-2-0-70-pads/info.html/pid.1135111653
+            - generic [ref=e724]:
+              - generic [ref=e726]:
+                - generic [ref=e727]: Value Set Available
+                - img [ref=e728]
+              - img [ref=e2761]
+              - button [ref=e2762]:
+                - generic [ref=e734]: 
+            - generic [ref=e735]:
+              - generic [ref=e736]:
+                - generic [ref=e737]: FLASH SALE
+                - generic [ref=e738]: medicube - Zero Pore Pad 2.0
+              - generic [ref=e739]: ₩ 34,906₩ 38,784
+              - generic [ref=e740]:
+                - generic [ref=e741]:
+                  - text: 
+                  - generic [ref=e742]: 
+                - generic [ref=e743]: 4,693
+            - generic [ref=e746]: 10% OFF
+            - generic [ref=e747]: "#26"
+          - link [ref=e2763] [cursor=pointer]:
+            - /url: /en/skin1004-madagascar-centella-ampoule-foam-125ml/info.html/pid.1077182367
+            - generic [ref=e749]:
+              - generic [ref=e751]:
+                - generic [ref=e752]: Value Set Available
+                - img [ref=e753]
+              - img [ref=e2764]
+              - button [ref=e2765]:
+                - generic [ref=e759]: 
+            - generic [ref=e760]:
+              - generic [ref=e761]:
+                - generic [ref=e762]: FLASH SALE
+                - generic [ref=e763]: SKIN1004 - Madagascar Centella Ampoule Foam
+              - generic [ref=e764]: ₩ 16,144₩ 25,533
+              - generic [ref=e765]:
+                - generic [ref=e766]:
+                  - text: 
+                  - generic [ref=e767]: 
+                - generic [ref=e768]: 11,722
+            - generic [ref=e771]: 36% OFF
+            - generic [ref=e772]: "#27"
+          - link [ref=e2766] [cursor=pointer]:
+            - /url: /en/arencia-fresh-green-rice-mochi-cleanser-120g/info.html/pid.1133101178
+            - generic [ref=e774]:
+              - generic [ref=e776]:
+                - generic [ref=e777]: Value Set Available
+                - img [ref=e778]
+              - img [ref=e2767]
+              - button [ref=e2768]:
+                - generic [ref=e784]: 
+            - generic [ref=e785]:
+              - generic [ref=e786]:
+                - generic [ref=e787]: FLASH SALE
+                - generic [ref=e788]: Arencia - Fresh Green Rice Mochi Cleanser
+              - generic [ref=e789]: ₩ 27,779₩ 30,866
+              - generic [ref=e790]:
+                - generic [ref=e791]:
+                  - text: 
+                  - generic [ref=e792]: 
+                - generic [ref=e793]: 4,975
+            - generic [ref=e796]: 10% OFF
+            - generic [ref=e797]: "#28"
+          - link [ref=e2769] [cursor=pointer]:
+            - /url: /en/celimax-the-vita-a-retinal-shot-tightening-booster-bundle-set-2-pcs/info.html/pid.1135010030
+            - generic [ref=e799]:
+              - img [ref=e2770]
+              - button [ref=e2771]:
+                - generic [ref=e804]: 
+            - generic [ref=e805]:
+              - generic [ref=e808]: celimax - The Vita-A Retinal Shot Tightening Booster Bundle Set
+              - generic [ref=e809]: ₩ 32,886₩ 38,461
+              - generic [ref=e810]:
+                - generic [ref=e811]:
+                  - text: 
+                  - generic [ref=e812]: 
+                - generic [ref=e813]: 9,586
+            - generic [ref=e816]: 14% OFF
+            - generic [ref=e817]: "#29"
+          - link [ref=e2772] [cursor=pointer]:
+            - /url: /en/iunik-beta-glucan-power-moisture-serum-50ml/info.html/pid.1065077575
+            - generic [ref=e819]:
+              - generic [ref=e821]:
+                - generic [ref=e822]: Value Set Available
+                - img [ref=e823]
+              - img [ref=e2773]
+              - button [ref=e2774]:
+                - generic [ref=e829]: 
+            - generic [ref=e830]:
+              - generic [ref=e831]:
+                - generic [ref=e832]: FLASH SALE
+                - generic [ref=e833]: iUNIK - Beta-Glucan Power Moisture Serum
+              - generic [ref=e834]: ₩ 23,755₩ 29,896
+              - generic [ref=e835]:
+                - generic [ref=e836]:
+                  - text: 
+                  - generic [ref=e837]: 
+                - generic [ref=e838]: 4,508
+            - generic [ref=e841]: 20% OFF
+            - generic [ref=e842]: "#30"
+          - link [ref=e2775] [cursor=pointer]:
+            - /url: /en/skin1004-madagascar-centella-probio-cica-enrich-cream-50ml/info.html/pid.1120208637
+            - generic [ref=e844]:
+              - generic [ref=e846]:
+                - generic [ref=e847]: Value Set Available
+                - img [ref=e848]
+              - img [ref=e2776]
+              - button [ref=e2777]:
+                - generic [ref=e854]: 
+            - generic [ref=e855]:
+              - generic [ref=e856]:
+                - generic [ref=e857]: FLASH SALE
+                - generic [ref=e858]: SKIN1004 - Madagascar Centella Probio-Cica Enrich Cream
+              - generic [ref=e859]: ₩ 24,240₩ 30,704
+              - generic [ref=e860]:
+                - generic [ref=e861]:
+                  - text: 
+                  - generic [ref=e862]: 
+                - generic [ref=e863]: 6,655
+            - generic [ref=e866]: 21% OFF
+            - generic [ref=e867]: "#31"
+          - link [ref=e2778] [cursor=pointer]:
+            - /url: /en/numbuzin-no-9-nad-retinol-volumetox-eye-cream-10ml/info.html/pid.1135064250
+            - generic [ref=e869]:
+              - generic [ref=e871]:
+                - generic [ref=e872]: Value Set Available
+                - img [ref=e873]
+              - img [ref=e2779]
+              - button [ref=e2780]:
+                - generic [ref=e879]: 
+            - generic [ref=e880]:
+              - generic [ref=e881]:
+                - generic [ref=e882]: FLASH SALE
+                - generic [ref=e883]: numbuzin - No.9 NAD+ Retinol Volumetox Eye Cream
+              - generic [ref=e884]: ₩ 25,452₩ 33,936
+              - generic [ref=e885]:
+                - generic [ref=e886]:
+                  - text: 
+                  - generic [ref=e887]: 
+                - generic [ref=e888]: 1,548
+            - generic [ref=e891]: 25% OFF
+            - generic [ref=e892]: "#32"
+          - link [ref=e2781] [cursor=pointer]:
+            - /url: /en/numbuzin-no-9-nad-bio-lifting-sil-essence-50ml-2025-version-50ml/info.html/pid.1132864358
+            - generic [ref=e894]:
+              - generic [ref=e896]:
+                - generic [ref=e897]: Value Set Available
+                - img [ref=e898]
+              - img [ref=e2782]
+              - button [ref=e2783]:
+                - generic [ref=e904]: 
+            - generic [ref=e905]:
+              - generic [ref=e906]:
+                - generic [ref=e907]: FLASH SALE
+                - generic [ref=e908]: numbuzin - No.9 NAD Bio Lifting-sil Essence 50ml
+              - generic [ref=e909]: ₩ 42,662₩ 53,328
+              - generic [ref=e910]:
+                - generic [ref=e911]:
+                  - text: 
+                  - generic [ref=e912]: 
+                - generic [ref=e913]: 3,434
+            - generic [ref=e916]: 20% OFF
+            - generic [ref=e917]: "#33"
+          - link [ref=e2784] [cursor=pointer]:
+            - /url: /en/im-from-rice-toner-150ml/info.html/pid.1137548574
+            - generic [ref=e919]:
+              - generic [ref=e921]:
+                - generic [ref=e922]: Value Set Available
+                - img [ref=e923]
+              - img [ref=e2785]
+              - button [ref=e2786]:
+                - generic [ref=e929]: 
+            - generic [ref=e930]:
+              - generic [ref=e931]:
+                - generic [ref=e932]: FLASH SALE
+                - generic [ref=e933]: I'm from - Rice Toner
+              - generic [ref=e934]: ₩ 31,851₩ 35,390
+              - generic [ref=e935]:
+                - generic [ref=e936]:
+                  - text: 
+                  - generic [ref=e937]: 
+                - generic [ref=e938]: 12,827
+            - generic [ref=e941]: 10% OFF
+            - generic [ref=e942]: "#34"
+          - link [ref=e2787] [cursor=pointer]:
+            - /url: /en/round-lab-1025-dokdo-cleanser-150ml/info.html/pid.1074113181
+            - generic [ref=e944]:
+              - generic [ref=e946]:
+                - generic [ref=e947]: Value Set Available
+                - img [ref=e948]
+              - img [ref=e2788]
+              - button [ref=e2789]:
+                - generic [ref=e954]: 
+            - generic [ref=e955]:
+              - generic [ref=e956]:
+                - generic [ref=e957]: FLASH SALE
+                - generic [ref=e958]: ROUND LAB - 1025 Dokdo Cleanser
+              - generic [ref=e959]: ₩ 16,160₩ 25,048
+              - generic [ref=e960]:
+                - generic [ref=e961]:
+                  - text: 
+                  - generic [ref=e962]: 
+                - generic [ref=e963]: 9,694
+            - generic [ref=e966]: 35% OFF
+            - generic [ref=e967]: "#35"
+          - link [ref=e2790] [cursor=pointer]:
+            - /url: /en/abib-pdrn-retinal-eye-patch-glow-jelly-60-patches/info.html/pid.1134657377
+            - generic [ref=e969]:
+              - generic [ref=e971]:
+                - generic [ref=e972]: Value Set Available
+                - img [ref=e973]
+              - img [ref=e2791]
+              - button [ref=e2792]:
+                - generic [ref=e979]: 
+            - generic [ref=e980]:
+              - generic [ref=e981]:
+                - generic [ref=e982]: FLASH SALE
+                - generic [ref=e983]: Abib - PDRN Retinal Eye Patch Glow Jelly
+              - generic [ref=e984]: ₩ 23,416₩ 32,966
+              - generic [ref=e985]:
+                - generic [ref=e986]:
+                  - text: 
+                  - generic [ref=e987]: 
+                - generic [ref=e988]: 1,473
+            - generic [ref=e991]: 28% OFF
+            - generic [ref=e992]: "#36"
+          - link [ref=e2793] [cursor=pointer]:
+            - /url: /en/mixsoon-bean-essence-jumbo-50ml/info.html/pid.1105987458
+            - generic [ref=e994]:
+              - generic [ref=e996]:
+                - generic [ref=e997]: Value Set Available
+                - img [ref=e998]
+              - img [ref=e2794]
+              - button [ref=e2795]:
+                - generic [ref=e1004]: 
+            - generic [ref=e1005]:
+              - generic [ref=e1006]:
+                - generic [ref=e1007]: FLASH SALE
+                - generic [ref=e1008]: mixsoon - Bean Essence Jumbo
+              - generic [ref=e1009]: ₩ 26,761₩ 33,451
+              - generic [ref=e1010]:
+                - generic [ref=e1011]:
+                  - text: 
+                  - generic [ref=e1012]: 
+                - generic [ref=e1013]: 10,020
+            - generic [ref=e1016]: 20% OFF
+            - generic [ref=e1017]: "#37"
+          - link [ref=e2796] [cursor=pointer]:
+            - /url: /en/medicube-collagen-night-wrapping-mask-75ml/info.html/pid.1124066780
+            - generic [ref=e1019]:
+              - generic [ref=e1021]:
+                - generic [ref=e1022]: Value Set Available
+                - img [ref=e1023]
+              - img [ref=e2797]
+              - button [ref=e2798]:
+                - generic [ref=e1029]: 
+            - generic [ref=e1030]:
+              - generic [ref=e1031]:
+                - generic [ref=e1032]: FLASH SALE
+                - generic [ref=e1033]: medicube - Collagen Night Wrapping Mask
+              - generic [ref=e1034]: ₩ 27,197₩ 30,219
+              - generic [ref=e1035]:
+                - generic [ref=e1036]:
+                  - text: 
+                  - generic [ref=e1037]: 
+                - generic [ref=e1038]: 9,924
+            - generic [ref=e1041]: 10% OFF
+            - generic [ref=e1042]: "#38"
+          - link [ref=e2799] [cursor=pointer]:
+            - /url: /en/dr-althea-345-relief-cream-bundle-set-2-pcs/info.html/pid.1134562290
+            - generic [ref=e1044]:
+              - img [ref=e2800]
+              - button [ref=e2801]:
+                - generic [ref=e1049]: 
+            - generic [ref=e1050]:
+              - generic [ref=e1053]: Dr. Althea - 345 Relief Cream Bundle Set
+              - generic [ref=e1054]: ₩ 66,757₩ 87,264
+              - generic [ref=e1055]:
+                - generic [ref=e1056]:
+                  - text: 
+                  - generic [ref=e1057]: 
+                - generic [ref=e1058]: 23,128
+            - generic [ref=e1061]: 23% OFF
+            - generic [ref=e1062]: "#39"
+          - link [ref=e2802] [cursor=pointer]:
+            - /url: /en/medicube-pdrn-pink-collagen-capsule-cream-55g/info.html/pid.1134227148
+            - generic [ref=e1064]:
+              - generic [ref=e1066]:
+                - generic [ref=e1067]: Value Set Available
+                - img [ref=e1068]
+              - img [ref=e2803]
+              - button [ref=e2804]:
+                - generic [ref=e1074]: 
+            - generic [ref=e1075]:
+              - generic [ref=e1076]:
+                - generic [ref=e1077]: FLASH SALE
+                - generic [ref=e1078]: medicube - PDRN Pink Collagen Capsule Cream
+              - generic [ref=e1079]: ₩ 33,306₩ 37,006
+              - generic [ref=e1080]:
+                - generic [ref=e1081]:
+                  - text: 
+                  - generic [ref=e1082]: 
+                - generic [ref=e1083]: 2,910
+            - generic [ref=e1086]: 10% OFF
+            - generic [ref=e1087]: "#40"
+          - link [ref=e2805] [cursor=pointer]:
+            - /url: /en/skin1004-madagascar-centella-probio-cica-bakuchiol-eye-cream-20ml/info.html/pid.1124363690
+            - generic [ref=e1089]:
+              - generic [ref=e1091]:
+                - generic [ref=e1092]: Value Set Available
+                - img [ref=e1093]
+              - img [ref=e2806]
+              - button [ref=e2807]:
+                - generic [ref=e1099]: 
+            - generic [ref=e1100]:
+              - generic [ref=e1101]:
+                - generic [ref=e1102]: FLASH SALE
+                - generic [ref=e1103]: SKIN1004 - Madagascar Centella Probio-Cica Bakuchiol Eye Cream
+              - generic [ref=e1104]: ₩ 17,760₩ 20,362
+              - generic [ref=e1105]:
+                - generic [ref=e1106]:
+                  - text: 
+                  - generic [ref=e1107]: 
+                - generic [ref=e1108]: 9,437
+            - generic [ref=e1111]: 12% OFF
+            - generic [ref=e1112]: "#41"
+          - link [ref=e2808] [cursor=pointer]:
+            - /url: /en/celimax-pore-dark-spot-brightening-cream-35ml/info.html/pid.1131154179
+            - generic [ref=e1114]:
+              - generic [ref=e1116]:
+                - generic [ref=e1117]: Value Set Available
+                - img [ref=e1118]
+              - img [ref=e2809]
+              - button [ref=e2810]:
+                - generic [ref=e1124]: 
+            - generic [ref=e1125]:
+              - generic [ref=e1126]:
+                - generic [ref=e1127]: FLASH SALE
+                - generic [ref=e1128]: celimax - Pore+Dark Spot Brightening Cream
+              - generic [ref=e1129]: ₩ 20,071₩ 22,301
+              - generic [ref=e1130]:
+                - generic [ref=e1131]:
+                  - text: 
+                  - generic [ref=e1132]: 
+                - generic [ref=e1133]: 1,884
+            - generic [ref=e1136]: 10% OFF
+            - generic [ref=e1137]: "#42"
+          - link [ref=e2811] [cursor=pointer]:
+            - /url: /en/anua-pdrn-hyaluronic-acid-100-moisturizing-cream-60ml/info.html/pid.1134328488
+            - generic [ref=e1139]:
+              - generic [ref=e1141]:
+                - generic [ref=e1142]: Value Set Available
+                - img [ref=e1143]
+              - img [ref=e2812]
+              - button [ref=e2813]:
+                - generic [ref=e1149]: 
+            - generic [ref=e1150]:
+              - generic [ref=e1151]:
+                - generic [ref=e1152]: FLASH SALE
+                - generic [ref=e1153]: Anua - PDRN Hyaluronic Acid 100 Moisturizing Cream
+              - generic [ref=e1154]: ₩ 28,943₩ 32,158
+              - generic [ref=e1155]:
+                - generic [ref=e1156]:
+                  - text: 
+                  - generic [ref=e1157]: 
+                - generic [ref=e1158]: 1,675
+            - generic [ref=e1161]: 10% OFF
+            - generic [ref=e1162]: "#43"
+          - link [ref=e2814] [cursor=pointer]:
+            - /url: /en/cosrx-advanced-snail-96-mucin-power-essence-100ml/info.html/pid.1052684695
+            - generic [ref=e1164]:
+              - generic [ref=e1166]:
+                - generic [ref=e1167]: Value Set Available
+                - img [ref=e1168]
+              - img [ref=e2815]
+              - button [ref=e2816]:
+                - generic [ref=e1174]: 
+            - generic [ref=e1175]:
+              - generic [ref=e1176]:
+                - generic [ref=e1177]: FLASH SALE
+                - generic [ref=e1178]: COSRX - Advanced Snail 96 Mucin Power Essence
+              - generic [ref=e1179]: ₩ 22,672₩ 30,219
+              - generic [ref=e1180]:
+                - generic [ref=e1181]:
+                  - text: 
+                  - generic [ref=e1182]: 
+                - generic [ref=e1183]: 29,535
+            - generic [ref=e1186]: 24% OFF
+            - generic [ref=e1187]: "#44"
+          - link [ref=e2817] [cursor=pointer]:
+            - /url: /en/medicube-pdrn-pink-vita-coating-mask-22g-x-1-sheet/info.html/pid.1137487197
+            - generic [ref=e1189]:
+              - img [ref=e2818]
+              - button [ref=e2819]:
+                - generic [ref=e1194]: 
+            - generic [ref=e1195]:
+              - generic [ref=e1196]:
+                - generic [ref=e1197]: FLASH SALE
+                - generic [ref=e1198]: medicube - PDRN Pink Vita Coating Mask
+              - generic [ref=e1199]: ₩ 5,963₩ 6,626
+              - generic [ref=e1200]:
+                - generic [ref=e1201]:
+                  - text: 
+                  - generic [ref=e1202]: 
+                - generic [ref=e1203]: "16"
+            - generic [ref=e1206]: 10% OFF
+            - generic [ref=e1207]: "#45"
+          - link [ref=e2820] [cursor=pointer]:
+            - /url: /en/aplb-tranexamic-acid-niacinamide-sheet-mask-25ml/info.html/pid.1133472809
+            - generic [ref=e1209]:
+              - img [ref=e2821]
+              - button [ref=e2822]:
+                - generic [ref=e1214]: 
+            - generic [ref=e1215]:
+              - generic [ref=e1216]:
+                - generic [ref=e1217]: FLASH SALE
+                - generic [ref=e1218]: APLB - Tranexamic Acid Niacinamide Sheet Mask
+              - generic [ref=e1219]: ₩ 1,584₩ 6,884
+              - generic [ref=e1220]:
+                - generic [ref=e1221]:
+                  - text: 
+                  - generic [ref=e1222]: 
+                - generic [ref=e1223]: 1,655
+            - generic [ref=e1226]: 77% OFF
+            - generic [ref=e1227]: "#46"
+          - link [ref=e2823] [cursor=pointer]:
+            - /url: /en/mary-may-spicule-retinol-pdrn-cream-15g/info.html/pid.1136404512
+            - generic [ref=e1229]:
+              - generic [ref=e1231]:
+                - generic [ref=e1232]: Value Set Available
+                - img [ref=e1233]
+              - img [ref=e2824]
+              - button [ref=e2825]:
+                - generic [ref=e1239]: 
+            - generic [ref=e1240]:
+              - generic [ref=e1241]:
+                - generic [ref=e1242]: FLASH SALE
+                - generic [ref=e1243]: Mary&May - Spicule Retinol PDRN Cream
+              - generic [ref=e1244]: ₩ 12,072₩ 13,413
+              - generic [ref=e1245]:
+                - generic [ref=e1246]:
+                  - text: 
+                  - generic [ref=e1247]: 
+                - generic [ref=e1248]: "739"
+            - generic [ref=e1251]: 10% OFF
+            - generic [ref=e1252]: "#47"
+          - link [ref=e2826] [cursor=pointer]:
+            - /url: /en/anua-heartleaf-quercetinol-pore-deep-cleansing-foam-150ml/info.html/pid.1129006061
+            - generic [ref=e1254]:
+              - generic [ref=e1256]:
+                - generic [ref=e1257]: Value Set Available
+                - img [ref=e1258]
+              - img [ref=e2827]
+              - button [ref=e2828]:
+                - generic [ref=e1264]: 
+            - generic [ref=e1265]:
+              - generic [ref=e1266]:
+                - generic [ref=e1267]: FLASH SALE
+                - generic [ref=e1268]: Anua - Heartleaf Quercetinol Pore Deep Cleansing Foam
+              - generic [ref=e1269]: ₩ 22,624₩ 27,634
+              - generic [ref=e1270]:
+                - generic [ref=e1271]:
+                  - text: 
+                  - generic [ref=e1272]: 
+                - generic [ref=e1273]: 10,611
+            - generic [ref=e1276]: 18% OFF
+            - generic [ref=e1277]: "#48"
+          - link [ref=e2829] [cursor=pointer]:
+            - /url: /en/anua-rice-70-glow-milky-toner-250ml/info.html/pid.1129917448
+            - generic [ref=e1279]:
+              - generic [ref=e1281]:
+                - generic [ref=e1282]: Value Set Available
+                - img [ref=e1283]
+              - img [ref=e2830]
+              - button [ref=e2831]:
+                - generic [ref=e1289]: 
+            - generic [ref=e1290]:
+              - generic [ref=e1291]:
+                - generic [ref=e1292]: FLASH SALE
+                - generic [ref=e1293]: Anua - Rice 70 Glow Milky Toner
+              - generic [ref=e1294]: ₩ 25,856₩ 39,107
+              - generic [ref=e1295]:
+                - generic [ref=e1296]:
+                  - text: 
+                  - generic [ref=e1297]: 
+                - generic [ref=e1298]: 4,790
+            - generic [ref=e1301]: 33% OFF
+            - generic [ref=e1302]: "#49"
+          - link [ref=e2832] [cursor=pointer]:
+            - /url: /en/ksecret-seoul-1988-eye-cream-retinal-liposome-4-fermented-bean-30ml/info.html/pid.1130836320
+            - generic [ref=e1304]:
+              - generic [ref=e1306]:
+                - generic [ref=e1307]: Value Set Available
+                - img [ref=e1308]
+              - img [ref=e2833]
+              - button [ref=e2834]:
+                - generic [ref=e1314]: 
+            - generic [ref=e1315]:
+              - generic [ref=e1316]:
+                - generic [ref=e1317]: FLASH SALE
+                - generic [ref=e1318]: "KSECRET - SEOUL 1988 Eye Cream : Retinal Liposome 4% + Fermented Bean"
+              - generic [ref=e1319]: ₩ 11,312₩ 22,624
+              - generic [ref=e1320]:
+                - generic [ref=e1321]:
+                  - text: 
+                  - generic [ref=e1322]: 
+                - generic [ref=e1323]: 8,433
+            - generic [ref=e1326]: 50% OFF
+            - generic [ref=e1327]: "#50"
+          - link [ref=e2835] [cursor=pointer]:
+            - /url: /en/celimax-the-real-noni-acne-bubble-cleanser-155ml/info.html/pid.1132449346
+            - generic [ref=e1329]:
+              - generic [ref=e1331]:
+                - generic [ref=e1332]: Value Set Available
+                - img [ref=e1333]
+              - img [ref=e2836]
+              - button [ref=e2837]:
+                - generic [ref=e1339]: 
+            - generic [ref=e1340]:
+              - generic [ref=e1341]:
+                - generic [ref=e1342]: FLASH SALE
+                - generic [ref=e1343]: celimax - The Real Noni Acne Bubble Cleanser
+              - generic [ref=e1344]: ₩ 19,392₩ 28,926
+              - generic [ref=e1345]:
+                - generic [ref=e1346]:
+                  - text: 
+                  - generic [ref=e1347]: 
+                - generic [ref=e1348]: 3,219
+            - generic [ref=e1351]: 32% OFF
+            - generic [ref=e1352]: "#51"
+          - link [ref=e2838] [cursor=pointer]:
+            - /url: /en/skin1004-madagascar-centella-poremizing-fresh-ampoule-jumbo-100ml/info.html/pid.1113064817
+            - generic [ref=e1354]:
+              - generic [ref=e1356]:
+                - generic [ref=e1357]: Value Set Available
+                - img [ref=e1358]
+              - img [ref=e2839]
+              - button [ref=e2840]:
+                - generic [ref=e1364]: 
+            - generic [ref=e1365]:
+              - generic [ref=e1366]:
+                - generic [ref=e1367]: FLASH SALE
+                - generic [ref=e1368]: SKIN1004 - Madagascar Centella Poremizing Fresh Ampoule Jumbo
+              - generic [ref=e1369]: ₩ 20,200₩ 32,320
+              - generic [ref=e1370]:
+                - generic [ref=e1371]:
+                  - text: 
+                  - generic [ref=e1372]: 
+                - generic [ref=e1373]: 7,795
+            - generic [ref=e1376]: 37% OFF
+            - generic [ref=e1377]: "#52"
+          - link [ref=e2841] [cursor=pointer]:
+            - /url: /en/skin1004-madagascar-centella-poremizing-deep-cleansing-foam-125ml/info.html/pid.1116073910
+            - generic [ref=e1379]:
+              - generic [ref=e1381]:
+                - generic [ref=e1382]: Value Set Available
+                - img [ref=e1383]
+              - img [ref=e2842]
+              - button [ref=e2843]:
+                - generic [ref=e1389]: 
+            - generic [ref=e1390]:
+              - generic [ref=e1391]:
+                - generic [ref=e1392]: FLASH SALE
+                - generic [ref=e1393]: SKIN1004 - Madagascar Centella Poremizing Deep Cleansing Foam
+              - generic [ref=e1394]: ₩ 15,352₩ 25,533
+              - generic [ref=e1395]:
+                - generic [ref=e1396]:
+                  - text: 
+                  - generic [ref=e1397]: 
+                - generic [ref=e1398]: 4,451
+            - generic [ref=e1401]: 39% OFF
+            - generic [ref=e1402]: "#53"
+          - link [ref=e2844] [cursor=pointer]:
+            - /url: /en/axis-y-vegan-collagen-eye-serum-10ml/info.html/pid.1127471822
+            - generic [ref=e1404]:
+              - generic [ref=e1406]:
+                - generic [ref=e1407]: Value Set Available
+                - img [ref=e1408]
+              - img [ref=e2845]
+              - button [ref=e2846]:
+                - generic [ref=e1414]: 
+            - generic [ref=e1415]:
+              - generic [ref=e1416]:
+                - generic [ref=e1417]: FLASH SALE
+                - generic [ref=e1418]: AXIS-Y - Vegan Collagen Eye Serum
+              - generic [ref=e1419]: ₩ 11,393₩ 22,786
+              - generic [ref=e1420]:
+                - generic [ref=e1421]:
+                  - text: 
+                  - generic [ref=e1422]: 
+                - generic [ref=e1423]: 4,737
+            - generic [ref=e1426]: 50% OFF
+            - generic [ref=e1427]: "#54"
+          - link [ref=e2847] [cursor=pointer]:
+            - /url: /en/nineless-a-control-10-azelaic-acid-serum-30ml/info.html/pid.1122266868
+            - generic [ref=e1429]:
+              - generic [ref=e1431]:
+                - generic [ref=e1432]: Value Set Available
+                - img [ref=e1433]
+              - img [ref=e2848]
+              - button [ref=e2849]:
+                - generic [ref=e1439]: 
+            - generic [ref=e1440]:
+              - generic [ref=e1441]:
+                - generic [ref=e1442]: FLASH SALE
+                - generic [ref=e1443]: NINELESS - A-Control 10% Azelaic Acid Serum
+              - generic [ref=e1444]: ₩ 20,652₩ 22,947
+              - generic [ref=e1445]:
+                - generic [ref=e1446]:
+                  - text: 
+                  - generic [ref=e1447]: 
+                - generic [ref=e1448]: 4,705
+            - generic [ref=e1451]: 10% OFF
+            - generic [ref=e1452]: "#55"
+          - link [ref=e2850] [cursor=pointer]:
+            - /url: /en/dr-althea-vitamin-c-boosting-serum-30ml/info.html/pid.1131427728
+            - generic [ref=e1454]:
+              - generic [ref=e1456]:
+                - generic [ref=e1457]: Value Set Available
+                - img [ref=e1458]
+              - img [ref=e2851]
+              - button [ref=e2852]:
+                - generic [ref=e1464]: 
+            - generic [ref=e1465]:
+              - generic [ref=e1466]:
+                - generic [ref=e1467]: FLASH SALE
+                - generic [ref=e1468]: Dr. Althea - Vitamin C Boosting Serum
+              - generic [ref=e1469]: ₩ 32,837₩ 38,622
+              - generic [ref=e1470]:
+                - generic [ref=e1471]:
+                  - text: 
+                  - generic [ref=e1472]: 
+                - generic [ref=e1473]: 3,493
+            - generic [ref=e1476]: 14% OFF
+            - generic [ref=e1477]: "#56"
+          - link [ref=e2853] [cursor=pointer]:
+            - /url: /en/haruharu-wonder-black-rice-probiotics-barrier-essence-120ml/info.html/pid.1129799320
+            - generic [ref=e1479]:
+              - generic [ref=e1481]:
+                - generic [ref=e1482]: Value Set Available
+                - img [ref=e1483]
+              - img [ref=e2854]
+              - button [ref=e2855]:
+                - generic [ref=e1489]: 
+            - generic [ref=e1490]:
+              - generic [ref=e1491]:
+                - generic [ref=e1492]: FLASH SALE
+                - generic [ref=e1493]: haruharu wonder - Black Rice Probiotics Barrier Essence
+              - generic [ref=e1494]: ₩ 31,674₩ 38,784
+              - generic [ref=e1495]:
+                - generic [ref=e1496]:
+                  - text: 
+                  - generic [ref=e1497]: 
+                - generic [ref=e1498]: 3,574
+            - generic [ref=e1501]: 18% OFF
+            - generic [ref=e1502]: "#57"
+          - link [ref=e2856] [cursor=pointer]:
+            - /url: /en/skin1004-madagascar-centella-poremizing-light-gel-cream-75ml/info.html/pid.1116073911
+            - generic [ref=e1504]:
+              - generic [ref=e1506]:
+                - generic [ref=e1507]: Value Set Available
+                - img [ref=e1508]
+              - img [ref=e2857]
+              - button [ref=e2858]:
+                - generic [ref=e1514]: 
+            - generic [ref=e1515]:
+              - generic [ref=e1516]:
+                - generic [ref=e1517]: FLASH SALE
+                - generic [ref=e1518]: SKIN1004 - Madagascar Centella Poremizing Light Gel Cream
+              - generic [ref=e1519]: ₩ 19,004₩ 25,371
+              - generic [ref=e1520]:
+                - generic [ref=e1521]:
+                  - text: 
+                  - generic [ref=e1522]: 
+                - generic [ref=e1523]: 5,475
+            - generic [ref=e1526]: 25% OFF
+            - generic [ref=e1527]: "#58"
+          - link [ref=e2859] [cursor=pointer]:
+            - /url: /en/skin1004-madagascar-centella-probio-cica-intensive-ampoule-jumbo-95ml/info.html/pid.1123474315
+            - generic [ref=e1529]:
+              - generic [ref=e1531]:
+                - generic [ref=e1532]: Value Set Available
+                - img [ref=e1533]
+              - img [ref=e2860]
+              - button [ref=e2861]:
+                - generic [ref=e1539]: 
+            - generic [ref=e1540]:
+              - generic [ref=e1541]:
+                - generic [ref=e1542]: FLASH SALE
+                - generic [ref=e1543]: SKIN1004 - Madagascar Centella Probio-Cica Intensive Ampoule Jumbo
+              - generic [ref=e1544]: ₩ 28,102₩ 41,208
+              - generic [ref=e1545]:
+                - generic [ref=e1546]:
+                  - text: 
+                  - generic [ref=e1547]: 
+                - generic [ref=e1548]: 6,586
+            - generic [ref=e1551]: 31% OFF
+            - generic [ref=e1552]: "#59"
+          - link [ref=e2862] [cursor=pointer]:
+            - /url: /en/anua-rice-70-glow-milky-toner-150ml-150ml/info.html/pid.1136608129
+            - generic [ref=e1554]:
+              - img [ref=e2863]
+              - button [ref=e2864]:
+                - generic [ref=e1559]: 
+            - generic [ref=e1560]:
+              - generic [ref=e1561]:
+                - generic [ref=e1562]: FLASH SALE
+                - generic [ref=e1563]: Anua - Rice 70 Glow Milky Toner 150ml
+              - generic [ref=e1564]: ₩ 17,857₩ 27,472
+              - generic [ref=e1565]:
+                - generic [ref=e1566]:
+                  - text: 
+                  - generic [ref=e1567]: 
+                - generic [ref=e1568]: "170"
+            - generic [ref=e1571]: 35% OFF
+            - generic [ref=e1572]: "#60"
+          - link [ref=e2865] [cursor=pointer]:
+            - /url: /en/numbuzin-no-9-nad-pdrn-glow-boosting-toner-150ml/info.html/pid.1135064251
+            - generic [ref=e1574]:
+              - generic [ref=e1576]:
+                - generic [ref=e1577]: Value Set Available
+                - img [ref=e1578]
+              - img [ref=e2866]
+              - button [ref=e2867]:
+                - generic [ref=e1584]: 
+            - generic [ref=e1585]:
+              - generic [ref=e1586]:
+                - generic [ref=e1587]: FLASH SALE
+                - generic [ref=e1588]: numbuzin - No.9 NAD+ PDRN Glow Boosting Toner
+              - generic [ref=e1589]: ₩ 26,664₩ 36,037
+              - generic [ref=e1590]:
+                - generic [ref=e1591]:
+                  - text: 
+                  - generic [ref=e1592]: 
+                - generic [ref=e1593]: 2,449
+            - generic [ref=e1596]: 26% OFF
+            - generic [ref=e1597]: "#61"
+          - link [ref=e2868] [cursor=pointer]:
+            - /url: /en/some-by-mi-30-days-miracle-clear-spot-patch-2023-version-18-pcs/info.html/pid.1126677476
+            - generic [ref=e1599]:
+              - img [ref=e2869]
+              - button [ref=e2870]:
+                - generic [ref=e1605]: 
+            - generic [ref=e1606]:
+              - generic [ref=e1607]:
+                - generic [ref=e1608]: FLASH SALE
+                - generic [ref=e1609]: SOME BY MI - 30 Days Miracle Clear Spot Patch
+              - generic [ref=e1610]: ₩ 4,848₩ 7,110
+              - generic [ref=e1611]:
+                - generic [ref=e1612]:
+                  - text: 
+                  - generic [ref=e1613]: 
+                - generic [ref=e1614]: 5,470
+            - generic [ref=e1617]: 31% OFF
+            - generic [ref=e1618]: "#62"
+          - link [ref=e2871] [cursor=pointer]:
+            - /url: /en/the-face-shop-real-nature-face-mask-1pc-20-types-20g-calendula/info.html/pid.1061020764
+            - generic [ref=e1620]:
+              - img [ref=e2872]
+              - button [ref=e2873]:
+                - generic [ref=e1625]: 
+            - generic [ref=e1626]:
+              - generic [ref=e1627]:
+                - generic [ref=e1628]: FLASH SALE
+                - generic [ref=e1629]: THE FACE SHOP - Real Nature Face Mask 1pc (20 Types) 20g
+              - generic [ref=e1630]: ₩ 3,232₩ 5,494
+              - generic [ref=e1631]:
+                - generic [ref=e1632]:
+                  - text: 
+                  - generic [ref=e1633]: 
+                - generic [ref=e1634]: 5,360
+            - generic [ref=e1637]: 41% OFF
+            - generic [ref=e1638]: "#63"
+          - link [ref=e2874] [cursor=pointer]:
+            - /url: /en/cosrx-low-ph-good-morning-gel-cleanser-150ml/info.html/pid.1052684732
+            - generic [ref=e1640]:
+              - generic [ref=e1642]:
+                - generic [ref=e1643]: Value Set Available
+                - img [ref=e1644]
+              - img [ref=e2875]
+              - button [ref=e2876]:
+                - generic [ref=e1650]: 
+            - generic [ref=e1651]:
+              - generic [ref=e1652]:
+                - generic [ref=e1653]: FLASH SALE
+                - generic [ref=e1654]: COSRX - Low pH Good Morning Gel Cleanser
+              - generic [ref=e1655]: ₩ 17,824₩ 23,755
+              - generic [ref=e1656]:
+                - generic [ref=e1657]:
+                  - text: 
+                  - generic [ref=e1658]: 
+                - generic [ref=e1659]: 23,444
+            - generic [ref=e1662]: 24% OFF
+            - generic [ref=e1663]: "#64"
+          - link [ref=e2877] [cursor=pointer]:
+            - /url: /en/skin1004-madagascar-centella-travel-kit-renewed-1-set/info.html/pid.1107199856
+            - generic [ref=e1665]:
+              - generic [ref=e1667]:
+                - generic [ref=e1668]: Value Set Available
+                - img [ref=e1669]
+              - img [ref=e2878]
+              - button [ref=e2879]:
+                - generic [ref=e1675]: 
+            - generic [ref=e1676]:
+              - generic [ref=e1677]:
+                - generic [ref=e1678]: FLASH SALE
+                - generic [ref=e1679]: SKIN1004 - Madagascar Centella Travel Kit
+              - generic [ref=e1680]: ₩ 31,156₩ 45,410
+              - generic [ref=e1681]:
+                - generic [ref=e1682]:
+                  - text: 
+                  - generic [ref=e1683]: 
+                - generic [ref=e1684]: 5,712
+            - generic [ref=e1687]: 31% OFF
+            - generic [ref=e1688]: "#65"
+          - link [ref=e2880] [cursor=pointer]:
+            - /url: /en/haruharu-wonder-black-rice-moisture-5-5-soft-cleansing-gel-100ml/info.html/pid.1097949802
+            - generic [ref=e1690]:
+              - generic [ref=e1692]:
+                - generic [ref=e1693]: Value Set Available
+                - img [ref=e1694]
+              - img [ref=e2881]
+              - button [ref=e2882]:
+                - generic [ref=e1700]: 
+            - generic [ref=e1701]:
+              - generic [ref=e1702]:
+                - generic [ref=e1703]: FLASH SALE
+                - generic [ref=e1704]: haruharu wonder - Black Rice Moisture 5.5 Soft Cleansing Gel
+              - generic [ref=e1705]: ₩ 19,230₩ 23,594
+              - generic [ref=e1706]:
+                - generic [ref=e1707]:
+                  - text: 
+                  - generic [ref=e1708]: 
+                - generic [ref=e1709]: 4,607
+            - generic [ref=e1712]: 18% OFF
+            - generic [ref=e1713]: "#66"
+          - link [ref=e2883] [cursor=pointer]:
+            - /url: /en/mary-may-tranexamic-acid-glutathione-eye-cream-mini-bundle-set-2-pcs/info.html/pid.1135033583
+            - generic [ref=e1715]:
+              - img [ref=e2884]
+              - button [ref=e2885]:
+                - generic [ref=e1720]: 
+            - generic [ref=e1721]:
+              - generic [ref=e1724]: Mary&May - Tranexamic Acid + Glutathione Eye Cream Mini Bundle Set
+              - generic [ref=e1725]: ₩ 7,434₩ 13,251
+              - generic [ref=e1726]:
+                - generic [ref=e1727]:
+                  - text: 
+                  - generic [ref=e1728]: 
+                - generic [ref=e1729]: 7,381
+            - generic [ref=e1732]: 43% OFF
+            - generic [ref=e1733]: "#67"
+          - link [ref=e2886] [cursor=pointer]:
+            - /url: /en/house-of-hur-clearing-skin-prep-essence-pad-70-pads/info.html/pid.1125268517
+            - generic [ref=e1735]:
+              - img [ref=e2887]
+              - button [ref=e2888]:
+                - generic [ref=e1741]: 
+            - generic [ref=e1742]:
+              - generic [ref=e1743]:
+                - generic [ref=e1744]: FLASH SALE
+                - generic [ref=e1745]: House of Hur - Clearing Skin Prep Essence Pad
+              - generic [ref=e1746]: ₩ 22,624₩ 34,421
+              - generic [ref=e1747]:
+                - generic [ref=e1748]:
+                  - text: 
+                  - generic [ref=e1749]: 
+                - generic [ref=e1750]: "680"
+            - generic [ref=e1753]: 34% OFF
+            - generic [ref=e1754]: "#68"
+          - link [ref=e2889] [cursor=pointer]:
+            - /url: /en/dr-althea-gentle-vitamin-c-serum-30ml/info.html/pid.1128213533
+            - generic [ref=e1756]:
+              - generic [ref=e1758]:
+                - generic [ref=e1759]: Value Set Available
+                - img [ref=e1760]
+              - img [ref=e2890]
+              - button [ref=e2891]:
+                - generic [ref=e1766]: 
+            - generic [ref=e1767]:
+              - generic [ref=e1768]:
+                - generic [ref=e1769]: FLASH SALE
+                - generic [ref=e1770]: Dr. Althea - Gentle Vitamin C Serum
+              - generic [ref=e1771]: ₩ 32,837₩ 38,622
+              - generic [ref=e1772]:
+                - generic [ref=e1773]:
+                  - text: 
+                  - generic [ref=e1774]: 
+                - generic [ref=e1775]: 1,811
+            - generic [ref=e1778]: 14% OFF
+            - generic [ref=e1779]: "#69"
+          - link [ref=e2892] [cursor=pointer]:
+            - /url: /en/anua-heartleaf-pore-control-cleansing-oil-200ml/info.html/pid.1134490327
+            - generic [ref=e1781]:
+              - generic [ref=e1783]:
+                - generic [ref=e1784]: Value Set Available
+                - img [ref=e1785]
+              - img [ref=e2893]
+              - button [ref=e2894]:
+                - generic [ref=e1791]: 
+            - generic [ref=e1792]:
+              - generic [ref=e1793]:
+                - generic [ref=e1794]: FLASH SALE
+                - generic [ref=e1795]: Anua - Heartleaf Pore Control Cleansing Oil
+              - generic [ref=e1796]: ₩ 22,624₩ 35,390
+              - generic [ref=e1797]:
+                - generic [ref=e1798]:
+                  - text: 
+                  - generic [ref=e1799]: 
+                - generic [ref=e1800]: 13,581
+            - generic [ref=e1803]: 36% OFF
+            - generic [ref=e1804]: "#70"
+          - link [ref=e2895] [cursor=pointer]:
+            - /url: /en/medicube-deep-vita-c-capsule-cream-55g/info.html/pid.1129945243
+            - generic [ref=e1806]:
+              - generic [ref=e1808]:
+                - generic [ref=e1809]: Value Set Available
+                - img [ref=e1810]
+              - img [ref=e2896]
+              - button [ref=e2897]:
+                - generic [ref=e1816]: 
+            - generic [ref=e1817]:
+              - generic [ref=e1818]:
+                - generic [ref=e1819]: FLASH SALE
+                - generic [ref=e1820]: medicube - Deep Vita C Capsule Cream
+              - generic [ref=e1821]: ₩ 36,360₩ 40,400
+              - generic [ref=e1822]:
+                - generic [ref=e1823]:
+                  - text: 
+                  - generic [ref=e1824]: 
+                - generic [ref=e1825]: 3,374
+            - generic [ref=e1828]: 10% OFF
+            - generic [ref=e1829]: "#71"
+          - link [ref=e2898] [cursor=pointer]:
+            - /url: /en/celimax-the-vita-a-retinol-shot-tightening-serum-30ml/info.html/pid.1130946338
+            - generic [ref=e1831]:
+              - generic [ref=e1833]:
+                - generic [ref=e1834]: Value Set Available
+                - img [ref=e1835]
+              - img [ref=e2899]
+              - button [ref=e2900]:
+                - generic [ref=e1841]: 
+            - generic [ref=e1842]:
+              - generic [ref=e1843]:
+                - generic [ref=e1844]: FLASH SALE
+                - generic [ref=e1845]: celimax - The Vita-A Retinol Shot Tightening Serum
+              - generic [ref=e1846]: ₩ 21,380₩ 23,755
+              - generic [ref=e1847]:
+                - generic [ref=e1848]:
+                  - text: 
+                  - generic [ref=e1849]: 
+                - generic [ref=e1850]: 2,556
+            - generic [ref=e1853]: 10% OFF
+            - generic [ref=e1854]: "#72"
+          - link [ref=e2901] [cursor=pointer]:
+            - /url: /en/skin1004-madagascar-centella-soothing-cream-75ml/info.html/pid.1113064810
+            - generic [ref=e1856]:
+              - generic [ref=e1858]:
+                - generic [ref=e1859]: Value Set Available
+                - img [ref=e1860]
+              - img [ref=e2902]
+              - button [ref=e2903]:
+                - generic [ref=e1866]: 
+            - generic [ref=e1867]:
+              - generic [ref=e1868]:
+                - generic [ref=e1869]: FLASH SALE
+                - generic [ref=e1870]: SKIN1004 - Madagascar Centella Soothing Cream
+              - generic [ref=e1871]: ₩ 22,365₩ 27,149
+              - generic [ref=e1872]:
+                - generic [ref=e1873]:
+                  - text: 
+                  - generic [ref=e1874]: 
+                - generic [ref=e1875]: 4,959
+            - generic [ref=e1878]: 17% OFF
+            - generic [ref=e1879]: "#73"
+          - link [ref=e2904] [cursor=pointer]:
+            - /url: /en/centellian24-madeca-cream-time-reverse-50ml/info.html/pid.1132916196
+            - generic [ref=e1881]:
+              - generic [ref=e1883]:
+                - generic [ref=e1884]: Value Set Available
+                - img [ref=e1885]
+              - img [ref=e2905]
+              - button [ref=e2906]:
+                - generic [ref=e1891]: 
+            - generic [ref=e1892]:
+              - generic [ref=e1893]:
+                - generic [ref=e1894]: FLASH SALE
+                - generic [ref=e1895]: Centellian24 - Madeca Cream Time Reverse
+              - generic [ref=e1896]: ₩ 43,955₩ 51,712
+              - generic [ref=e1897]:
+                - generic [ref=e1898]:
+                  - text: 
+                  - generic [ref=e1899]: 
+                - generic [ref=e1900]: 4,209
+            - generic [ref=e1903]: 15% OFF
+            - generic [ref=e1904]: "#74"
+          - link [ref=e2907] [cursor=pointer]:
+            - /url: /en/numbuzin-no-5-glutathione-vitamin-concentrated-serum-30ml/info.html/pid.1124137872
+            - generic [ref=e1906]:
+              - generic [ref=e1908]:
+                - generic [ref=e1909]: Value Set Available
+                - img [ref=e1910]
+              - img [ref=e2908]
+              - button [ref=e2909]:
+                - generic [ref=e1916]: 
+            - generic [ref=e1917]:
+              - generic [ref=e1918]:
+                - generic [ref=e1919]: FLASH SALE
+                - generic [ref=e1920]: numbuzin - No.5+ Glutathione Vitamin Concentrated Serum
+              - generic [ref=e1921]: ₩ 25,210₩ 42,016
+              - generic [ref=e1922]:
+                - generic [ref=e1923]:
+                  - text: 
+                  - generic [ref=e1924]: 
+                - generic [ref=e1925]: 6,314
+            - generic [ref=e1928]: 40% OFF
+            - generic [ref=e1929]: "#75"
+          - link [ref=e2910] [cursor=pointer]:
+            - /url: /en/abib-collagen-eye-patch-jericho-rose-jelly-60-pcs/info.html/pid.1119999139
+            - generic [ref=e1931]:
+              - generic [ref=e1933]:
+                - generic [ref=e1934]: Value Set Available
+                - img [ref=e1935]
+              - img [ref=e2911]
+              - button [ref=e2912]:
+                - generic [ref=e1941]: 
+            - generic [ref=e1942]:
+              - generic [ref=e1943]:
+                - generic [ref=e1944]: FLASH SALE
+                - generic [ref=e1945]: Abib - Collagen Eye Patch Jericho Rose Jelly
+              - generic [ref=e1946]: ₩ 23,416₩ 32,966
+              - generic [ref=e1947]:
+                - generic [ref=e1948]:
+                  - text: 
+                  - generic [ref=e1949]: 
+                - generic [ref=e1950]: 4,246
+            - generic [ref=e1953]: 28% OFF
+            - generic [ref=e1954]: "#76"
+          - link [ref=e2913] [cursor=pointer]:
+            - /url: /en/centellian24-expert-madeca-cream-active-renew-pdrn-50ml/info.html/pid.1136855057
+            - generic [ref=e1956]:
+              - img [ref=e2914]
+              - button [ref=e2915]:
+                - generic [ref=e1961]: 
+            - generic [ref=e1962]:
+              - generic [ref=e1963]:
+                - generic [ref=e1964]: FLASH SALE
+                - generic [ref=e1965]: Centellian24 - Expert Madeca Cream Active Renew PDRN
+              - generic [ref=e1966]: ₩ 23,707₩ 26,341
+              - generic [ref=e1967]:
+                - generic [ref=e1968]:
+                  - text: 
+                  - generic [ref=e1969]: 
+                - generic [ref=e1970]: "330"
+            - generic [ref=e1973]: 10% OFF
+            - generic [ref=e1974]: "#77"
+          - link [ref=e2916] [cursor=pointer]:
+            - /url: /en/epii-double-up-cream-ectoin-panthenol-50ml/info.html/pid.1137152615
+            - generic [ref=e1976]:
+              - img [ref=e2917]
+              - button [ref=e2918]:
+                - generic [ref=e1981]: 
+            - generic [ref=e1982]:
+              - generic [ref=e1983]:
+                - generic [ref=e1984]: FLASH SALE
+                - generic [ref=e1985]: epii - Double Up Cream Ectoin & Panthenol
+              - generic [ref=e1986]: ₩ 28,264₩ 40,384
+              - generic [ref=e1987]:
+                - generic [ref=e1988]:
+                  - text: 
+                  - generic [ref=e1989]: 
+                - generic [ref=e1990]: "34"
+            - generic [ref=e1993]: 30% OFF
+            - generic [ref=e1994]: "#78"
+          - link [ref=e2919] [cursor=pointer]:
+            - /url: /en/beauty-of-joseon-glow-serum-30ml/info.html/pid.1089210994
+            - generic [ref=e1996]:
+              - img [ref=e2920]
+              - button [ref=e2921]:
+                - generic [ref=e2001]: 
+            - generic [ref=e2002]:
+              - generic [ref=e2003]:
+                - generic [ref=e2004]: FLASH SALE
+                - generic [ref=e2005]: Beauty of Joseon - Glow Serum
+              - generic [ref=e2006]: ₩ 20,168₩ 25,210
+              - generic [ref=e2007]:
+                - generic [ref=e2008]:
+                  - text: 
+                  - generic [ref=e2009]: 
+                - generic [ref=e2010]: 11,454
+            - generic [ref=e2013]: 20% OFF
+            - generic [ref=e2014]: "#79"
+          - link [ref=e2922] [cursor=pointer]:
+            - /url: /en/aestura-ato-barrier-365-cream-80ml/info.html/pid.1128134342
+            - generic [ref=e2016]:
+              - generic [ref=e2018]:
+                - generic [ref=e2019]: Value Set Available
+                - img [ref=e2020]
+              - img [ref=e2923]
+              - button [ref=e2924]:
+                - generic [ref=e2026]: 
+            - generic [ref=e2027]:
+              - generic [ref=e2028]:
+                - generic [ref=e2029]: MOST POPULAR
+                - generic [ref=e2030]: AESTURA - Ato Barrier 365 Cream
+              - generic [ref=e2031]: ₩ 51,712
+              - generic [ref=e2032]:
+                - generic [ref=e2033]:
+                  - text: 
+                  - generic [ref=e2034]: 
+                - generic [ref=e2035]: 2,242
+            - generic [ref=e2036]: "#80"
+          - link [ref=e2925] [cursor=pointer]:
+            - /url: /en/kisocare-azelaic-acid-cream-20-20g/info.html/pid.1129618340
+            - generic [ref=e2038]:
+              - img [ref=e2926]
+              - button [ref=e2927]:
+                - generic [ref=e2043]: 
+            - generic [ref=e2044]:
+              - generic [ref=e2045]:
+                - generic [ref=e2046]: MOST POPULAR
+                - generic [ref=e2047]: Kisocare - Azelaic Acid Cream 20%
+              - generic [ref=e2048]: ₩ 18,358₩ 22,947
+              - generic [ref=e2049]:
+                - generic [ref=e2050]:
+                  - text: 
+                  - generic [ref=e2051]: 
+                - generic [ref=e2052]: "685"
+            - generic [ref=e2055]: 20% OFF
+            - generic [ref=e2056]: "#81"
+          - link [ref=e2928] [cursor=pointer]:
+            - /url: /en/aplb-glutathione-niacinamide-facial-cream-55ml/info.html/pid.1121981732
+            - generic [ref=e2058]:
+              - generic [ref=e2060]:
+                - generic [ref=e2061]: Value Set Available
+                - img [ref=e2062]
+              - img [ref=e2929]
+              - button [ref=e2930]:
+                - generic [ref=e2068]: 
+            - generic [ref=e2069]:
+              - generic [ref=e2070]:
+                - generic [ref=e2071]: FLASH SALE
+                - generic [ref=e2072]: APLB - Glutathione Niacinamide Facial Cream
+              - generic [ref=e2073]: ₩ 15,837₩ 26,842
+              - generic [ref=e2074]:
+                - generic [ref=e2075]:
+                  - text: 
+                  - generic [ref=e2076]: 
+                - generic [ref=e2077]: 3,699
+            - generic [ref=e2080]: 41% OFF
+            - generic [ref=e2081]: "#82"
+          - link [ref=e2931] [cursor=pointer]:
+            - /url: /en/mary-may-tranexamic-acid-glutathione-eye-cream-30g/info.html/pid.1103198080
+            - generic [ref=e2083]:
+              - generic [ref=e2085]:
+                - generic [ref=e2086]: Value Set Available
+                - img [ref=e2087]
+              - img [ref=e2932]
+              - button [ref=e2933]:
+                - generic [ref=e2093]: 
+            - generic [ref=e2094]:
+              - generic [ref=e2095]:
+                - generic [ref=e2096]: FLASH SALE
+                - generic [ref=e2097]: Mary&May - Tranexamic Acid + Glutathione Eye Cream
+              - generic [ref=e2098]: ₩ 14,399₩ 15,998
+              - generic [ref=e2099]:
+                - generic [ref=e2100]:
+                  - text: 
+                  - generic [ref=e2101]: 
+                - generic [ref=e2102]: 4,669
+            - generic [ref=e2105]: 10% OFF
+            - generic [ref=e2106]: "#83"
+          - link [ref=e2934] [cursor=pointer]:
+            - /url: /en/centellian24-madeca-cream-time-reverse-zero-80ml-80ml/info.html/pid.1136855059
+            - generic [ref=e2108]:
+              - img [ref=e2935]
+              - button [ref=e2936]:
+                - generic [ref=e2113]: 
+            - generic [ref=e2114]:
+              - generic [ref=e2115]:
+                - generic [ref=e2116]: FLASH SALE
+                - generic [ref=e2117]: Centellian24 - Madeca Cream Time Reverse Zero 80ml
+              - generic [ref=e2118]: ₩ 22,689₩ 25,210
+              - generic [ref=e2119]:
+                - generic [ref=e2120]:
+                  - text: 
+                  - generic [ref=e2121]: 
+                - generic [ref=e2122]: "577"
+            - generic [ref=e2125]: 10% OFF
+            - generic [ref=e2126]: "#84"
+          - link [ref=e2937] [cursor=pointer]:
+            - /url: /en/medicube-pdrn-pink-collagen-gel-mask-set-28g-x-4-sheets/info.html/pid.1134047328
+            - generic [ref=e2128]:
+              - generic [ref=e2130]:
+                - generic [ref=e2131]: Value Set Available
+                - img [ref=e2132]
+              - img [ref=e2938]
+              - button [ref=e2939]:
+                - generic [ref=e2138]: 
+            - generic [ref=e2139]:
+              - generic [ref=e2140]:
+                - generic [ref=e2141]: FLASH SALE
+                - generic [ref=e2142]: medicube - PDRN Pink Collagen Gel Mask Set
+              - generic [ref=e2143]: ₩ 27,052₩ 30,058
+              - generic [ref=e2144]:
+                - generic [ref=e2145]:
+                  - text: 
+                  - generic [ref=e2146]: 
+                - generic [ref=e2147]: "856"
+            - generic [ref=e2150]: 10% OFF
+            - generic [ref=e2151]: "#85"
+          - link [ref=e2940] [cursor=pointer]:
+            - /url: /en/cosrx-advanced-snail-92-all-in-one-cream/info.html/pid.1052684665
+            - generic [ref=e2153]:
+              - generic [ref=e2155]:
+                - generic [ref=e2156]: Value Set Available
+                - img [ref=e2157]
+              - img [ref=e2941]
+              - button [ref=e2942]:
+                - generic [ref=e2163]: 
+            - generic [ref=e2164]:
+              - generic [ref=e2165]:
+                - generic [ref=e2166]: FLASH SALE
+                - generic [ref=e2167]: COSRX - Advanced Snail 92 All In One Cream
+              - generic [ref=e2168]: ₩ 24,369₩ 32,482
+              - generic [ref=e2169]:
+                - generic [ref=e2170]:
+                  - text: 
+                  - generic [ref=e2171]: 
+                - generic [ref=e2172]: 14,067
+            - generic [ref=e2175]: 24% OFF
+            - generic [ref=e2176]: "#86"
+          - link [ref=e2943] [cursor=pointer]:
+            - /url: /en/purito-seoul-wonder-releaf-centella-serum-unscented-60ml/info.html/pid.1127264626
+            - generic [ref=e2178]:
+              - generic [ref=e2180]:
+                - generic [ref=e2181]: Value Set Available
+                - img [ref=e2182]
+              - img [ref=e2944]
+              - button [ref=e2945]:
+                - generic [ref=e2188]: 
+            - generic [ref=e2189]:
+              - generic [ref=e2190]:
+                - generic [ref=e2191]: FLASH SALE
+                - generic [ref=e2192]: Purito SEOUL - Wonder Releaf Centella Serum Unscented
+              - generic [ref=e2193]: ₩ 17,227₩ 26,502
+              - generic [ref=e2194]:
+                - generic [ref=e2195]:
+                  - text: 
+                  - generic [ref=e2196]: 
+                - generic [ref=e2197]: 6,513
+            - generic [ref=e2200]: 35% OFF
+            - generic [ref=e2201]: "#87"
+          - link [ref=e2946] [cursor=pointer]:
+            - /url: /en/tirtir-milk-skin-toner-jumbo-150ml/info.html/pid.1083257472
+            - generic [ref=e2203]:
+              - generic [ref=e2205]:
+                - generic [ref=e2206]: Value Set Available
+                - img [ref=e2207]
+              - img [ref=e2947]
+              - button [ref=e2948]:
+                - generic [ref=e2213]: 
+            - generic [ref=e2214]:
+              - generic [ref=e2215]:
+                - generic [ref=e2216]: FLASH SALE
+                - generic [ref=e2217]: TIRTIR - Milk Skin Toner Jumbo
+              - generic [ref=e2218]: ₩ 32,320₩ 46,056
+              - generic [ref=e2219]:
+                - generic [ref=e2220]:
+                  - text: 
+                  - generic [ref=e2221]: 
+                - generic [ref=e2222]: 6,065
+            - generic [ref=e2225]: 29% OFF
+            - generic [ref=e2226]: "#88"
+          - link [ref=e2949] [cursor=pointer]:
+            - /url: /en/dr-reju-all-advanced-pdrn-rejuvenating-cream-20ml/info.html/pid.1137172064
+            - generic [ref=e2228]:
+              - img [ref=e2950]
+              - button [ref=e2951]:
+                - generic [ref=e2233]: 
+            - generic [ref=e2234]:
+              - generic [ref=e2235]:
+                - generic [ref=e2236]: FLASH SALE
+                - generic [ref=e2237]: Dr.Reju-All - Advanced PDRN Rejuvenating Cream
+              - generic [ref=e2238]: ₩ 47,268₩ 72,720
+              - generic [ref=e2239]:
+                - generic [ref=e2240]:
+                  - text: 
+                  - generic [ref=e2241]: 
+                - generic [ref=e2242]: "40"
+            - generic [ref=e2245]: 35% OFF
+            - generic [ref=e2246]: "#89"
+          - link [ref=e2952] [cursor=pointer]:
+            - /url: /en/celimax-noni-ampoule-calming-radiance-jumbo-50ml/info.html/pid.1132570151
+            - generic [ref=e2248]:
+              - generic [ref=e2250]:
+                - generic [ref=e2251]: Value Set Available
+                - img [ref=e2252]
+              - img [ref=e2953]
+              - button [ref=e2954]:
+                - generic [ref=e2258]: 
+            - generic [ref=e2259]:
+              - generic [ref=e2260]:
+                - generic [ref=e2261]: FLASH SALE
+                - generic [ref=e2262]: celimax - Noni Ampoule Calming + Radiance Jumbo
+              - generic [ref=e2263]: ₩ 28,506₩ 31,674
+              - generic [ref=e2264]:
+                - generic [ref=e2265]:
+                  - text: 
+                  - generic [ref=e2266]: 
+                - generic [ref=e2267]: 5,705
+            - generic [ref=e2270]: 10% OFF
+            - generic [ref=e2271]: "#90"
+          - link [ref=e2955] [cursor=pointer]:
+            - /url: /en/mixsoon-centella-cleansing-foam-2024-version-150ml/info.html/pid.1118209017
+            - generic [ref=e2273]:
+              - generic [ref=e2275]:
+                - generic [ref=e2276]: Value Set Available
+                - img [ref=e2277]
+              - img [ref=e2956]
+              - button [ref=e2957]:
+                - generic [ref=e2283]: 
+            - generic [ref=e2284]:
+              - generic [ref=e2285]:
+                - generic [ref=e2286]: FLASH SALE
+                - generic [ref=e2287]: mixsoon - Centella Cleansing Foam
+              - generic [ref=e2288]: ₩ 20,604₩ 27,472
+              - generic [ref=e2289]:
+                - generic [ref=e2290]:
+                  - text: 
+                  - generic [ref=e2291]: 
+                - generic [ref=e2292]: 4,420
+            - generic [ref=e2295]: 25% OFF
+            - generic [ref=e2296]: "#91"
+          - link [ref=e2958] [cursor=pointer]:
+            - /url: /en/anua-pdrn-hyaluronic-acid-hydrating-capsule-mist-100ml/info.html/pid.1136854881
+            - generic [ref=e2298]:
+              - img [ref=e2959]
+              - button [ref=e2960]:
+                - generic [ref=e2304]: 
+            - generic [ref=e2305]:
+              - generic [ref=e2306]:
+                - generic [ref=e2307]: FLASH SALE
+                - generic [ref=e2308]: Anua - PDRN Hyaluronic Acid Hydrating Capsule Mist
+              - generic [ref=e2309]: ₩ 33,597₩ 37,330
+              - generic [ref=e2310]:
+                - generic [ref=e2311]:
+                  - text: 
+                  - generic [ref=e2312]: 
+                - generic [ref=e2313]: "406"
+            - generic [ref=e2316]: 10% OFF
+            - generic [ref=e2317]: "#92"
+          - link [ref=e2961] [cursor=pointer]:
+            - /url: /en/medicube-collagen-jelly-cream-110ml/info.html/pid.1124066776
+            - generic [ref=e2319]:
+              - generic [ref=e2321]:
+                - generic [ref=e2322]: Value Set Available
+                - img [ref=e2323]
+              - img [ref=e2962]
+              - button [ref=e2963]:
+                - generic [ref=e2329]: 
+            - generic [ref=e2330]:
+              - generic [ref=e2331]:
+                - generic [ref=e2332]: FLASH SALE
+                - generic [ref=e2333]: medicube - Collagen Jelly Cream
+              - generic [ref=e2334]: ₩ 30,252₩ 33,613
+              - generic [ref=e2335]:
+                - generic [ref=e2336]:
+                  - text: 
+                  - generic [ref=e2337]: 
+                - generic [ref=e2338]: 4,621
+            - generic [ref=e2341]: 10% OFF
+            - generic [ref=e2342]: "#93"
+          - link [ref=e2964] [cursor=pointer]:
+            - /url: /en/centellian24-madeca-cream-time-reverse-mini-15ml/info.html/pid.1136952694
+            - generic [ref=e2344]:
+              - img [ref=e2965]
+              - button [ref=e2966]:
+                - generic [ref=e2349]: 
+            - generic [ref=e2350]:
+              - generic [ref=e2351]:
+                - generic [ref=e2352]: FLASH SALE
+                - generic [ref=e2353]: Centellian24 - Madeca Cream Time Reverse Mini
+              - generic [ref=e2354]: ₩ 7,999₩ 8,888
+              - generic [ref=e2355]:
+                - generic [ref=e2356]:
+                  - text: 
+                  - generic [ref=e2357]: 
+                - generic [ref=e2358]: "106"
+            - generic [ref=e2361]: 10% OFF
+            - generic [ref=e2362]: "#94"
+          - link [ref=e2967] [cursor=pointer]:
+            - /url: /en/purito-seoul-mighty-bamboo-panthenol-cream-bundle-set-2-pcs/info.html/pid.1134562169
+            - generic [ref=e2364]:
+              - img [ref=e2968]
+              - button [ref=e2969]:
+                - generic [ref=e2369]: 
+            - generic [ref=e2370]:
+              - generic [ref=e2373]: Purito SEOUL - Mighty Bamboo Panthenol Cream Bundle Set
+              - generic [ref=e2374]: ₩ 35,552₩ 56,237
+              - generic [ref=e2375]:
+                - generic [ref=e2376]:
+                  - text: 
+                  - generic [ref=e2377]: 
+                - generic [ref=e2378]: 15,270
+            - generic [ref=e2381]: 36% OFF
+            - generic [ref=e2382]: "#95"
+          - link [ref=e2970] [cursor=pointer]:
+            - /url: /en/skin1004-madagascar-centella-hyalu-cica-water-fit-sun-serum-jumbo/info.html/pid.1137154808
+            - generic [ref=e2384]:
+              - img [ref=e2971]
+              - button [ref=e2972]:
+                - generic [ref=e2389]: 
+            - generic [ref=e2390]:
+              - generic [ref=e2391]:
+                - generic [ref=e2392]: NEW
+                - generic [ref=e2393]: SKIN1004 - Madagascar Centella Hyalu-Cica Water-Fit Sun Serum Jumbo Bundle Set
+              - generic [ref=e2394]: ₩ 59,873₩ 75,306
+            - generic [ref=e2397]: 20% OFF
+            - generic [ref=e2398]: "#96"
+          - link [ref=e2973] [cursor=pointer]:
+            - /url: /en/eqqualberry-swimming-pool-toner-300ml-300ml/info.html/pid.1128582991
+            - generic [ref=e2400]:
+              - generic [ref=e2402]:
+                - generic [ref=e2403]: Value Set Available
+                - img [ref=e2404]
+              - img [ref=e2974]
+              - button [ref=e2975]:
+                - generic [ref=e2410]: 
+            - generic [ref=e2411]:
+              - generic [ref=e2412]:
+                - generic [ref=e2413]: FLASH SALE
+                - generic [ref=e2414]: EQQUALBERRY - Swimming Pool Toner 300ml
+              - generic [ref=e2415]: ₩ 32,304₩ 43,632
+              - generic [ref=e2416]:
+                - generic [ref=e2417]:
+                  - text: 
+                  - generic [ref=e2418]: 
+                - generic [ref=e2419]: 6,142
+            - generic [ref=e2422]: 25% OFF
+            - generic [ref=e2423]: "#97"
+          - link [ref=e2976] [cursor=pointer]:
+            - /url: /en/vt-pdrn-capsule-cream-100-50ml/info.html/pid.1134869264
+            - generic [ref=e2425]:
+              - generic [ref=e2427]:
+                - generic [ref=e2428]: Value Set Available
+                - img [ref=e2429]
+              - img [ref=e2977]
+              - button [ref=e2978]:
+                - generic [ref=e2435]: 
+            - generic [ref=e2436]:
+              - generic [ref=e2437]:
+                - generic [ref=e2438]: FLASH SALE
+                - generic [ref=e2439]: VT - PDRN Capsule Cream 100
+              - generic [ref=e2440]: ₩ 29,007₩ 32,320
+              - generic [ref=e2441]:
+                - generic [ref=e2442]:
+                  - text: 
+                  - generic [ref=e2443]: 
+                - generic [ref=e2444]: 1,901
+            - generic [ref=e2447]: 10% OFF
+            - generic [ref=e2448]: "#98"
+          - link [ref=e2979] [cursor=pointer]:
+            - /url: /en/skin1004-madagascar-centella-hyalu-cica-moisture-cream-75ml/info.html/pid.1113064820
+            - generic [ref=e2450]:
+              - generic [ref=e2452]:
+                - generic [ref=e2453]: Value Set Available
+                - img [ref=e2454]
+              - img [ref=e2980]
+              - button [ref=e2981]:
+                - generic [ref=e2460]: 
+            - generic [ref=e2461]:
+              - generic [ref=e2462]:
+                - generic [ref=e2463]: FLASH SALE
+                - generic [ref=e2464]: SKIN1004 - Madagascar Centella Hyalu-Cica Moisture Cream
+              - generic [ref=e2465]: ₩ 22,155₩ 28,280
+              - generic [ref=e2466]:
+                - generic [ref=e2467]:
+                  - text: 
+                  - generic [ref=e2468]: 
+                - generic [ref=e2469]: 1,716
+            - generic [ref=e2472]: 21% OFF
+            - generic [ref=e2473]: "#99"
+          - link [ref=e2982] [cursor=pointer]:
+            - /url: /en/beauty-of-joseon-dynasty-cream-50g/info.html/pid.1063505379
+            - generic [ref=e2475]:
+              - img [ref=e2983]
+              - button [ref=e2984]:
+                - generic [ref=e2480]: 
+            - generic [ref=e2481]:
+              - generic [ref=e2482]:
+                - generic [ref=e2483]: FLASH SALE
+                - generic [ref=e2484]: Beauty of Joseon - Dynasty Cream
+              - generic [ref=e2485]: ₩ 29,330₩ 39,107
+              - generic [ref=e2486]:
+                - generic [ref=e2487]:
+                  - text: 
+                  - generic [ref=e2488]: 
+                - generic [ref=e2489]: 4,862
+            - generic [ref=e2492]: 25% OFF
+            - generic [ref=e2493]: "#100"
+      - button [ref=e2985] [cursor=pointer]: Next
+      - generic [ref=e2497]:
+        - button [disabled]:
+          - generic: 
+        - link:
+          - /url: /en/beauty-skin-care/list.html/bcc.15544_bpt.46?pn=1
+          - generic: "1"
+        - link [ref=e2986] [cursor=pointer]:
+          - /url: /en/beauty-skin-care/list.html/bcc.15544_bpt.46?pn=2
+          - generic [ref=e2499]: "2"
+        - link [ref=e2987] [cursor=pointer]:
+          - /url: /en/beauty-skin-care/list.html/bcc.15544_bpt.46?pn=3
+          - generic [ref=e2501]: "3"
+        - generic [ref=e2502]: ...
+        - generic: "191"
+        - button [ref=e2988] [cursor=pointer]:
+          - generic [ref=e2504]: 
+      - generic [ref=e2505]:
+        - list [ref=e2508]:
+          - listitem [ref=e2509]:
+            - text: 
+            - link [ref=e2989] [cursor=pointer]:
+              - /url: /en/beauty-beauty/list.html/bcc.15478_bpt.46
+              - text: Beauty
+          - listitem [ref=e2511]: Skin Care
+        - generic [ref=e2512]:
+          - link [ref=e2990] [cursor=pointer]:
+            - /url: /en/beauty-face-cleansers/list.html/bcc.15545_bpt.46
+            - text: Face Cleansers
+          - link [ref=e2991] [cursor=pointer]:
+            - /url: /en/beauty-exfoliators/list.html/bcc.15551_bpt.46
+            - text: Exfoliators
+          - link [ref=e2992] [cursor=pointer]:
+            - /url: /en/beauty-toners/list.html/bcc.15552_bpt.46
+            - text: Toners
+          - link [ref=e2993] [cursor=pointer]:
+            - /url: /en/beauty-acne-treatments/list.html/bcc.15553_bpt.46
+            - text: Acne Treatments
+          - link [ref=e2994] [cursor=pointer]:
+            - /url: /en/beauty-face-serums/list.html/bcc.15556_bpt.46
+            - text: Face Serums
+          - link [ref=e2995] [cursor=pointer]:
+            - /url: /en/beauty-lip-care/list.html/bcc.15557_bpt.46
+            - text: Lip Care
+          - link [ref=e2996] [cursor=pointer]:
+            - /url: /en/beauty-face-masks/list.html/bcc.15561_bpt.46
+            - text: Face Masks
+          - link [ref=e2997] [cursor=pointer]:
+            - /url: /en/beauty-eye-care/list.html/bcc.15565_bpt.46
+            - text: Eye Care
+          - link [ref=e2998] [cursor=pointer]:
+            - /url: /en/beauty-moisturizers/list.html/bcc.15569_bpt.46
+            - text: Moisturizers
+      - generic [ref=e2523]:
+        - button [ref=e2999] [cursor=pointer]:
+          - img [ref=e2526]
+        - button [ref=e3000] [cursor=pointer]:
+          - img [ref=e2530]
+        - button [ref=e3001] [cursor=pointer]:
+          - img [ref=e2648]
+  - button [ref=e3002] [cursor=pointer]:
+    - generic [ref=e2535]: 
+  - contentinfo [ref=e2536]:
+    - generic [ref=e2537]:
+      - generic [ref=e2538]: Follow us
+      - generic [ref=e2539]:
+        - link [ref=e3003] [cursor=pointer]:
+          - /url: https://www.facebook.com/yesstyle
+          - img [ref=e2541]
+        - link [ref=e3004] [cursor=pointer]:
+          - /url: https://www.youtube.com/yesstyle
+          - img [ref=e2544]
+        - link [ref=e3005] [cursor=pointer]:
+          - /url: https://instagram.com/yesstyle
+          - img [ref=e2547]
+        - link [ref=e3006] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@yesstyle
+          - img [ref=e2550]
+        - link [ref=e3007] [cursor=pointer]:
+          - /url: https://pinterest.com/yesstyle
+          - img [ref=e2553]
+      - link [ref=e3008] [cursor=pointer]:
+        - /url: /en/app
+        - text: Download our app and earn 50 YS Points
+      - generic [ref=e2557]:
+        - link [ref=e3009] [cursor=pointer]:
+          - /url: https://apps.apple.com/us/app/yesstyle/id868675907
+          - img [ref=e2559]
+        - link [ref=e3010] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.yesstyle.android
+          - img [ref=e2562]
+    - generic [ref=e2565]:
+      - generic [ref=e2566]:
+        - heading [level=4] [ref=e3011]: Support
+        - list [ref=e2569]:
+          - listitem [ref=e2570]:
+            - link [ref=e3012] [cursor=pointer]:
+              - /url: /en/secure/myaccount/track-your-order.html
+              - text: Order Tracking
+          - listitem [ref=e2572]:
+            - link [ref=e3013] [cursor=pointer]:
+              - /url: /en/help/contact-us.html
+              - text: Contact Us
+          - listitem [ref=e2574]:
+            - link [ref=e3014] [cursor=pointer]:
+              - /url: /en/help/main.html
+              - text: Customer Service
+      - generic [ref=e2576]:
+        - heading [level=4] [ref=e3015]: Programs
+        - list [ref=e2579]:
+          - listitem [ref=e2580]:
+            - link [ref=e3016] [cursor=pointer]:
+              - /url: /en/elite-club.html
+              - text: Elite Club
+          - listitem [ref=e2582]:
+            - link [ref=e3017] [cursor=pointer]:
+              - /url: /en/friend-rewards.html
+              - text: Friend Rewards
+          - listitem [ref=e2584]:
+            - link [ref=e3018] [cursor=pointer]:
+              - /url: /en/student-program.html
+              - text: Student Program
+      - generic [ref=e2586]:
+        - heading [level=4] [ref=e3019]: Partnerships
+        - list [ref=e2589]:
+          - listitem [ref=e2590]:
+            - link [ref=e3020] [cursor=pointer]:
+              - /url: /en/influencers.html
+              - text: YesStyle Influencers
+          - listitem [ref=e2592]:
+            - link [ref=e3021] [cursor=pointer]:
+              - /url: /en/affiliate-program.html
+              - text: Affiliate Program
+      - generic [ref=e2594]:
+        - heading [level=4] [ref=e3022]: Sitemap
+        - list [ref=e2597]:
+          - listitem [ref=e2598]:
+            - link [ref=e3023] [cursor=pointer]:
+              - /url: /en/category-sitemap
+              - text: Category Sitemap
+          - listitem [ref=e2600]:
+            - link [ref=e3024] [cursor=pointer]:
+              - /url: /en/product-sitemap
+              - text: Product Sitemap
+      - generic [ref=e2602]:
+        - heading [level=4] [ref=e3025]: About Us
+        - list [ref=e2605]:
+          - listitem [ref=e2606]:
+            - link [ref=e3026] [cursor=pointer]:
+              - /url: /en/about-us.html
+              - text: About YesStyle
+          - listitem [ref=e2608]:
+            - link [ref=e3027] [cursor=pointer]:
+              - /url: https://www.yesasiaholdings.com/investor-relations.html
+              - text: Investor Relations
+          - listitem [ref=e2610]:
+            - link [ref=e3028] [cursor=pointer]:
+              - /url: https://www.asianbeautywholesale.com/home.html
+              - text: Wholesale
+          - listitem [ref=e2612]:
+            - link [ref=e3029] [cursor=pointer]:
+              - /url: /en/about-us/jobs.html
+              - text: Jobs & Business Opportunities
+    - img [ref=e2615]
+    - generic [ref=e2624]:
+      - generic [ref=e2625]:
+        - generic [ref=e2626]:
+          - link [ref=e3030] [cursor=pointer]:
+            - /url: /en/beauty-skin-care/list.html/bcc.15544_bpt.46
+            - text: English
+          - link [ref=e3031] [cursor=pointer]:
+            - /url: /fr/beauty-skin-care/list.html/bcc.15544_bpt.46
+            - text: Français
+          - link [ref=e3032] [cursor=pointer]:
+            - /url: /de/beauty-skin-care/list.html/bcc.15544_bpt.46
+            - text: Deutsch
+          - link [ref=e3033] [cursor=pointer]:
+            - /url: /es/beauty-skin-care/list.html/bcc.15544_bpt.46
+            - text: Español
+          - link [ref=e3034] [cursor=pointer]:
+            - /url: /it/beauty-skin-care/list.html/bcc.15544_bpt.46
+            - text: Italiano
+          - link [ref=e3035] [cursor=pointer]:
+            - /url: /nl/beauty-skin-care/list.html/bcc.15544_bpt.46
+            - text: Nederlands
+          - link [ref=e3036] [cursor=pointer]:
+            - /url: /pl/beauty-skin-care/list.html/bcc.15544_bpt.46
+            - text: Polski
+          - link [ref=e3037] [cursor=pointer]:
+            - /url: /pt/beauty-skin-care/list.html/bcc.15544_bpt.46
+            - text: Português
+          - link [ref=e3038] [cursor=pointer]:
+            - /url: /ru/beauty-skin-care/list.html/bcc.15544_bpt.46
+            - text: Русский
+          - link [ref=e3039] [cursor=pointer]:
+            - /url: /ar/beauty-skin-care/list.html/bcc.15544_bpt.46
+            - text: عربي
+        - generic [ref=e2638]:
+          - link [ref=e3040] [cursor=pointer]:
+            - /url: /en/terms-of-use/help/section.html/hsi.804
+            - text: Terms of Use
+          - link [ref=e3041] [cursor=pointer]:
+            - /url: /en/privacy-security/help/section.html/hsi.754
+            - text: Privacy Policy
+          - text: Cookie Preferences
+      - generic [ref=e2641]: Copyright © 2006-2026 YESSTYLE.COM LTD. All rights reserved.
+  - alert [ref=e2650]
+  - dialog "Preferences" [ref=e3044]:
+    - heading "Preferences" [level=2] [ref=e3045]:
+      - text: Preferences
+      - button [ref=e3046] [cursor=pointer]:
+        - img [ref=e3047]
+    - generic [ref=e3051]:
+      - generic [ref=e3053]:
+        - generic [ref=e3054]: Shipping Destination
+        - generic [ref=e3055]:
+          - combobox "Shipping Destination" [active] [ref=e3056]: Spain
+          - button "Open" [ref=e3227] [cursor=pointer]:
+            - img [ref=e3059]
+          - group
+      - generic [ref=e3061]:
+        - generic [ref=e3062]: Currency
+        - generic [ref=e3063]:
+          - combobox "EUR - Euro (€)" [ref=e3228] [cursor=pointer]
+          - textbox: EUR
+          - img
+          - group
+      - generic [ref=e3065]:
+        - generic [ref=e3066]: Language
+        - generic [ref=e3067]:
+          - combobox "Español" [ref=e3229] [cursor=pointer]:
+            - generic [ref=e3069]: Español
+          - textbox: "17"
+          - img
+          - group
+    - generic [ref=e3070]:
+      - button "Cancel" [ref=e3071] [cursor=pointer]
+      - button "Save" [ref=e3230] [cursor=pointer]

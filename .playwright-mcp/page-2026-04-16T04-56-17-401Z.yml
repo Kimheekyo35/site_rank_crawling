@@ -1,0 +1,2047 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - 'button "Up to 18% OFF code: WARM26" [ref=e4] [cursor=pointer]':
+      - generic [ref=e5]: "Up to 18% OFF code:"
+      - generic [ref=e6]: WARM26
+      - timer [ref=e8]
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - button "country setting" [ref=e14] [cursor=pointer]:
+          - img "kr-flag" [ref=e15]
+        - button "other tool button" [ref=e16] [cursor=pointer]:
+          - img [ref=e18]
+        - button "search" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: 
+        - generic: 
+      - link "YesStyle - Shop Beauty and Fashion Online" [ref=e23] [cursor=pointer]:
+        - /url: /en/home.html
+        - img "YesStyle - Shop Beauty and Fashion Online" [ref=e24]
+      - generic [ref=e27]:
+        - button "account of current user" [ref=e28] [cursor=pointer]:
+          - img [ref=e30]
+        - link "wish list" [ref=e32] [cursor=pointer]:
+          - /url: /en/saved-items.html
+          - generic [ref=e34]: 
+        - link "shopping bag" [ref=e35] [cursor=pointer]:
+          - /url: /en/shopping-bag.html
+          - img [ref=e37]
+    - navigation [ref=e40]:
+      - link "Beauty" [ref=e41] [cursor=pointer]:
+        - /url: /en/home.html
+      - link "Women" [ref=e42] [cursor=pointer]:
+        - /url: /en/women-fashion.html
+      - link "Men" [ref=e43] [cursor=pointer]:
+        - /url: /en/men-men/list.html/bcc.14069_bpt.46
+      - link "Health" [ref=e44] [cursor=pointer]:
+        - /url: /en/health.html
+      - link "Sale" [ref=e45] [cursor=pointer]:
+        - /url: /en/special-offers.html
+      - link "Blog" [ref=e46] [cursor=pointer]:
+        - /url: https://yesstyle.com/blog
+  - main [ref=e48]:
+    - generic [ref=e49]:
+      - generic [ref=e52]:
+        - generic [ref=e55] [cursor=pointer]: Free Express Shipping with any ₩ 56,000 purchase
+        - 'link "New Bundle Drop: Snag more, save more 🔥" [ref=e59] [cursor=pointer]':
+          - /url: /en/beauty-beauty/list.html/bcc.15478_bpt.46?sb=158&sfa=false&vn=35&oc=91
+          - generic [ref=e60]:
+            - text: "New Bundle Drop: Snag more, save more"
+            - generic [ref=e61]: 🔥
+        - link "Download YS App & Get 50 YS Points" [ref=e65] [cursor=pointer]:
+          - /url: /en/app
+          - generic [ref=e66]: Download YS App & Get 50 YS Points
+      - list [ref=e69]:
+        - listitem [ref=e70]:
+          - text: 
+          - link "Beauty" [ref=e71] [cursor=pointer]:
+            - /url: /en/beauty-beauty/list.html/bcc.15478_bpt.46
+        - listitem [ref=e72]: Sun Care
+      - generic [ref=e73]:
+        - heading "Sun Care" [level=1] [ref=e74]
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - text: Sunscreens are a must every day to prevent dark spots and skin cancer! YesStyle's selection of daily SPF and sun care products includes innovative broad-spectrum sunscreens from Japanese and Korean beauty brands. If your preferred type of sun protectant is a soft finish sun milk, watery sun gel or SPF-fitted cushion compact, we've got you covered. For a
+            - link "Korean sunscreen" [ref=e77] [cursor=pointer]:
+              - /url: https://www.yesstyle.com/en/korean-sunscreen
+            - text: that absorbs quickly and won't leave a white cast, turn to a lightweight sun essence like make p:rem's UV Defense Me. Daily Sun Essence. To guard skin against UVA and UVB rays while replenishing moisture levels, go for a moisturizing formula, such as the bestselling COSRX Aloe Soothing Sun Cream or the Biore UV Aqua Rich Watery Gel containing hyaluronic acid. If you get sunburnt, choose from YesStyle's after sun care products like aloe vera gel to soothe skin.
+          - button "More" [ref=e79] [cursor=pointer]
+      - generic [ref=e81]:
+        - link "Sunscreens" [ref=e82] [cursor=pointer]:
+          - /url: /en/beauty-sunscreens/list.html/bcc.15601_bpt.46
+        - link "After Sun Care" [ref=e83] [cursor=pointer]:
+          - /url: /en/beauty-after-sun-care/list.html/bcc.15602_bpt.46
+      - generic [ref=e84]:
+        - button "Refine" [ref=e87] [cursor=pointer]:
+          - img [ref=e88]
+          - generic [ref=e92]: Refine
+        - paragraph [ref=e95]: 1,680 items sorted by Bestsellers
+        - generic [ref=e97]:
+          - button "" [disabled]:
+            - generic: 
+          - button "" [disabled]:
+            - generic: 
+          - generic [ref=e98]: 1/17
+          - button "" [ref=e99] [cursor=pointer]:
+            - generic [ref=e100]: 
+        - generic [ref=e102]:
+          - link "kr-flag  Sponsored mixsoon - Bean Sun Serum ₩ 16,144₩ 42,468   1,089 61% OFF" [ref=e103] [cursor=pointer]:
+            - /url: /en/mixsoon-bean-sun-serum-50ml/info.html/pid.1134226130
+            - generic [ref=e104]:
+              - img "kr-flag" [ref=e106]
+              - button "" [ref=e107]:
+                - generic [ref=e109]: 
+            - generic [ref=e110]:
+              - generic [ref=e111]:
+                - generic [ref=e112]: Sponsored
+                - generic [ref=e113]: mixsoon - Bean Sun Serum
+              - generic [ref=e114]: ₩ 16,144₩ 42,468
+              - generic [ref=e115]:
+                - generic [ref=e116]:
+                  - text: 
+                  - generic [ref=e117]: 
+                - generic [ref=e118]: 1,089
+            - generic [ref=e121]: 61% OFF
+          - 'link "kr-flag  FLASH SALE Beauty of Joseon - Relief Sun: Rice + Probiotics ₩ 19,392₩ 25,856   25,413 25% OFF #1" [ref=e122] [cursor=pointer]':
+            - /url: /en/beauty-of-joseon-relief-sun-rice-probiotics-50ml/info.html/pid.1107744417
+            - generic [ref=e123]:
+              - img "kr-flag" [ref=e126]
+              - button "" [ref=e127]:
+                - generic [ref=e129]: 
+            - generic [ref=e130]:
+              - generic [ref=e131]:
+                - generic [ref=e132]: FLASH SALE
+                - generic [ref=e133]: "Beauty of Joseon - Relief Sun: Rice + Probiotics"
+              - generic [ref=e134]: ₩ 19,392₩ 25,856
+              - generic [ref=e135]:
+                - generic [ref=e136]:
+                  - text: 
+                  - generic [ref=e137]: 
+                - generic [ref=e138]: 25,413
+            - generic [ref=e141]: 25% OFF
+            - generic [ref=e142]: "#1"
+          - 'link "kr-flag  FLASH SALE SKIN1004 - Madagascar Centella Hyalu-Cica Water-Fit Sun Serum Twin Pack ₩ 31,819₩ 40,723   23,236 21% OFF #2" [ref=e143] [cursor=pointer]':
+            - /url: /en/skin1004-madagascar-centella-hyalu-cica-water-fit-sun-serum-twin-pack/info.html/pid.1121503383
+            - generic [ref=e144]:
+              - img "kr-flag" [ref=e147]
+              - button "" [ref=e148]:
+                - generic [ref=e150]: 
+            - generic [ref=e151]:
+              - generic [ref=e152]:
+                - generic [ref=e153]: FLASH SALE
+                - generic [ref=e154]: SKIN1004 - Madagascar Centella Hyalu-Cica Water-Fit Sun Serum Twin Pack
+              - generic [ref=e155]: ₩ 31,819₩ 40,723
+              - generic [ref=e156]:
+                - generic [ref=e157]:
+                  - text: 
+                  - generic [ref=e158]: 
+                - generic [ref=e159]: 23,236
+            - generic [ref=e162]: 21% OFF
+            - generic [ref=e163]: "#2"
+          - 'link "Value Set Available kr-flag  FLASH SALE SKIN1004 - Madagascar Centella Hyalu-Cica Water-Fit Sun Serum ₩ 15,352₩ 24,240   29,022 36% OFF #3" [ref=e164] [cursor=pointer]':
+            - /url: /en/skin1004-madagascar-centella-hyalu-cica-water-fit-sun-serum-50ml/info.html/pid.1113888108
+            - generic [ref=e165]:
+              - generic [ref=e167]:
+                - generic [ref=e168]: Value Set Available
+                - img [ref=e169]
+              - img "kr-flag" [ref=e172]
+              - button "" [ref=e173]:
+                - generic [ref=e175]: 
+            - generic [ref=e176]:
+              - generic [ref=e177]:
+                - generic [ref=e178]: FLASH SALE
+                - generic [ref=e179]: SKIN1004 - Madagascar Centella Hyalu-Cica Water-Fit Sun Serum
+              - generic [ref=e180]: ₩ 15,352₩ 24,240
+              - generic [ref=e181]:
+                - generic [ref=e182]:
+                  - text: 
+                  - generic [ref=e183]: 
+                - generic [ref=e184]: 29,022
+            - generic [ref=e187]: 36% OFF
+            - generic [ref=e188]: "#3"
+          - 'link "kr-flag  FLASH SALE Beauty of Joseon - Relief Sun Aqua-fresh ₩ 21,816₩ 29,088   6,237 25% OFF #4" [ref=e189] [cursor=pointer]':
+            - /url: /en/beauty-of-joseon-relief-sun-aqua-fresh-50ml/info.html/pid.1130222654
+            - generic [ref=e190]:
+              - img "kr-flag" [ref=e192]
+              - button "" [ref=e193]:
+                - generic [ref=e195]: 
+            - generic [ref=e196]:
+              - generic [ref=e197]:
+                - generic [ref=e198]: FLASH SALE
+                - generic [ref=e199]: Beauty of Joseon - Relief Sun Aqua-fresh
+              - generic [ref=e200]: ₩ 21,816₩ 29,088
+              - generic [ref=e201]:
+                - generic [ref=e202]:
+                  - text: 
+                  - generic [ref=e203]: 
+                - generic [ref=e204]: 6,237
+            - generic [ref=e207]: 25% OFF
+            - generic [ref=e208]: "#4"
+          - 'link "Value Set Available kr-flag  FLASH SALE ROUND LAB - Birch Juice Moisturizing Sunscreen ₩ 16,063₩ 22,947   8,511 30% OFF #5" [ref=e209] [cursor=pointer]':
+            - /url: /en/round-lab-birch-juice-moisturizing-sunscreen-50ml/info.html/pid.1122974582
+            - generic [ref=e210]:
+              - generic [ref=e212]:
+                - generic [ref=e213]: Value Set Available
+                - img [ref=e214]
+              - img "kr-flag" [ref=e217]
+              - button "" [ref=e218]:
+                - generic [ref=e220]: 
+            - generic [ref=e221]:
+              - generic [ref=e222]:
+                - generic [ref=e223]: FLASH SALE
+                - generic [ref=e224]: ROUND LAB - Birch Juice Moisturizing Sunscreen
+              - generic [ref=e225]: ₩ 16,063₩ 22,947
+              - generic [ref=e226]:
+                - generic [ref=e227]:
+                  - text: 
+                  - generic [ref=e228]: 
+                - generic [ref=e229]: 8,511
+            - generic [ref=e232]: 30% OFF
+            - generic [ref=e233]: "#5"
+          - 'link "Value Set Available kr-flag  FLASH SALE SKIN1004 - Madagascar Centella Hyalu-Cica Water-Fit Sun Serum Jumbo ₩ 31,512₩ 37,653   6,254 16% OFF #6" [ref=e234] [cursor=pointer]':
+            - /url: /en/skin1004-madagascar-centella-hyalu-cica-water-fit-sun-serum-jumbo/info.html/pid.1129356823
+            - generic [ref=e235]:
+              - generic [ref=e237]:
+                - generic [ref=e238]: Value Set Available
+                - img [ref=e239]
+              - img "kr-flag" [ref=e242]
+              - button "" [ref=e243]:
+                - generic [ref=e245]: 
+            - generic [ref=e246]:
+              - generic [ref=e247]:
+                - generic [ref=e248]: FLASH SALE
+                - generic [ref=e249]: SKIN1004 - Madagascar Centella Hyalu-Cica Water-Fit Sun Serum Jumbo
+              - generic [ref=e250]: ₩ 31,512₩ 37,653
+              - generic [ref=e251]:
+                - generic [ref=e252]:
+                  - text: 
+                  - generic [ref=e253]: 
+                - generic [ref=e254]: 6,254
+            - generic [ref=e257]: 16% OFF
+            - generic [ref=e258]: "#6"
+          - 'link "Value Set Available kr-flag  FLASH SALE House of Hur - Weightless Sun Fluid ₩ 17,275₩ 24,725   1,810 30% OFF #7" [ref=e259] [cursor=pointer]':
+            - /url: /en/house-of-hur-weightless-sun-fluid-50ml/info.html/pid.1123535471
+            - generic [ref=e260]:
+              - generic [ref=e262]:
+                - generic [ref=e263]: Value Set Available
+                - img [ref=e264]
+              - img "kr-flag" [ref=e267]
+              - button "" [ref=e268]:
+                - generic [ref=e270]: 
+            - generic [ref=e271]:
+              - generic [ref=e272]:
+                - generic [ref=e273]: FLASH SALE
+                - generic [ref=e274]: House of Hur - Weightless Sun Fluid
+              - generic [ref=e275]: ₩ 17,275₩ 24,725
+              - generic [ref=e276]:
+                - generic [ref=e277]:
+                  - text: 
+                  - generic [ref=e278]: 
+                - generic [ref=e279]: 1,810
+            - generic [ref=e282]: 30% OFF
+            - generic [ref=e283]: "#7"
+          - 'link "kr-flag  FLASH SALE Beauty of Joseon - Relief Sun Mini ₩ 5,527₩ 7,595   4,795 27% OFF #8" [ref=e284] [cursor=pointer]':
+            - /url: /en/beauty-of-joseon-relief-sun-mini-10ml/info.html/pid.1118873672
+            - generic [ref=e285]:
+              - img "kr-flag" [ref=e287]
+              - button "" [ref=e288]:
+                - generic [ref=e290]: 
+            - generic [ref=e291]:
+              - generic [ref=e292]:
+                - generic [ref=e293]: FLASH SALE
+                - generic [ref=e294]: Beauty of Joseon - Relief Sun Mini
+              - generic [ref=e295]: ₩ 5,527₩ 7,595
+              - generic [ref=e296]:
+                - generic [ref=e297]:
+                  - text: 
+                  - generic [ref=e298]: 
+                - generic [ref=e299]: 4,795
+            - generic [ref=e302]: 27% OFF
+            - generic [ref=e303]: "#8"
+          - 'link "Value Set Available kr-flag  FLASH SALE haruharu wonder - Black Rice Moisture Airyfit Sunscreen ₩ 23,125₩ 25,694   4,395 10% OFF #9" [ref=e304] [cursor=pointer]':
+            - /url: /en/haruharu-wonder-black-rice-moisture-airyfit-sunscreen-50ml/info.html/pid.1120888779
+            - generic [ref=e305]:
+              - generic [ref=e307]:
+                - generic [ref=e308]: Value Set Available
+                - img [ref=e309]
+              - img "kr-flag" [ref=e312]
+              - button "" [ref=e313]:
+                - generic [ref=e315]: 
+            - generic [ref=e316]:
+              - generic [ref=e317]:
+                - generic [ref=e318]: FLASH SALE
+                - generic [ref=e319]: haruharu wonder - Black Rice Moisture Airyfit Sunscreen
+              - generic [ref=e320]: ₩ 23,125₩ 25,694
+              - generic [ref=e321]:
+                - generic [ref=e322]:
+                  - text: 
+                  - generic [ref=e323]: 
+                - generic [ref=e324]: 4,395
+            - generic [ref=e327]: 10% OFF
+            - generic [ref=e328]: "#9"
+          - 'link "kr-flag  FLASH SALE Beauty of Joseon - Relief Sun Aqua-fresh Mini ₩ 5,527₩ 7,595   1,876 27% OFF #10" [ref=e329] [cursor=pointer]':
+            - /url: /en/beauty-of-joseon-relief-sun-aqua-fresh-mini-10ml/info.html/pid.1133078347
+            - generic [ref=e330]:
+              - img "kr-flag" [ref=e332]
+              - button "" [ref=e333]:
+                - generic [ref=e335]: 
+            - generic [ref=e336]:
+              - generic [ref=e337]:
+                - generic [ref=e338]: FLASH SALE
+                - generic [ref=e339]: Beauty of Joseon - Relief Sun Aqua-fresh Mini
+              - generic [ref=e340]: ₩ 5,527₩ 7,595
+              - generic [ref=e341]:
+                - generic [ref=e342]:
+                  - text: 
+                  - generic [ref=e343]: 
+                - generic [ref=e344]: 1,876
+            - generic [ref=e347]: 27% OFF
+            - generic [ref=e348]: "#10"
+          - 'link "Value Set Available kr-flag  FLASH SALE TOCOBO - Cotton Soft Sun Stick ₩ 20,798₩ 23,109   5,596 10% OFF #11" [ref=e349] [cursor=pointer]':
+            - /url: /en/tocobo-cotton-soft-sun-stick-19g/info.html/pid.1114237600
+            - generic [ref=e350]:
+              - generic [ref=e352]:
+                - generic [ref=e353]: Value Set Available
+                - img [ref=e354]
+              - img "kr-flag" [ref=e357]
+              - button "" [ref=e358]:
+                - generic [ref=e360]: 
+            - generic [ref=e361]:
+              - generic [ref=e362]:
+                - generic [ref=e363]: FLASH SALE
+                - generic [ref=e364]: TOCOBO - Cotton Soft Sun Stick
+              - generic [ref=e365]: ₩ 20,798₩ 23,109
+              - generic [ref=e366]:
+                - generic [ref=e367]:
+                  - text: 
+                  - generic [ref=e368]: 
+                - generic [ref=e369]: 5,596
+            - generic [ref=e372]: 10% OFF
+            - generic [ref=e373]: "#11"
+          - 'link "kr-flag  FLASH SALE Beauty of Joseon - YesStyle Exclusive Relief Sun Bundle Set ₩ 41,806₩ 64,317   25,411 35% OFF #12" [ref=e374] [cursor=pointer]':
+            - /url: /en/beauty-of-joseon-yesstyle-exclusive-relief-sun-bundle-set-3-pcs/info.html/pid.1134248364
+            - generic [ref=e375]:
+              - img "kr-flag" [ref=e377]
+              - button "" [ref=e378]:
+                - generic [ref=e380]: 
+            - generic [ref=e381]:
+              - generic [ref=e382]:
+                - generic [ref=e383]: FLASH SALE
+                - generic [ref=e384]: Beauty of Joseon - YesStyle Exclusive Relief Sun Bundle Set
+              - generic [ref=e385]: ₩ 41,806₩ 64,317
+              - generic [ref=e386]:
+                - generic [ref=e387]:
+                  - text: 
+                  - generic [ref=e388]: 
+                - generic [ref=e389]: 25,411
+            - generic [ref=e392]: 35% OFF
+            - generic [ref=e393]: "#12"
+          - 'link "Value Set Available kr-flag  FLASH SALE SKIN1004 - Madagascar Centella Hyalu-Cica Silky-Fit Sun Stick ₩ 18,083₩ 22,786   8,709 20% OFF #13" [ref=e394] [cursor=pointer]':
+            - /url: /en/skin1004-madagascar-centella-hyalu-cica-silky-fit-sun-stick-20g/info.html/pid.1124363689
+            - generic [ref=e395]:
+              - generic [ref=e397]:
+                - generic [ref=e398]: Value Set Available
+                - img [ref=e399]
+              - img "kr-flag" [ref=e402]
+              - button "" [ref=e403]:
+                - generic [ref=e405]: 
+            - generic [ref=e406]:
+              - generic [ref=e407]:
+                - generic [ref=e408]: FLASH SALE
+                - generic [ref=e409]: SKIN1004 - Madagascar Centella Hyalu-Cica Silky-Fit Sun Stick
+              - generic [ref=e410]: ₩ 18,083₩ 22,786
+              - generic [ref=e411]:
+                - generic [ref=e412]:
+                  - text: 
+                  - generic [ref=e413]: 
+                - generic [ref=e414]: 8,709
+            - generic [ref=e417]: 20% OFF
+            - generic [ref=e418]: "#13"
+          - 'link "kr-flag  FLASH SALE Beauty of Joseon - YesStyle Exclusive Relief Sun Aqua-fresh Bundle Set ₩ 41,806₩ 64,317   6,237 35% OFF #14" [ref=e419] [cursor=pointer]':
+            - /url: /en/beauty-of-joseon-yesstyle-exclusive-relief-sun-aqua-fresh-bundle-set/info.html/pid.1134248257
+            - generic [ref=e420]:
+              - img "kr-flag" [ref=e422]
+              - button "" [ref=e423]:
+                - generic [ref=e425]: 
+            - generic [ref=e426]:
+              - generic [ref=e427]:
+                - generic [ref=e428]: FLASH SALE
+                - generic [ref=e429]: Beauty of Joseon - YesStyle Exclusive Relief Sun Aqua-fresh Bundle Set
+              - generic [ref=e430]: ₩ 41,806₩ 64,317
+              - generic [ref=e431]:
+                - generic [ref=e432]:
+                  - text: 
+                  - generic [ref=e433]: 
+                - generic [ref=e434]: 6,237
+            - generic [ref=e437]: 35% OFF
+            - generic [ref=e438]: "#14"
+          - 'link "Value Set Available kr-flag  FLASH SALE Isntree - Hyaluronic Acid Watery Sun Gel ₩ 27,601₩ 39,430   5,098 30% OFF #15" [ref=e439] [cursor=pointer]':
+            - /url: /en/isntree-hyaluronic-acid-watery-sun-gel-50ml/info.html/pid.1113241385
+            - generic [ref=e440]:
+              - generic [ref=e442]:
+                - generic [ref=e443]: Value Set Available
+                - img [ref=e444]
+              - img "kr-flag" [ref=e447]
+              - button "" [ref=e448]:
+                - generic [ref=e450]: 
+            - generic [ref=e451]:
+              - generic [ref=e452]:
+                - generic [ref=e453]: FLASH SALE
+                - generic [ref=e454]: Isntree - Hyaluronic Acid Watery Sun Gel
+              - generic [ref=e455]: ₩ 27,601₩ 39,430
+              - generic [ref=e456]:
+                - generic [ref=e457]:
+                  - text: 
+                  - generic [ref=e458]: 
+                - generic [ref=e459]: 5,098
+            - generic [ref=e462]: 30% OFF
+            - generic [ref=e463]: "#15"
+          - 'link "Value Set Available kr-flag  FLASH SALE SKIN1004 - Madagascar Centella Air Fit Suncream Light ₩ 17,404₩ 25,210   2,261 30% OFF #16" [ref=e464] [cursor=pointer]':
+            - /url: /en/skin1004-madagascar-centella-air-fit-suncream-light-50ml/info.html/pid.1114828296
+            - generic [ref=e465]:
+              - generic [ref=e467]:
+                - generic [ref=e468]: Value Set Available
+                - img [ref=e469]
+              - img "kr-flag" [ref=e472]
+              - button "" [ref=e473]:
+                - generic [ref=e475]: 
+            - generic [ref=e476]:
+              - generic [ref=e477]:
+                - generic [ref=e478]: FLASH SALE
+                - generic [ref=e479]: SKIN1004 - Madagascar Centella Air Fit Suncream Light
+              - generic [ref=e480]: ₩ 17,404₩ 25,210
+              - generic [ref=e481]:
+                - generic [ref=e482]:
+                  - text: 
+                  - generic [ref=e483]: 
+                - generic [ref=e484]: 2,261
+            - generic [ref=e487]: 30% OFF
+            - generic [ref=e488]: "#16"
+          - 'link "kr-flag  FLASH SALE Beauty of Joseon - Matte Sun Stick ₩ 18,907₩ 25,210   7,502 25% OFF #17" [ref=e489] [cursor=pointer]':
+            - /url: /en/beauty-of-joseon-matte-sun-stick-18g/info.html/pid.1119542494
+            - generic [ref=e490]:
+              - img "kr-flag" [ref=e492]
+              - button "" [ref=e493]:
+                - generic [ref=e495]: 
+            - generic [ref=e496]:
+              - generic [ref=e497]:
+                - generic [ref=e498]: FLASH SALE
+                - generic [ref=e499]: Beauty of Joseon - Matte Sun Stick
+              - generic [ref=e500]: ₩ 18,907₩ 25,210
+              - generic [ref=e501]:
+                - generic [ref=e502]:
+                  - text: 
+                  - generic [ref=e503]: 
+                - generic [ref=e504]: 7,502
+            - generic [ref=e507]: 25% OFF
+            - generic [ref=e508]: "#17"
+          - 'link "Value Set Available kr-flag  FLASH SALE celimax - Pore+ Dark Spot Brightening Care Sunscreen ₩ 16,968₩ 22,462   2,279 24% OFF #18" [ref=e509] [cursor=pointer]':
+            - /url: /en/celimax-pore-dark-spot-brightening-care-sunscreen-50ml/info.html/pid.1131154181
+            - generic [ref=e510]:
+              - generic [ref=e512]:
+                - generic [ref=e513]: Value Set Available
+                - img [ref=e514]
+              - img "kr-flag" [ref=e517]
+              - button "" [ref=e518]:
+                - generic [ref=e520]: 
+            - generic [ref=e521]:
+              - generic [ref=e522]:
+                - generic [ref=e523]: FLASH SALE
+                - generic [ref=e524]: celimax - Pore+ Dark Spot Brightening Care Sunscreen
+              - generic [ref=e525]: ₩ 16,968₩ 22,462
+              - generic [ref=e526]:
+                - generic [ref=e527]:
+                  - text: 
+                  - generic [ref=e528]: 
+                - generic [ref=e529]: 2,279
+            - generic [ref=e532]: 24% OFF
+            - generic [ref=e533]: "#18"
+          - 'link "Value Set Available kr-flag  FLASH SALE celimax - Oil Control Mattifying Sun Stick ₩ 19,053₩ 21,170   2,334 10% OFF #19" [ref=e534] [cursor=pointer]':
+            - /url: /en/celimax-oil-control-mattifying-sun-stick-19g/info.html/pid.1134325105
+            - generic [ref=e535]:
+              - generic [ref=e537]:
+                - generic [ref=e538]: Value Set Available
+                - img [ref=e539]
+              - img "kr-flag" [ref=e542]
+              - button "" [ref=e543]:
+                - generic [ref=e545]: 
+            - generic [ref=e546]:
+              - generic [ref=e547]:
+                - generic [ref=e548]: FLASH SALE
+                - generic [ref=e549]: celimax - Oil Control Mattifying Sun Stick
+              - generic [ref=e550]: ₩ 19,053₩ 21,170
+              - generic [ref=e551]:
+                - generic [ref=e552]:
+                  - text: 
+                  - generic [ref=e553]: 
+                - generic [ref=e554]: 2,334
+            - generic [ref=e557]: 10% OFF
+            - generic [ref=e558]: "#19"
+          - 'link "jp-flag  Kao - Biore UV Aqua Rich Watery Essence Sunscreen SPF 50+ PA++++ ₩ 18,875₩ 23,594   6,701 20% OFF #20" [ref=e559] [cursor=pointer]':
+            - /url: /en/kao-biore-uv-aqua-rich-watery-essence-sunscreen-spf-50-pa-70g-2025/info.html/pid.1122056968
+            - generic [ref=e560]:
+              - img "jp-flag" [ref=e562]
+              - button "" [ref=e563]:
+                - generic [ref=e565]: 
+            - generic [ref=e566]:
+              - generic [ref=e569]: Kao - Biore UV Aqua Rich Watery Essence Sunscreen SPF 50+ PA++++
+              - generic [ref=e570]: ₩ 18,875₩ 23,594
+              - generic [ref=e571]:
+                - generic [ref=e572]:
+                  - text: 
+                  - generic [ref=e573]: 
+                - generic [ref=e574]: 6,701
+            - generic [ref=e577]: 20% OFF
+            - generic [ref=e578]: "#20"
+          - 'link "kr-flag  FLASH SALE Purito SEOUL - Daily Soft Touch Sunscreen ₩ 16,289₩ 25,048   2,051 34% OFF #21" [ref=e579] [cursor=pointer]':
+            - /url: /en/purito-seoul-daily-soft-touch-sunscreen-60ml/info.html/pid.1128316294
+            - generic [ref=e580]:
+              - img "kr-flag" [ref=e582]
+              - button "" [ref=e583]:
+                - generic [ref=e585]: 
+            - generic [ref=e586]:
+              - generic [ref=e587]:
+                - generic [ref=e588]: FLASH SALE
+                - generic [ref=e589]: Purito SEOUL - Daily Soft Touch Sunscreen
+              - generic [ref=e590]: ₩ 16,289₩ 25,048
+              - generic [ref=e591]:
+                - generic [ref=e592]:
+                  - text: 
+                  - generic [ref=e593]: 
+                - generic [ref=e594]: 2,051
+            - generic [ref=e597]: 34% OFF
+            - generic [ref=e598]: "#21"
+          - 'link "Value Set Available kr-flag  FLASH SALE numbuzin - No.1 Clear Filter Sun Essence ₩ 24,240₩ 38,784   2,419 37% OFF #22" [ref=e599] [cursor=pointer]':
+            - /url: /en/numbuzin-no-1-clear-filter-sun-essence-50ml/info.html/pid.1136216665
+            - generic [ref=e600]:
+              - generic [ref=e602]:
+                - generic [ref=e603]: Value Set Available
+                - img [ref=e604]
+              - img "kr-flag" [ref=e607]
+              - button "" [ref=e608]:
+                - generic [ref=e610]: 
+            - generic [ref=e611]:
+              - generic [ref=e612]:
+                - generic [ref=e613]: FLASH SALE
+                - generic [ref=e614]: numbuzin - No.1 Clear Filter Sun Essence
+              - generic [ref=e615]: ₩ 24,240₩ 38,784
+              - generic [ref=e616]:
+                - generic [ref=e617]:
+                  - text: 
+                  - generic [ref=e618]: 
+                - generic [ref=e619]: 2,419
+            - generic [ref=e622]: 37% OFF
+            - generic [ref=e623]: "#22"
+          - 'link "kr-flag  FLASH SALE COSRX - Ultra Light Invisible Sunscreen ₩ 17,453₩ 23,270   2,139 25% OFF #23" [ref=e624] [cursor=pointer]':
+            - /url: /en/cosrx-ultra-light-invisible-sunscreen-50ml/info.html/pid.1128819058
+            - generic [ref=e625]:
+              - img "kr-flag" [ref=e627]
+              - button "" [ref=e628]:
+                - generic [ref=e630]: 
+            - generic [ref=e631]:
+              - generic [ref=e632]:
+                - generic [ref=e633]: FLASH SALE
+                - generic [ref=e634]: COSRX - Ultra Light Invisible Sunscreen
+              - generic [ref=e635]: ₩ 17,453₩ 23,270
+              - generic [ref=e636]:
+                - generic [ref=e637]:
+                  - text: 
+                  - generic [ref=e638]: 
+                - generic [ref=e639]: 2,139
+            - generic [ref=e642]: 25% OFF
+            - generic [ref=e643]: "#23"
+          - 'link "kr-flag  ROUND LAB - Birch Juice Moisturizing Sunscreen Bundle Set ₩ 30,526₩ 45,894   8,508 33% OFF #24" [ref=e644] [cursor=pointer]':
+            - /url: /en/round-lab-birch-juice-moisturizing-sunscreen-bundle-set-2-pcs/info.html/pid.1134551573
+            - generic [ref=e645]:
+              - img "kr-flag" [ref=e647]
+              - button "" [ref=e648]:
+                - generic [ref=e650]: 
+            - generic [ref=e651]:
+              - generic [ref=e654]: ROUND LAB - Birch Juice Moisturizing Sunscreen Bundle Set
+              - generic [ref=e655]: ₩ 30,526₩ 45,894
+              - generic [ref=e656]:
+                - generic [ref=e657]:
+                  - text: 
+                  - generic [ref=e658]: 
+                - generic [ref=e659]: 8,508
+            - generic [ref=e662]: 33% OFF
+            - generic [ref=e663]: "#24"
+          - 'link "Value Set Available kr-flag  FLASH SALE Anua - Heartleaf 77 Soothing Toner ₩ 33,936₩ 38,946   9,470 12% OFF #25" [ref=e664] [cursor=pointer]':
+            - /url: /en/anua-heartleaf-77-soothing-toner-250ml/info.html/pid.1134551762
+            - generic [ref=e665]:
+              - generic [ref=e667]:
+                - generic [ref=e668]: Value Set Available
+                - img [ref=e669]
+              - img "kr-flag" [ref=e672]
+              - button "" [ref=e673]:
+                - generic [ref=e675]: 
+            - generic [ref=e676]:
+              - generic [ref=e677]:
+                - generic [ref=e678]: FLASH SALE
+                - generic [ref=e679]: Anua - Heartleaf 77 Soothing Toner
+              - generic [ref=e680]: ₩ 33,936₩ 38,946
+              - generic [ref=e681]:
+                - generic [ref=e682]:
+                  - text: 
+                  - generic [ref=e683]: 
+                - generic [ref=e684]: 9,470
+            - generic [ref=e687]: 12% OFF
+            - generic [ref=e688]: "#25"
+          - 'link "Value Set Available kr-flag  FLASH SALE Derma: B - Everyday Sun Block ₩ 24,240₩ 35,390   1,045 31% OFF #26" [ref=e689] [cursor=pointer]':
+            - /url: /en/derma-b-everyday-sun-block-200ml/info.html/pid.1135919200
+            - generic [ref=e690]:
+              - generic [ref=e692]:
+                - generic [ref=e693]: Value Set Available
+                - img [ref=e694]
+              - img "kr-flag" [ref=e697]
+              - button "" [ref=e698]:
+                - generic [ref=e700]: 
+            - generic [ref=e701]:
+              - generic [ref=e702]:
+                - generic [ref=e703]: FLASH SALE
+                - generic [ref=e704]: "Derma: B - Everyday Sun Block"
+              - generic [ref=e705]: ₩ 24,240₩ 35,390
+              - generic [ref=e706]:
+                - generic [ref=e707]:
+                  - text: 
+                  - generic [ref=e708]: 
+                - generic [ref=e709]: 1,045
+            - generic [ref=e712]: 31% OFF
+            - generic [ref=e713]: "#26"
+          - 'link "Value Set Available kr-flag  FLASH SALE mixsoon - Centella Sun Cream ₩ 15,126₩ 18,907   3,455 20% OFF #27" [ref=e714] [cursor=pointer]':
+            - /url: /en/mixsoon-centella-sun-cream-50g/info.html/pid.1118209026
+            - generic [ref=e715]:
+              - generic [ref=e717]:
+                - generic [ref=e718]: Value Set Available
+                - img [ref=e719]
+              - img "kr-flag" [ref=e722]
+              - button "" [ref=e723]:
+                - generic [ref=e725]: 
+            - generic [ref=e726]:
+              - generic [ref=e727]:
+                - generic [ref=e728]: FLASH SALE
+                - generic [ref=e729]: mixsoon - Centella Sun Cream
+              - generic [ref=e730]: ₩ 15,126₩ 18,907
+              - generic [ref=e731]:
+                - generic [ref=e732]:
+                  - text: 
+                  - generic [ref=e733]: 
+                - generic [ref=e734]: 3,455
+            - generic [ref=e737]: 20% OFF
+            - generic [ref=e738]: "#27"
+          - 'link "Value Set Available kr-flag  FLASH SALE mixsoon - 9-Step Trial Kit ₩ 3,216₩ 7,159   699 55% OFF #28" [ref=e739] [cursor=pointer]':
+            - /url: /en/mixsoon-9-step-trial-kit-9-pcs/info.html/pid.1133085504
+            - generic [ref=e740]:
+              - generic [ref=e742]:
+                - generic [ref=e743]: Value Set Available
+                - img [ref=e744]
+              - img "kr-flag" [ref=e747]
+              - button "" [ref=e748]:
+                - generic [ref=e750]: 
+            - generic [ref=e751]:
+              - generic [ref=e752]:
+                - generic [ref=e753]: FLASH SALE
+                - generic [ref=e754]: mixsoon - 9-Step Trial Kit
+              - generic [ref=e755]: ₩ 3,216₩ 7,159
+              - generic [ref=e756]:
+                - generic [ref=e757]:
+                  - text: 
+                  - generic [ref=e758]: 
+                - generic [ref=e759]: "699"
+            - generic [ref=e762]: 55% OFF
+            - generic [ref=e763]: "#28"
+          - 'link "Value Set Available kr-flag  FLASH SALE SKIN1004 - Madagascar Centella Air-Fit Suncream Plus ₩ 19,376₩ 24,886   1,846 22% OFF #29" [ref=e764] [cursor=pointer]':
+            - /url: /en/skin1004-madagascar-centella-air-fit-suncream-plus-50ml/info.html/pid.1113064814
+            - generic [ref=e765]:
+              - generic [ref=e767]:
+                - generic [ref=e768]: Value Set Available
+                - img [ref=e769]
+              - img "kr-flag" [ref=e772]
+              - button "" [ref=e773]:
+                - generic [ref=e775]: 
+            - generic [ref=e776]:
+              - generic [ref=e777]:
+                - generic [ref=e778]: FLASH SALE
+                - generic [ref=e779]: SKIN1004 - Madagascar Centella Air-Fit Suncream Plus
+              - generic [ref=e780]: ₩ 19,376₩ 24,886
+              - generic [ref=e781]:
+                - generic [ref=e782]:
+                  - text: 
+                  - generic [ref=e783]: 
+                - generic [ref=e784]: 1,846
+            - generic [ref=e787]: 22% OFF
+            - generic [ref=e788]: "#29"
+          - 'link "Value Set Available kr-flag  FLASH SALE COSRX - Aloe Soothing Sun Cream ₩ 15,885₩ 21,170   14,206 24% OFF #30" [ref=e789] [cursor=pointer]':
+            - /url: /en/cosrx-aloe-soothing-sun-cream-50ml/info.html/pid.1052684630
+            - generic [ref=e790]:
+              - generic [ref=e792]:
+                - generic [ref=e793]: Value Set Available
+                - img [ref=e794]
+              - img "kr-flag" [ref=e797]
+              - button "" [ref=e798]:
+                - generic [ref=e800]: 
+            - generic [ref=e801]:
+              - generic [ref=e802]:
+                - generic [ref=e803]: FLASH SALE
+                - generic [ref=e804]: COSRX - Aloe Soothing Sun Cream
+              - generic [ref=e805]: ₩ 15,885₩ 21,170
+              - generic [ref=e806]:
+                - generic [ref=e807]:
+                  - text: 
+                  - generic [ref=e808]: 
+                - generic [ref=e809]: 14,206
+            - generic [ref=e812]: 24% OFF
+            - generic [ref=e813]: "#30"
+          - 'link "kr-flag  Trending New SKIN1004 - Madagascar Centella Hyalu-Cica Water-Fit Sun Serum Twin Pack 2pcs Bundle Set ₩ 60,455₩ 81,446 25% OFF #31" [ref=e814] [cursor=pointer]':
+            - /url: /en/skin1004-madagascar-centella-hyalu-cica-water-fit-sun-serum-twin-pack/info.html/pid.1137514354
+            - generic [ref=e815]:
+              - img "kr-flag" [ref=e817]
+              - button "" [ref=e818]:
+                - generic [ref=e820]: 
+            - generic [ref=e821]:
+              - generic [ref=e822]:
+                - generic [ref=e823]: Trending New
+                - generic [ref=e824]: SKIN1004 - Madagascar Centella Hyalu-Cica Water-Fit Sun Serum Twin Pack 2pcs Bundle Set
+              - generic [ref=e825]: ₩ 60,455₩ 81,446
+            - generic [ref=e828]: 25% OFF
+            - generic [ref=e829]: "#31"
+          - 'link "kr-flag  FLASH SALE TOCOBO - Cica Cooling Sun Stick ₩ 21,671₩ 24,078   795 10% OFF #32" [ref=e830] [cursor=pointer]':
+            - /url: /en/tocobo-cica-cooling-sun-stick-18g/info.html/pid.1129159959
+            - generic [ref=e831]:
+              - img "kr-flag" [ref=e833]
+              - button "" [ref=e834]:
+                - generic [ref=e836]: 
+            - generic [ref=e837]:
+              - generic [ref=e838]:
+                - generic [ref=e839]: FLASH SALE
+                - generic [ref=e840]: TOCOBO - Cica Cooling Sun Stick
+              - generic [ref=e841]: ₩ 21,671₩ 24,078
+              - generic [ref=e842]:
+                - generic [ref=e843]:
+                  - text: 
+                  - generic [ref=e844]: 
+                - generic [ref=e845]: "795"
+            - generic [ref=e848]: 10% OFF
+            - generic [ref=e849]: "#32"
+          - 'link "kr-flag  FLASH SALE haruharu wonder - Black Rice Pure Mineral Relief Daily Sunscreen ₩ 23,707₩ 26,341   1,779 10% OFF #33" [ref=e850] [cursor=pointer]':
+            - /url: /en/haruharu-wonder-black-rice-pure-mineral-relief-daily-sunscreen-50ml/info.html/pid.1120888768
+            - generic [ref=e851]:
+              - img "kr-flag" [ref=e853]
+              - button "" [ref=e854]:
+                - generic [ref=e856]: 
+            - generic [ref=e857]:
+              - generic [ref=e858]:
+                - generic [ref=e859]: FLASH SALE
+                - generic [ref=e860]: haruharu wonder - Black Rice Pure Mineral Relief Daily Sunscreen
+              - generic [ref=e861]: ₩ 23,707₩ 26,341
+              - generic [ref=e862]:
+                - generic [ref=e863]:
+                  - text: 
+                  - generic [ref=e864]: 
+                - generic [ref=e865]: 1,779
+            - generic [ref=e868]: 10% OFF
+            - generic [ref=e869]: "#33"
+          - 'link "jp-flag  MOST POPULAR Canmake - Mermaid Skin Gel UV Sunscreen SPF 50+ PA++++ ₩ 15,514₩ 19,392   4,985 20% OFF #34" [ref=e870] [cursor=pointer]':
+            - /url: /en/canmake-mermaid-skin-gel-uv-sunscreen-spf-50-pa/info.html/pid.1074396105
+            - generic [ref=e871]:
+              - img "jp-flag" [ref=e874]
+              - button "" [ref=e875]:
+                - generic [ref=e877]: 
+            - generic [ref=e878]:
+              - generic [ref=e879]:
+                - generic [ref=e880]: MOST POPULAR
+                - generic [ref=e881]: Canmake - Mermaid Skin Gel UV Sunscreen SPF 50+ PA++++
+              - generic [ref=e882]: ₩ 15,514₩ 19,392
+              - generic [ref=e883]:
+                - generic [ref=e884]:
+                  - text: 
+                  - generic [ref=e885]: 
+                - generic [ref=e886]: 4,985
+            - generic [ref=e889]: 20% OFF
+            - generic [ref=e890]: "#34"
+          - 'link "kr-flag  FLASH SALE TOCOBO - Bio Watery Sun Cream ₩ 22,252₩ 24,725   1,608 10% OFF #35" [ref=e891] [cursor=pointer]':
+            - /url: /en/tocobo-bio-watery-sun-cream-50ml/info.html/pid.1114237602
+            - generic [ref=e892]:
+              - img "kr-flag" [ref=e894]
+              - button "" [ref=e895]:
+                - generic [ref=e897]: 
+            - generic [ref=e898]:
+              - generic [ref=e899]:
+                - generic [ref=e900]: FLASH SALE
+                - generic [ref=e901]: TOCOBO - Bio Watery Sun Cream
+              - generic [ref=e902]: ₩ 22,252₩ 24,725
+              - generic [ref=e903]:
+                - generic [ref=e904]:
+                  - text: 
+                  - generic [ref=e905]: 
+                - generic [ref=e906]: 1,608
+            - generic [ref=e909]: 10% OFF
+            - generic [ref=e910]: "#35"
+          - 'link "Value Set Available kr-flag  FLASH SALE SKIN1004 - Madagascar Centella Hyalu-Cica Water-Fit Sun Serum Mini ₩ 7,272₩ 11,312   1,358 35% OFF #36" [ref=e911] [cursor=pointer]':
+            - /url: /en/skin1004-madagascar-centella-hyalu-cica-water-fit-sun-serum-mini-15ml/info.html/pid.1124363687
+            - generic [ref=e912]:
+              - generic [ref=e914]:
+                - generic [ref=e915]: Value Set Available
+                - img [ref=e916]
+              - img "kr-flag" [ref=e919]
+              - button "" [ref=e920]:
+                - generic [ref=e922]: 
+            - generic [ref=e923]:
+              - generic [ref=e924]:
+                - generic [ref=e925]: FLASH SALE
+                - generic [ref=e926]: SKIN1004 - Madagascar Centella Hyalu-Cica Water-Fit Sun Serum Mini
+              - generic [ref=e927]: ₩ 7,272₩ 11,312
+              - generic [ref=e928]:
+                - generic [ref=e929]:
+                  - text: 
+                  - generic [ref=e930]: 
+                - generic [ref=e931]: 1,358
+            - generic [ref=e934]: 35% OFF
+            - generic [ref=e935]: "#36"
+          - 'link "kr-flag  FLASH SALE SKIN1004 - Madagascar Centella Tea-Trica Soothing Sun Milk ₩ 17,776₩ 24,240   1,752 26% OFF #37" [ref=e936] [cursor=pointer]':
+            - /url: /en/skin1004-madagascar-centella-tea-trica-soothing-sun-milk-50ml/info.html/pid.1129356821
+            - generic [ref=e937]:
+              - img "kr-flag" [ref=e939]
+              - button "" [ref=e940]:
+                - generic [ref=e942]: 
+            - generic [ref=e943]:
+              - generic [ref=e944]:
+                - generic [ref=e945]: FLASH SALE
+                - generic [ref=e946]: SKIN1004 - Madagascar Centella Tea-Trica Soothing Sun Milk
+              - generic [ref=e947]: ₩ 17,776₩ 24,240
+              - generic [ref=e948]:
+                - generic [ref=e949]:
+                  - text: 
+                  - generic [ref=e950]: 
+                - generic [ref=e951]: 1,752
+            - generic [ref=e954]: 26% OFF
+            - generic [ref=e955]: "#37"
+          - 'link "kr-flag  FLASH SALE SKIN1004 - Madagascar Centella Poremizing Velvet Finish Sunscreen ₩ 20,572₩ 25,210   692 18% OFF #38" [ref=e956] [cursor=pointer]':
+            - /url: /en/skin1004-madagascar-centella-poremizing-velvet-finish-sunscreen-50ml/info.html/pid.1134308336
+            - generic [ref=e957]:
+              - img "kr-flag" [ref=e959]
+              - button "" [ref=e960]:
+                - generic [ref=e962]: 
+            - generic [ref=e963]:
+              - generic [ref=e964]:
+                - generic [ref=e965]: FLASH SALE
+                - generic [ref=e966]: SKIN1004 - Madagascar Centella Poremizing Velvet Finish Sunscreen
+              - generic [ref=e967]: ₩ 20,572₩ 25,210
+              - generic [ref=e968]:
+                - generic [ref=e969]:
+                  - text: 
+                  - generic [ref=e970]: 
+                - generic [ref=e971]: "692"
+            - generic [ref=e974]: 18% OFF
+            - generic [ref=e975]: "#38"
+          - 'link "kr-flag  FLASH SALE Dr. Althea - Green Tea Fresh Sunscreen ₩ 27,343₩ 32,158   766 14% OFF #39" [ref=e976] [cursor=pointer]':
+            - /url: /en/dr-althea-green-tea-fresh-sunscreen-45ml/info.html/pid.1134189295
+            - generic [ref=e977]:
+              - img "kr-flag" [ref=e979]
+              - button "" [ref=e980]:
+                - generic [ref=e982]: 
+            - generic [ref=e983]:
+              - generic [ref=e984]:
+                - generic [ref=e985]: FLASH SALE
+                - generic [ref=e986]: Dr. Althea - Green Tea Fresh Sunscreen
+              - generic [ref=e987]: ₩ 27,343₩ 32,158
+              - generic [ref=e988]:
+                - generic [ref=e989]:
+                  - text: 
+                  - generic [ref=e990]: 
+                - generic [ref=e991]: "766"
+            - generic [ref=e994]: 14% OFF
+            - generic [ref=e995]: "#39"
+          - 'link "kr-flag  SKIN1004 - Madagascar Centella Hyalu-Cica Silky-Fit Sun Stick Bundle Set ₩ 34,356₩ 45,571 24% OFF #40" [ref=e996] [cursor=pointer]':
+            - /url: /en/skin1004-madagascar-centella-hyalu-cica-silky-fit-sun-stick-bundle/info.html/pid.1136792745
+            - generic [ref=e997]:
+              - img "kr-flag" [ref=e999]
+              - button "" [ref=e1000]:
+                - generic [ref=e1002]: 
+            - generic [ref=e1003]:
+              - generic [ref=e1006]: SKIN1004 - Madagascar Centella Hyalu-Cica Silky-Fit Sun Stick Bundle Set
+              - generic [ref=e1007]: ₩ 34,356₩ 45,571
+            - generic [ref=e1010]: 24% OFF
+            - generic [ref=e1011]: "#40"
+          - 'link "kr-flag  FLASH SALE AXIS-Y - 9-Step Sachet Bundle Set ₩ 1,584₩ 7,191 77% OFF #41" [ref=e1012] [cursor=pointer]':
+            - /url: /en/axis-y-9-step-sachet-bundle-set-9-pcs/info.html/pid.1135562040
+            - generic [ref=e1013]:
+              - img "kr-flag" [ref=e1015]
+              - button "" [ref=e1016]:
+                - generic [ref=e1018]: 
+            - generic [ref=e1019]:
+              - generic [ref=e1020]:
+                - generic [ref=e1021]: FLASH SALE
+                - generic [ref=e1022]: AXIS-Y - 9-Step Sachet Bundle Set
+              - generic [ref=e1023]: ₩ 1,584₩ 7,191
+            - generic [ref=e1026]: 77% OFF
+            - generic [ref=e1027]: "#41"
+          - 'link "Value Set Available kr-flag  FLASH SALE Isntree - Hyaluronic Acid Watery Sun Gel Set ₩ 47,397₩ 63,186   664 24% OFF #42" [ref=e1028] [cursor=pointer]':
+            - /url: /en/isntree-hyaluronic-acid-watery-sun-gel-set-50ml-x-2-pcs/info.html/pid.1121230665
+            - generic [ref=e1029]:
+              - generic [ref=e1031]:
+                - generic [ref=e1032]: Value Set Available
+                - img [ref=e1033]
+              - img "kr-flag" [ref=e1036]
+              - button "" [ref=e1037]:
+                - generic [ref=e1039]: 
+            - generic [ref=e1040]:
+              - generic [ref=e1041]:
+                - generic [ref=e1042]: FLASH SALE
+                - generic [ref=e1043]: Isntree - Hyaluronic Acid Watery Sun Gel Set
+              - generic [ref=e1044]: ₩ 47,397₩ 63,186
+              - generic [ref=e1045]:
+                - generic [ref=e1046]:
+                  - text: 
+                  - generic [ref=e1047]: 
+                - generic [ref=e1048]: "664"
+            - generic [ref=e1051]: 24% OFF
+            - generic [ref=e1052]: "#42"
+          - 'link "kr-flag  FLASH SALE celimax - Oil Control Light Sunscreen ₩ 20,362₩ 22,947   1,726 11% OFF #43" [ref=e1053] [cursor=pointer]':
+            - /url: /en/celimax-oil-control-light-sunscreen-40ml/info.html/pid.1127281051
+            - generic [ref=e1054]:
+              - img "kr-flag" [ref=e1056]
+              - button "" [ref=e1057]:
+                - generic [ref=e1059]: 
+            - generic [ref=e1060]:
+              - generic [ref=e1061]:
+                - generic [ref=e1062]: FLASH SALE
+                - generic [ref=e1063]: celimax - Oil Control Light Sunscreen
+              - generic [ref=e1064]: ₩ 20,362₩ 22,947
+              - generic [ref=e1065]:
+                - generic [ref=e1066]:
+                  - text: 
+                  - generic [ref=e1067]: 
+                - generic [ref=e1068]: 1,726
+            - generic [ref=e1071]: 11% OFF
+            - generic [ref=e1072]: "#43"
+          - 'link "kr-flag  NEW haruharu wonder - Black Rice Moisture Airyfit Sunscreen Bundle Set ₩ 43,939₩ 51,389 14% OFF #44" [ref=e1073] [cursor=pointer]':
+            - /url: /en/haruharu-wonder-black-rice-moisture-airyfit-sunscreen-bundle-set-2/info.html/pid.1137150344
+            - generic [ref=e1074]:
+              - img "kr-flag" [ref=e1076]
+              - button "" [ref=e1077]:
+                - generic [ref=e1079]: 
+            - generic [ref=e1080]:
+              - generic [ref=e1081]:
+                - generic [ref=e1082]: NEW
+                - generic [ref=e1083]: haruharu wonder - Black Rice Moisture Airyfit Sunscreen Bundle Set
+              - generic [ref=e1084]: ₩ 43,939₩ 51,389
+            - generic [ref=e1087]: 14% OFF
+            - generic [ref=e1088]: "#44"
+          - 'link "kr-flag  NEW House of Hur - Weightless Sun Fluid Bundle Set ₩ 32,821₩ 49,450 33% OFF #45" [ref=e1089] [cursor=pointer]':
+            - /url: /en/house-of-hur-weightless-sun-fluid-bundle-set-2-pcs/info.html/pid.1137159397
+            - generic [ref=e1090]:
+              - img "kr-flag" [ref=e1092]
+              - button "" [ref=e1093]:
+                - generic [ref=e1095]: 
+            - generic [ref=e1096]:
+              - generic [ref=e1097]:
+                - generic [ref=e1098]: NEW
+                - generic [ref=e1099]: House of Hur - Weightless Sun Fluid Bundle Set
+              - generic [ref=e1100]: ₩ 32,821₩ 49,450
+            - generic [ref=e1103]: 33% OFF
+            - generic [ref=e1104]: "#45"
+          - 'link "Value Set Available kr-flag  FLASH SALE AXIS-Y - Complete No-Stress Physical Sunscreen (V3) OTC Version ₩ 22,543₩ 25,048   1,087 10% OFF #46" [ref=e1105] [cursor=pointer]':
+            - /url: /en/axis-y-complete-no-stress-physical-sunscreen-v3-otc-version-50ml/info.html/pid.1129710923
+            - generic [ref=e1106]:
+              - generic [ref=e1108]:
+                - generic [ref=e1109]: Value Set Available
+                - img [ref=e1110]
+              - img "kr-flag" [ref=e1113]
+              - button "" [ref=e1114]:
+                - generic [ref=e1116]: 
+            - generic [ref=e1117]:
+              - generic [ref=e1118]:
+                - generic [ref=e1119]: FLASH SALE
+                - generic [ref=e1120]: AXIS-Y - Complete No-Stress Physical Sunscreen (V3) OTC Version
+              - generic [ref=e1121]: ₩ 22,543₩ 25,048
+              - generic [ref=e1122]:
+                - generic [ref=e1123]:
+                  - text: 
+                  - generic [ref=e1124]: 
+                - generic [ref=e1125]: 1,087
+            - generic [ref=e1128]: 10% OFF
+            - generic [ref=e1129]: "#46"
+          - 'link "Value Set Available kr-flag  FLASH SALE ROUND LAB - Camellia Deep Collagen Firming Sun Serum ₩ 16,402₩ 23,432   1,162 30% OFF #47" [ref=e1130] [cursor=pointer]':
+            - /url: /en/round-lab-camellia-deep-collagen-firming-sun-serum-50ml/info.html/pid.1134196805
+            - generic [ref=e1131]:
+              - generic [ref=e1133]:
+                - generic [ref=e1134]: Value Set Available
+                - img [ref=e1135]
+              - img "kr-flag" [ref=e1138]
+              - button "" [ref=e1139]:
+                - generic [ref=e1141]: 
+            - generic [ref=e1142]:
+              - generic [ref=e1143]:
+                - generic [ref=e1144]: FLASH SALE
+                - generic [ref=e1145]: ROUND LAB - Camellia Deep Collagen Firming Sun Serum
+              - generic [ref=e1146]: ₩ 16,402₩ 23,432
+              - generic [ref=e1147]:
+                - generic [ref=e1148]:
+                  - text: 
+                  - generic [ref=e1149]: 
+                - generic [ref=e1150]: 1,162
+            - generic [ref=e1153]: 30% OFF
+            - generic [ref=e1154]: "#47"
+          - 'link "kr-flag  FLASH SALE SKIN1004 - Madagascar Centella Tone Brightening Tone Up Sunscreen ₩ 19,392₩ 25,210   380 23% OFF #48" [ref=e1155] [cursor=pointer]':
+            - /url: /en/skin1004-madagascar-centella-tone-brightening-tone-up-sunscreen-50ml/info.html/pid.1113888111
+            - generic [ref=e1156]:
+              - img "kr-flag" [ref=e1158]
+              - button "" [ref=e1159]:
+                - generic [ref=e1161]: 
+            - generic [ref=e1162]:
+              - generic [ref=e1163]:
+                - generic [ref=e1164]: FLASH SALE
+                - generic [ref=e1165]: SKIN1004 - Madagascar Centella Tone Brightening Tone Up Sunscreen
+              - generic [ref=e1166]: ₩ 19,392₩ 25,210
+              - generic [ref=e1167]:
+                - generic [ref=e1168]:
+                  - text: 
+                  - generic [ref=e1169]: 
+                - generic [ref=e1170]: "380"
+            - generic [ref=e1173]: 23% OFF
+            - generic [ref=e1174]: "#48"
+          - 'link "kr-flag  FLASH SALE House of Hur - Tropical Dew Sun Cream ₩ 17,275₩ 25,371   685 31% OFF #49" [ref=e1175] [cursor=pointer]':
+            - /url: /en/house-of-hur-tropical-dew-sun-cream-50ml/info.html/pid.1134237646
+            - generic [ref=e1176]:
+              - img "kr-flag" [ref=e1178]
+              - button "" [ref=e1179]:
+                - generic [ref=e1181]: 
+            - generic [ref=e1182]:
+              - generic [ref=e1183]:
+                - generic [ref=e1184]: FLASH SALE
+                - generic [ref=e1185]: House of Hur - Tropical Dew Sun Cream
+              - generic [ref=e1186]: ₩ 17,275₩ 25,371
+              - generic [ref=e1187]:
+                - generic [ref=e1188]:
+                  - text: 
+                  - generic [ref=e1189]: 
+                - generic [ref=e1190]: "685"
+            - generic [ref=e1193]: 31% OFF
+            - generic [ref=e1194]: "#49"
+          - 'link "kr-flag  FLASH SALE APLB - Glutathione Niacinamide Sunscreen ₩ 8,322₩ 16,645   1,844 50% OFF #50" [ref=e1195] [cursor=pointer]':
+            - /url: /en/aplb-glutathione-niacinamide-sunscreen-40ml/info.html/pid.1122949321
+            - generic [ref=e1196]:
+              - img "kr-flag" [ref=e1198]
+              - button "" [ref=e1199]:
+                - generic [ref=e1201]: 
+            - generic [ref=e1202]:
+              - generic [ref=e1203]:
+                - generic [ref=e1204]: FLASH SALE
+                - generic [ref=e1205]: APLB - Glutathione Niacinamide Sunscreen
+              - generic [ref=e1206]: ₩ 8,322₩ 16,645
+              - generic [ref=e1207]:
+                - generic [ref=e1208]:
+                  - text: 
+                  - generic [ref=e1209]: 
+                - generic [ref=e1210]: 1,844
+            - generic [ref=e1213]: 50% OFF
+            - generic [ref=e1214]: "#50"
+          - 'link "kr-flag  FLASH SALE TOCOBO - Cica Calming Sun Serum ₩ 20,071₩ 22,301   1,887 10% OFF #51" [ref=e1215] [cursor=pointer]':
+            - /url: /en/tocobo-cica-calming-sun-serum-50ml/info.html/pid.1129159958
+            - generic [ref=e1216]:
+              - img "kr-flag" [ref=e1218]
+              - button "" [ref=e1219]:
+                - generic [ref=e1221]: 
+            - generic [ref=e1222]:
+              - generic [ref=e1223]:
+                - generic [ref=e1224]: FLASH SALE
+                - generic [ref=e1225]: TOCOBO - Cica Calming Sun Serum
+              - generic [ref=e1226]: ₩ 20,071₩ 22,301
+              - generic [ref=e1227]:
+                - generic [ref=e1228]:
+                  - text: 
+                  - generic [ref=e1229]: 
+                - generic [ref=e1230]: 1,887
+            - generic [ref=e1233]: 10% OFF
+            - generic [ref=e1234]: "#51"
+          - 'link "kr-flag  TOCOBO - Cotton Soft Sun Stick Bundle Set ₩ 39,511₩ 46,218   5,594 14% OFF #52" [ref=e1235] [cursor=pointer]':
+            - /url: /en/tocobo-cotton-soft-sun-stick-bundle-set-2-pcs/info.html/pid.1134977388
+            - generic [ref=e1236]:
+              - img "kr-flag" [ref=e1238]
+              - button "" [ref=e1239]:
+                - generic [ref=e1241]: 
+            - generic [ref=e1242]:
+              - generic [ref=e1245]: TOCOBO - Cotton Soft Sun Stick Bundle Set
+              - generic [ref=e1246]: ₩ 39,511₩ 46,218
+              - generic [ref=e1247]:
+                - generic [ref=e1248]:
+                  - text: 
+                  - generic [ref=e1249]: 
+                - generic [ref=e1250]: 5,594
+            - generic [ref=e1253]: 14% OFF
+            - generic [ref=e1254]: "#52"
+          - 'link "kr-flag  FLASH SALE SKIN1004 - Madagascar Centella Probio-Cica Glow Sun Ampoule ₩ 19,392₩ 24,240   1,181 20% OFF #53" [ref=e1255] [cursor=pointer]':
+            - /url: /en/skin1004-madagascar-centella-probio-cica-glow-sun-ampoule-50ml/info.html/pid.1129962267
+            - generic [ref=e1256]:
+              - img "kr-flag" [ref=e1258]
+              - button "" [ref=e1259]:
+                - generic [ref=e1261]: 
+            - generic [ref=e1262]:
+              - generic [ref=e1263]:
+                - generic [ref=e1264]: FLASH SALE
+                - generic [ref=e1265]: SKIN1004 - Madagascar Centella Probio-Cica Glow Sun Ampoule
+              - generic [ref=e1266]: ₩ 19,392₩ 24,240
+              - generic [ref=e1267]:
+                - generic [ref=e1268]:
+                  - text: 
+                  - generic [ref=e1269]: 
+                - generic [ref=e1270]: 1,181
+            - generic [ref=e1273]: 20% OFF
+            - generic [ref=e1274]: "#53"
+          - 'link "jp-flag  MOST POPULAR Kao - Biore UV Aqua Rich Aqua Protect Mist SPF 50 PA++++ ₩ 17,711₩ 22,139   409 20% OFF #54" [ref=e1275] [cursor=pointer]':
+            - /url: /en/kao-biore-uv-aqua-rich-aqua-protect-mist-spf-50-pa/info.html/pid.1122975387
+            - generic [ref=e1276]:
+              - img "jp-flag" [ref=e1278]
+              - button "" [ref=e1279]:
+                - generic [ref=e1281]: 
+            - generic [ref=e1282]:
+              - generic [ref=e1283]:
+                - generic [ref=e1284]: MOST POPULAR
+                - generic [ref=e1285]: Kao - Biore UV Aqua Rich Aqua Protect Mist SPF 50 PA++++
+              - generic [ref=e1286]: ₩ 17,711₩ 22,139
+              - generic [ref=e1287]:
+                - generic [ref=e1288]:
+                  - text: 
+                  - generic [ref=e1289]: 
+                - generic [ref=e1290]: "409"
+            - generic [ref=e1293]: 20% OFF
+            - generic [ref=e1294]: "#54"
+          - 'link "kr-flag  FLASH SALE NINELESS - Mela-Pro Tranexamic Acid Sun Screen ₩ 22,543₩ 25,048   654 10% OFF #55" [ref=e1295] [cursor=pointer]':
+            - /url: /en/nineless-mela-pro-tranexamic-acid-sun-screen-100ml/info.html/pid.1128594961
+            - generic [ref=e1296]:
+              - img "kr-flag" [ref=e1298]
+              - button "" [ref=e1299]:
+                - generic [ref=e1301]: 
+            - generic [ref=e1302]:
+              - generic [ref=e1303]:
+                - generic [ref=e1304]: FLASH SALE
+                - generic [ref=e1305]: NINELESS - Mela-Pro Tranexamic Acid Sun Screen
+              - generic [ref=e1306]: ₩ 22,543₩ 25,048
+              - generic [ref=e1307]:
+                - generic [ref=e1308]:
+                  - text: 
+                  - generic [ref=e1309]: 
+                - generic [ref=e1310]: "654"
+            - generic [ref=e1313]: 10% OFF
+            - generic [ref=e1314]: "#55"
+          - 'link "jp-flag  MOST POPULAR Rohto Mentholatum - Skin Aqua Super Moisture UV Gel SPF 50+ PA++++ ₩ 21,848₩ 27,310   966 20% OFF #56" [ref=e1315] [cursor=pointer]':
+            - /url: /en/rohto-mentholatum-skin-aqua-super-moisture-uv-gel-spf-50-pa-165g/info.html/pid.1123768116
+            - generic [ref=e1316]:
+              - img "jp-flag" [ref=e1318]
+              - button "" [ref=e1319]:
+                - generic [ref=e1321]: 
+            - generic [ref=e1322]:
+              - generic [ref=e1323]:
+                - generic [ref=e1324]: MOST POPULAR
+                - generic [ref=e1325]: Rohto Mentholatum - Skin Aqua Super Moisture UV Gel SPF 50+ PA++++
+              - generic [ref=e1326]: ₩ 21,848₩ 27,310
+              - generic [ref=e1327]:
+                - generic [ref=e1328]:
+                  - text: 
+                  - generic [ref=e1329]: 
+                - generic [ref=e1330]: "966"
+            - generic [ref=e1333]: 20% OFF
+            - generic [ref=e1334]: "#56"
+          - 'link "kr-flag  FLASH SALE Abib - Airy Sunstick Smoothing Bar ₩ 20,556₩ 25,694   1,109 20% OFF #57" [ref=e1335] [cursor=pointer]':
+            - /url: /en/abib-airy-sunstick-smoothing-bar-23g/info.html/pid.1130755233
+            - generic [ref=e1336]:
+              - img "kr-flag" [ref=e1338]
+              - button "" [ref=e1339]:
+                - generic [ref=e1341]: 
+            - generic [ref=e1342]:
+              - generic [ref=e1343]:
+                - generic [ref=e1344]: FLASH SALE
+                - generic [ref=e1345]: Abib - Airy Sunstick Smoothing Bar
+              - generic [ref=e1346]: ₩ 20,556₩ 25,694
+              - generic [ref=e1347]:
+                - generic [ref=e1348]:
+                  - text: 
+                  - generic [ref=e1349]: 
+                - generic [ref=e1350]: 1,109
+            - generic [ref=e1353]: 20% OFF
+            - generic [ref=e1354]: "#57"
+          - 'link "kr-flag  FLASH SALE Isntree - Hyaluronic Acid Watery Sun Gel (Unbox Version) ₩ 18,228₩ 22,786   6 20% OFF #58" [ref=e1355] [cursor=pointer]':
+            - /url: /en/isntree-hyaluronic-acid-watery-sun-gel-unbox-version-new-version-50ml/info.html/pid.1137232470
+            - generic [ref=e1356]:
+              - img "kr-flag" [ref=e1358]
+              - button "" [ref=e1359]:
+                - generic [ref=e1361]: 
+            - generic [ref=e1362]:
+              - generic [ref=e1363]:
+                - generic [ref=e1364]: FLASH SALE
+                - generic [ref=e1365]: Isntree - Hyaluronic Acid Watery Sun Gel (Unbox Version)
+              - generic [ref=e1366]: ₩ 18,228₩ 22,786
+              - generic [ref=e1367]:
+                - generic [ref=e1368]:
+                  - text: 
+                  - generic [ref=e1369]: 
+                - generic [ref=e1370]: "6"
+            - generic [ref=e1373]: 20% OFF
+            - generic [ref=e1374]: "#58"
+          - 'link "kr-flag  FLASH SALE iUNIK - Beta-Glucan Barrier Sunscreen ₩ 23,755₩ 28,442   1,167 16% OFF #59" [ref=e1375] [cursor=pointer]':
+            - /url: /en/iunik-beta-glucan-barrier-sunscreen-60ml/info.html/pid.1134188767
+            - generic [ref=e1376]:
+              - img "kr-flag" [ref=e1378]
+              - button "" [ref=e1379]:
+                - generic [ref=e1381]: 
+            - generic [ref=e1382]:
+              - generic [ref=e1383]:
+                - generic [ref=e1384]: FLASH SALE
+                - generic [ref=e1385]: iUNIK - Beta-Glucan Barrier Sunscreen
+              - generic [ref=e1386]: ₩ 23,755₩ 28,442
+              - generic [ref=e1387]:
+                - generic [ref=e1388]:
+                  - text: 
+                  - generic [ref=e1389]: 
+                - generic [ref=e1390]: 1,167
+            - generic [ref=e1393]: 16% OFF
+            - generic [ref=e1394]: "#59"
+          - 'link "kr-flag  NEW SKIN1004 - Madagascar Centella Air Fit Suncream Light Bundle Set ₩ 33,063₩ 50,419 34% OFF #60" [ref=e1395] [cursor=pointer]':
+            - /url: /en/skin1004-madagascar-centella-air-fit-suncream-light-bundle-set-2-pcs/info.html/pid.1137154809
+            - generic [ref=e1396]:
+              - img "kr-flag" [ref=e1398]
+              - button "" [ref=e1399]:
+                - generic [ref=e1401]: 
+            - generic [ref=e1402]:
+              - generic [ref=e1403]:
+                - generic [ref=e1404]: NEW
+                - generic [ref=e1405]: SKIN1004 - Madagascar Centella Air Fit Suncream Light Bundle Set
+              - generic [ref=e1406]: ₩ 33,063₩ 50,419
+            - generic [ref=e1409]: 34% OFF
+            - generic [ref=e1410]: "#60"
+          - 'link "Value Set Available kr-flag  FLASH SALE Anua - Zero-Cast Moisturizing Finish Sunscreen ₩ 24,563₩ 25,856   1,380 5% OFF #61" [ref=e1411] [cursor=pointer]':
+            - /url: /en/anua-zero-cast-moisturizing-finish-sunscreen-50ml/info.html/pid.1134328484
+            - generic [ref=e1412]:
+              - generic [ref=e1414]:
+                - generic [ref=e1415]: Value Set Available
+                - img [ref=e1416]
+              - img "kr-flag" [ref=e1419]
+              - button "" [ref=e1420]:
+                - generic [ref=e1422]: 
+            - generic [ref=e1423]:
+              - generic [ref=e1424]:
+                - generic [ref=e1425]: FLASH SALE
+                - generic [ref=e1426]: Anua - Zero-Cast Moisturizing Finish Sunscreen
+              - generic [ref=e1427]: ₩ 24,563₩ 25,856
+              - generic [ref=e1428]:
+                - generic [ref=e1429]:
+                  - text: 
+                  - generic [ref=e1430]: 
+                - generic [ref=e1431]: 1,380
+            - generic [ref=e1434]: 5% OFF
+            - generic [ref=e1435]: "#61"
+          - 'link "kr-flag  FLASH SALE SCINIC - Enjoy Super Mild Sun Essence ₩ 13,962₩ 15,514   2,114 10% OFF #62" [ref=e1436] [cursor=pointer]':
+            - /url: /en/scinic-enjoy-super-mild-sun-essence-50ml/info.html/pid.1120488333
+            - generic [ref=e1437]:
+              - img "kr-flag" [ref=e1439]
+              - button "" [ref=e1440]:
+                - generic [ref=e1442]: 
+            - generic [ref=e1443]:
+              - generic [ref=e1444]:
+                - generic [ref=e1445]: FLASH SALE
+                - generic [ref=e1446]: SCINIC - Enjoy Super Mild Sun Essence
+              - generic [ref=e1447]: ₩ 13,962₩ 15,514
+              - generic [ref=e1448]:
+                - generic [ref=e1449]:
+                  - text: 
+                  - generic [ref=e1450]: 
+                - generic [ref=e1451]: 2,114
+            - generic [ref=e1454]: 10% OFF
+            - generic [ref=e1455]: "#62"
+          - 'link "kr-flag  NEW celimax - Pore+ Dark Spot Brightening Care Sunscreen Bundle Set ₩ 32,239₩ 44,925 28% OFF #63" [ref=e1456] [cursor=pointer]':
+            - /url: /en/celimax-pore-dark-spot-brightening-care-sunscreen-bundle-set-2-pcs/info.html/pid.1137150355
+            - generic [ref=e1457]:
+              - img "kr-flag" [ref=e1459]
+              - button "" [ref=e1460]:
+                - generic [ref=e1462]: 
+            - generic [ref=e1463]:
+              - generic [ref=e1464]:
+                - generic [ref=e1465]: NEW
+                - generic [ref=e1466]: celimax - Pore+ Dark Spot Brightening Care Sunscreen Bundle Set
+              - generic [ref=e1467]: ₩ 32,239₩ 44,925
+            - generic [ref=e1470]: 28% OFF
+            - generic [ref=e1471]: "#63"
+          - 'link "Value Set Available kr-flag  FLASH SALE Dr.G - Green Mild Up Sun+ Jumbo ₩ 32,805₩ 46,864   838 30% OFF #64" [ref=e1472] [cursor=pointer]':
+            - /url: /en/dr-g-green-mild-up-sun-jumbo-50ml/info.html/pid.1066131843
+            - generic [ref=e1473]:
+              - generic [ref=e1475]:
+                - generic [ref=e1476]: Value Set Available
+                - img [ref=e1477]
+              - img "kr-flag" [ref=e1480]
+              - button "" [ref=e1481]:
+                - generic [ref=e1483]: 
+            - generic [ref=e1484]:
+              - generic [ref=e1485]:
+                - generic [ref=e1486]: FLASH SALE
+                - generic [ref=e1487]: Dr.G - Green Mild Up Sun+ Jumbo
+              - generic [ref=e1488]: ₩ 32,805₩ 46,864
+              - generic [ref=e1489]:
+                - generic [ref=e1490]:
+                  - text: 
+                  - generic [ref=e1491]: 
+                - generic [ref=e1492]: "838"
+            - generic [ref=e1495]: 30% OFF
+            - generic [ref=e1496]: "#64"
+          - 'link "kr-flag  FLASH SALE Abib - Quick Sunstick Protection Bar ₩ 24,418₩ 25,694   734 4.9% OFF #65" [ref=e1497] [cursor=pointer]':
+            - /url: /en/abib-quick-sunstick-protection-bar-22g/info.html/pid.1133641486
+            - generic [ref=e1498]:
+              - img "kr-flag" [ref=e1500]
+              - button "" [ref=e1501]:
+                - generic [ref=e1503]: 
+            - generic [ref=e1504]:
+              - generic [ref=e1505]:
+                - generic [ref=e1506]: FLASH SALE
+                - generic [ref=e1507]: Abib - Quick Sunstick Protection Bar
+              - generic [ref=e1508]: ₩ 24,418₩ 25,694
+              - generic [ref=e1509]:
+                - generic [ref=e1510]:
+                  - text: 
+                  - generic [ref=e1511]: 
+                - generic [ref=e1512]: "734"
+            - generic [ref=e1515]: 4.9% OFF
+            - generic [ref=e1516]: "#65"
+          - 'link "Value Set Available kr-flag  FLASH SALE Anua - Heartleaf Silky Moisture Sun Cream ₩ 22,689₩ 25,210   2,898 10% OFF #66" [ref=e1517] [cursor=pointer]':
+            - /url: /en/anua-heartleaf-silky-moisture-sun-cream-50ml/info.html/pid.1135246649
+            - generic [ref=e1518]:
+              - generic [ref=e1520]:
+                - generic [ref=e1521]: Value Set Available
+                - img [ref=e1522]
+              - img "kr-flag" [ref=e1525]
+              - button "" [ref=e1526]:
+                - generic [ref=e1528]: 
+            - generic [ref=e1529]:
+              - generic [ref=e1530]:
+                - generic [ref=e1531]: FLASH SALE
+                - generic [ref=e1532]: Anua - Heartleaf Silky Moisture Sun Cream
+              - generic [ref=e1533]: ₩ 22,689₩ 25,210
+              - generic [ref=e1534]:
+                - generic [ref=e1535]:
+                  - text: 
+                  - generic [ref=e1536]: 
+                - generic [ref=e1537]: 2,898
+            - generic [ref=e1540]: 10% OFF
+            - generic [ref=e1541]: "#66"
+          - 'link "kr-flag  FLASH SALE SKIN1004 - Madagascar Centella Hyalu-Cica Water-Fit Sun Serum UV OTC Version ₩ 21,816₩ 24,240 10% OFF #67" [ref=e1542] [cursor=pointer]':
+            - /url: /en/skin1004-madagascar-centella-hyalu-cica-water-fit-sun-serum-uv-otc/info.html/pid.1137051083
+            - generic [ref=e1543]:
+              - img "kr-flag" [ref=e1545]
+              - button "" [ref=e1546]:
+                - generic [ref=e1548]: 
+            - generic [ref=e1549]:
+              - generic [ref=e1550]:
+                - generic [ref=e1551]: FLASH SALE
+                - generic [ref=e1552]: SKIN1004 - Madagascar Centella Hyalu-Cica Water-Fit Sun Serum UV OTC Version
+              - generic [ref=e1553]: ₩ 21,816₩ 24,240
+            - generic [ref=e1556]: 10% OFF
+            - generic [ref=e1557]: "#67"
+          - 'link "kr-flag  MOST POPULAR HOLIKA HOLIKA - Aloe Waterproof Sun Cream ₩ 18,035₩ 20,038   38 10% OFF #68" [ref=e1558] [cursor=pointer]':
+            - /url: /en/holika-holika-aloe-waterproof-sun-cream-70ml/info.html/pid.1103143034
+            - generic [ref=e1559]:
+              - img "kr-flag" [ref=e1561]
+              - button "" [ref=e1562]:
+                - generic [ref=e1564]: 
+            - generic [ref=e1565]:
+              - generic [ref=e1566]:
+                - generic [ref=e1567]: MOST POPULAR
+                - generic [ref=e1568]: HOLIKA HOLIKA - Aloe Waterproof Sun Cream
+              - generic [ref=e1569]: ₩ 18,035₩ 20,038
+              - generic [ref=e1570]:
+                - generic [ref=e1571]:
+                  - text: 
+                  - generic [ref=e1572]: 
+                - generic [ref=e1573]: "38"
+            - generic [ref=e1576]: 10% OFF
+            - generic [ref=e1577]: "#68"
+          - 'link "kr-flag  Isntree - Hyaluronic Acid Watery Sun Gel Bundle Set ₩ 52,439₩ 78,861 33% OFF #69" [ref=e1578] [cursor=pointer]':
+            - /url: /en/isntree-hyaluronic-acid-watery-sun-gel-bundle-set-2-pcs/info.html/pid.1136792715
+            - generic [ref=e1579]:
+              - img "kr-flag" [ref=e1581]
+              - button "" [ref=e1582]:
+                - generic [ref=e1584]: 
+            - generic [ref=e1585]:
+              - generic [ref=e1588]: Isntree - Hyaluronic Acid Watery Sun Gel Bundle Set
+              - generic [ref=e1589]: ₩ 52,439₩ 78,861
+            - generic [ref=e1592]: 33% OFF
+            - generic [ref=e1593]: "#69"
+          - 'link "kr-flag  NEW celimax - Oil Control Mattifying Sun Stick Bundle Set ₩ 36,198₩ 42,339 14% OFF #70" [ref=e1594] [cursor=pointer]':
+            - /url: /en/celimax-oil-control-mattifying-sun-stick-bundle-set-2-pcs/info.html/pid.1137150354
+            - generic [ref=e1595]:
+              - img "kr-flag" [ref=e1597]
+              - button "" [ref=e1598]:
+                - generic [ref=e1600]: 
+            - generic [ref=e1601]:
+              - generic [ref=e1602]:
+                - generic [ref=e1603]: NEW
+                - generic [ref=e1604]: celimax - Oil Control Mattifying Sun Stick Bundle Set
+              - generic [ref=e1605]: ₩ 36,198₩ 42,339
+            - generic [ref=e1608]: 14% OFF
+            - generic [ref=e1609]: "#70"
+          - 'link "Value Set Available kr-flag  FLASH SALE ROUND LAB - Birch Juice Moisturizing Sun Stick ₩ 14,819₩ 21,170   957 30% OFF #71" [ref=e1610] [cursor=pointer]':
+            - /url: /en/round-lab-birch-juice-moisturizing-sun-stick-19g/info.html/pid.1123980109
+            - generic [ref=e1611]:
+              - generic [ref=e1613]:
+                - generic [ref=e1614]: Value Set Available
+                - img [ref=e1615]
+              - img "kr-flag" [ref=e1618]
+              - button "" [ref=e1619]:
+                - generic [ref=e1621]: 
+            - generic [ref=e1622]:
+              - generic [ref=e1623]:
+                - generic [ref=e1624]: FLASH SALE
+                - generic [ref=e1625]: ROUND LAB - Birch Juice Moisturizing Sun Stick
+              - generic [ref=e1626]: ₩ 14,819₩ 21,170
+              - generic [ref=e1627]:
+                - generic [ref=e1628]:
+                  - text: 
+                  - generic [ref=e1629]: 
+                - generic [ref=e1630]: "957"
+            - generic [ref=e1633]: 30% OFF
+            - generic [ref=e1634]: "#71"
+          - 'link "Value Set Available kr-flag  FLASH SALE SKIN1004 - Madagascar Centella Hyalu-Cica Silky-Fit Sun Stick Mini ₩ 12,653₩ 14,059   1,088 10% OFF #72" [ref=e1635] [cursor=pointer]':
+            - /url: /en/skin1004-madagascar-centella-hyalu-cica-silky-fit-sun-stick-mini-7g/info.html/pid.1126591857
+            - generic [ref=e1636]:
+              - generic [ref=e1638]:
+                - generic [ref=e1639]: Value Set Available
+                - img [ref=e1640]
+              - img "kr-flag" [ref=e1643]
+              - button "" [ref=e1644]:
+                - generic [ref=e1646]: 
+            - generic [ref=e1647]:
+              - generic [ref=e1648]:
+                - generic [ref=e1649]: FLASH SALE
+                - generic [ref=e1650]: SKIN1004 - Madagascar Centella Hyalu-Cica Silky-Fit Sun Stick Mini
+              - generic [ref=e1651]: ₩ 12,653₩ 14,059
+              - generic [ref=e1652]:
+                - generic [ref=e1653]:
+                  - text: 
+                  - generic [ref=e1654]: 
+                - generic [ref=e1655]: 1,088
+            - generic [ref=e1658]: 10% OFF
+            - generic [ref=e1659]: "#72"
+          - 'link "kr-flag  FLASH SALE TOCOBO - Vita Waterproof Sun Stick ₩ 22,398₩ 24,886   368 10% OFF #73" [ref=e1660] [cursor=pointer]':
+            - /url: /en/tocobo-vita-waterproof-sun-stick-18g/info.html/pid.1134090622
+            - generic [ref=e1661]:
+              - img "kr-flag" [ref=e1663]
+              - button "" [ref=e1664]:
+                - generic [ref=e1666]: 
+            - generic [ref=e1667]:
+              - generic [ref=e1668]:
+                - generic [ref=e1669]: FLASH SALE
+                - generic [ref=e1670]: TOCOBO - Vita Waterproof Sun Stick
+              - generic [ref=e1671]: ₩ 22,398₩ 24,886
+              - generic [ref=e1672]:
+                - generic [ref=e1673]:
+                  - text: 
+                  - generic [ref=e1674]: 
+                - generic [ref=e1675]: "368"
+            - generic [ref=e1678]: 10% OFF
+            - generic [ref=e1679]: "#73"
+          - 'link "kr-flag  FLASH SALE SKIN1004 - Sun Trial Kit ₩ 3,232₩ 8,080   537 60% OFF #74" [ref=e1680] [cursor=pointer]':
+            - /url: /en/skin1004-sun-trial-kit-1-5ml-x-5-pcs/info.html/pid.1134308335
+            - generic [ref=e1681]:
+              - img "kr-flag" [ref=e1683]
+              - button "" [ref=e1684]:
+                - generic [ref=e1686]: 
+            - generic [ref=e1687]:
+              - generic [ref=e1688]:
+                - generic [ref=e1689]: FLASH SALE
+                - generic [ref=e1690]: SKIN1004 - Sun Trial Kit
+              - generic [ref=e1691]: ₩ 3,232₩ 8,080
+              - generic [ref=e1692]:
+                - generic [ref=e1693]:
+                  - text: 
+                  - generic [ref=e1694]: 
+                - generic [ref=e1695]: "537"
+            - generic [ref=e1698]: 60% OFF
+            - generic [ref=e1699]: "#74"
+          - 'link "kr-flag  SKIN1004 - Madagascar Centella Air-Fit Suncream Plus Bundle Set ₩ 36,812₩ 49,773   1,846 26% OFF #75" [ref=e1700] [cursor=pointer]':
+            - /url: /en/skin1004-madagascar-centella-air-fit-suncream-plus-bundle-set-2-pcs/info.html/pid.1135502173
+            - generic [ref=e1701]:
+              - img "kr-flag" [ref=e1703]
+              - button "" [ref=e1704]:
+                - generic [ref=e1706]: 
+            - generic [ref=e1707]:
+              - generic [ref=e1710]: SKIN1004 - Madagascar Centella Air-Fit Suncream Plus Bundle Set
+              - generic [ref=e1711]: ₩ 36,812₩ 49,773
+              - generic [ref=e1712]:
+                - generic [ref=e1713]:
+                  - text: 
+                  - generic [ref=e1714]: 
+                - generic [ref=e1715]: 1,846
+            - generic [ref=e1718]: 26% OFF
+            - generic [ref=e1719]: "#75"
+          - 'link "Value Set Available kr-flag  FLASH SALE ROUND LAB - Birch Juice Moisturizing Tone Up Sunscreen ₩ 16,063₩ 22,947   414 30% OFF #76" [ref=e1720] [cursor=pointer]':
+            - /url: /en/round-lab-birch-juice-moisturizing-tone-up-sunscreen-50ml/info.html/pid.1123980111
+            - generic [ref=e1721]:
+              - generic [ref=e1723]:
+                - generic [ref=e1724]: Value Set Available
+                - img [ref=e1725]
+              - img "kr-flag" [ref=e1728]
+              - button "" [ref=e1729]:
+                - generic [ref=e1731]: 
+            - generic [ref=e1732]:
+              - generic [ref=e1733]:
+                - generic [ref=e1734]: FLASH SALE
+                - generic [ref=e1735]: ROUND LAB - Birch Juice Moisturizing Tone Up Sunscreen
+              - generic [ref=e1736]: ₩ 16,063₩ 22,947
+              - generic [ref=e1737]:
+                - generic [ref=e1738]:
+                  - text: 
+                  - generic [ref=e1739]: 
+                - generic [ref=e1740]: "414"
+            - generic [ref=e1743]: 30% OFF
+            - generic [ref=e1744]: "#76"
+          - 'link "kr-flag  COSRX - Aloe Soothing Sun Cream Bundle Set ₩ 30,187₩ 42,339   14,206 28% OFF #77" [ref=e1745] [cursor=pointer]':
+            - /url: /en/cosrx-aloe-soothing-sun-cream-bundle-set-2-pcs/info.html/pid.1135017798
+            - generic [ref=e1746]:
+              - img "kr-flag" [ref=e1748]
+              - button "" [ref=e1749]:
+                - generic [ref=e1751]: 
+            - generic [ref=e1752]:
+              - generic [ref=e1755]: COSRX - Aloe Soothing Sun Cream Bundle Set
+              - generic [ref=e1756]: ₩ 30,187₩ 42,339
+              - generic [ref=e1757]:
+                - generic [ref=e1758]:
+                  - text: 
+                  - generic [ref=e1759]: 
+                - generic [ref=e1760]: 14,206
+            - generic [ref=e1763]: 28% OFF
+            - generic [ref=e1764]: "#77"
+          - 'link "kr-flag  FLASH SALE Purito SEOUL - Wonder Releaf Centella Daily Sun Lotion ₩ 16,289₩ 25,048   1,211 34% OFF #78" [ref=e1765] [cursor=pointer]':
+            - /url: /en/purito-seoul-wonder-releaf-centella-daily-sun-lotion-60ml/info.html/pid.1127917340
+            - generic [ref=e1766]:
+              - img "kr-flag" [ref=e1768]
+              - button "" [ref=e1769]:
+                - generic [ref=e1771]: 
+            - generic [ref=e1772]:
+              - generic [ref=e1773]:
+                - generic [ref=e1774]: FLASH SALE
+                - generic [ref=e1775]: Purito SEOUL - Wonder Releaf Centella Daily Sun Lotion
+              - generic [ref=e1776]: ₩ 16,289₩ 25,048
+              - generic [ref=e1777]:
+                - generic [ref=e1778]:
+                  - text: 
+                  - generic [ref=e1779]: 
+                - generic [ref=e1780]: 1,211
+            - generic [ref=e1783]: 34% OFF
+            - generic [ref=e1784]: "#78"
+          - 'link "kr-flag  FLASH SALE Anua - Heartleaf 77 Soothing Toner 150ml ₩ 24,725₩ 27,472   30 10% OFF #79" [ref=e1785] [cursor=pointer]':
+            - /url: /en/anua-heartleaf-77-soothing-toner-150ml-150ml/info.html/pid.1135827639
+            - generic [ref=e1786]:
+              - img "kr-flag" [ref=e1788]
+              - button "" [ref=e1789]:
+                - generic [ref=e1791]: 
+            - generic [ref=e1792]:
+              - generic [ref=e1793]:
+                - generic [ref=e1794]: FLASH SALE
+                - generic [ref=e1795]: Anua - Heartleaf 77 Soothing Toner 150ml
+              - generic [ref=e1796]: ₩ 24,725₩ 27,472
+              - generic [ref=e1797]:
+                - generic [ref=e1798]:
+                  - text: 
+                  - generic [ref=e1799]: 
+                - generic [ref=e1800]: "30"
+            - generic [ref=e1803]: 10% OFF
+            - generic [ref=e1804]: "#79"
+          - 'link "kr-flag  FLASH SALE Dr. Althea - Aqua Glowing Sunscreen ₩ 27,343₩ 32,158   441 14% OFF #80" [ref=e1805] [cursor=pointer]':
+            - /url: /en/dr-althea-aqua-glowing-sunscreen-45ml/info.html/pid.1134189294
+            - generic [ref=e1806]:
+              - img "kr-flag" [ref=e1808]
+              - button "" [ref=e1809]:
+                - generic [ref=e1811]: 
+            - generic [ref=e1812]:
+              - generic [ref=e1813]:
+                - generic [ref=e1814]: FLASH SALE
+                - generic [ref=e1815]: Dr. Althea - Aqua Glowing Sunscreen
+              - generic [ref=e1816]: ₩ 27,343₩ 32,158
+              - generic [ref=e1817]:
+                - generic [ref=e1818]:
+                  - text: 
+                  - generic [ref=e1819]: 
+                - generic [ref=e1820]: "441"
+            - generic [ref=e1823]: 14% OFF
+            - generic [ref=e1824]: "#80"
+          - 'link "Value Set Available kr-flag  FLASH SALE Anua - Heartleaf Silky Moisture Mild Sunscreen OTC Version ₩ 16,144₩ 17,938   33 10% OFF #81" [ref=e1825] [cursor=pointer]':
+            - /url: /en/anua-heartleaf-silky-moisture-mild-sunscreen-otc-version-50ml/info.html/pid.1132931908
+            - generic [ref=e1826]:
+              - generic [ref=e1828]:
+                - generic [ref=e1829]: Value Set Available
+                - img [ref=e1830]
+              - img "kr-flag" [ref=e1833]
+              - button "" [ref=e1834]:
+                - generic [ref=e1836]: 
+            - generic [ref=e1837]:
+              - generic [ref=e1838]:
+                - generic [ref=e1839]: FLASH SALE
+                - generic [ref=e1840]: Anua - Heartleaf Silky Moisture Mild Sunscreen OTC Version
+              - generic [ref=e1841]: ₩ 16,144₩ 17,938
+              - generic [ref=e1842]:
+                - generic [ref=e1843]:
+                  - text: 
+                  - generic [ref=e1844]: 
+                - generic [ref=e1845]: "33"
+            - generic [ref=e1848]: 10% OFF
+            - generic [ref=e1849]: "#81"
+          - 'link "kr-flag  NEW mixsoon - Centella Sun Cream Bundle Set ₩ 28,732₩ 37,814 24% OFF #82" [ref=e1850] [cursor=pointer]':
+            - /url: /en/mixsoon-centella-sun-cream-bundle-set-2-pcs/info.html/pid.1137154830
+            - generic [ref=e1851]:
+              - img "kr-flag" [ref=e1853]
+              - button "" [ref=e1854]:
+                - generic [ref=e1856]: 
+            - generic [ref=e1857]:
+              - generic [ref=e1858]:
+                - generic [ref=e1859]: NEW
+                - generic [ref=e1860]: mixsoon - Centella Sun Cream Bundle Set
+              - generic [ref=e1861]: ₩ 28,732₩ 37,814
+            - generic [ref=e1864]: 24% OFF
+            - generic [ref=e1865]: "#82"
+          - 'link "Value Set Available kr-flag  FLASH SALE ROUND LAB - 1025 Dokdo Sunscreen ₩ 18,778₩ 26,826   433 30% OFF #83" [ref=e1866] [cursor=pointer]':
+            - /url: /en/round-lab-1025-dokdo-sunscreen-50ml/info.html/pid.1123980121
+            - generic [ref=e1867]:
+              - generic [ref=e1869]:
+                - generic [ref=e1870]: Value Set Available
+                - img [ref=e1871]
+              - img "kr-flag" [ref=e1874]
+              - button "" [ref=e1875]:
+                - generic [ref=e1877]: 
+            - generic [ref=e1878]:
+              - generic [ref=e1879]:
+                - generic [ref=e1880]: FLASH SALE
+                - generic [ref=e1881]: ROUND LAB - 1025 Dokdo Sunscreen
+              - generic [ref=e1882]: ₩ 18,778₩ 26,826
+              - generic [ref=e1883]:
+                - generic [ref=e1884]:
+                  - text: 
+                  - generic [ref=e1885]: 
+                - generic [ref=e1886]: "433"
+            - generic [ref=e1889]: 30% OFF
+            - generic [ref=e1890]: "#83"
+          - 'link "kr-flag  FLASH SALE TOCOBO - Blur Finish Sun Cushion - 2 Types ₩ 23,125₩ 25,694   826 10% OFF #84" [ref=e1891] [cursor=pointer]':
+            - /url: /en/tocobo-blur-finish-sun-cushion-2-types-00-pure/info.html/pid.1135146945
+            - generic [ref=e1892]:
+              - img "kr-flag" [ref=e1894]
+              - button "" [ref=e1895]:
+                - generic [ref=e1897]: 
+            - generic [ref=e1898]:
+              - generic [ref=e1899]:
+                - generic [ref=e1900]: FLASH SALE
+                - generic [ref=e1901]: TOCOBO - Blur Finish Sun Cushion - 2 Types
+              - generic [ref=e1902]: ₩ 23,125₩ 25,694
+              - generic [ref=e1903]:
+                - generic [ref=e1904]:
+                  - text: 
+                  - generic [ref=e1905]: 
+                - generic [ref=e1906]: "826"
+            - generic [ref=e1909]: 10% OFF
+            - generic [ref=e1910]: "#84"
+          - 'link "kr-flag  Trending New numbuzin - No.9 NAD Peptides Dewy Sun Essence ₩ 23,270₩ 29,088   2 20% OFF #85" [ref=e1911] [cursor=pointer]':
+            - /url: /en/numbuzin-no-9-nad-peptides-dewy-sun-essence-50ml/info.html/pid.1137331945
+            - generic [ref=e1912]:
+              - img "kr-flag" [ref=e1914]
+              - button "" [ref=e1915]:
+                - generic [ref=e1917]: 
+            - generic [ref=e1918]:
+              - generic [ref=e1919]:
+                - generic [ref=e1920]: Trending New
+                - generic [ref=e1921]: numbuzin - No.9 NAD Peptides Dewy Sun Essence
+              - generic [ref=e1922]: ₩ 23,270₩ 29,088
+              - generic [ref=e1923]:
+                - generic [ref=e1924]:
+                  - text: 
+                  - generic [ref=e1925]: 
+                - generic [ref=e1926]: "2"
+            - generic [ref=e1929]: 20% OFF
+            - generic [ref=e1930]: "#85"
+          - 'link "jp-flag  MOST POPULAR Shiseido - Anessa Perfect UV Sunscreen Skincare Milk SPF 50+ PA++++ 2024 Edition 60ml ₩ 27,795₩ 34,744 20% OFF #86" [ref=e1931] [cursor=pointer]':
+            - /url: /en/shiseido-anessa-perfect-uv-sunscreen-skincare-milk-spf-50-pa-2024/info.html/pid.1127278830
+            - generic [ref=e1932]:
+              - img "jp-flag" [ref=e1934]
+              - button "" [ref=e1935]:
+                - generic [ref=e1937]: 
+            - generic [ref=e1938]:
+              - generic [ref=e1939]:
+                - generic [ref=e1940]: MOST POPULAR
+                - generic [ref=e1941]: Shiseido - Anessa Perfect UV Sunscreen Skincare Milk SPF 50+ PA++++ 2024 Edition 60ml
+              - generic [ref=e1942]: ₩ 27,795₩ 34,744
+            - generic [ref=e1945]: 20% OFF
+            - generic [ref=e1946]: "#86"
+          - 'link "jp-flag  MOST POPULAR KUMANO COSME - Reihaku Hatomugi The UV Milky Gel SPF 31 PA+++ ₩ 22,576₩ 23,755   572 4.9% OFF #87" [ref=e1947] [cursor=pointer]':
+            - /url: /en/kumano-cosme-reihaku-hatomugi-the-uv-milky-gel-spf-31-pa-250ml/info.html/pid.1134433611
+            - generic [ref=e1948]:
+              - img "jp-flag" [ref=e1951]
+              - button "" [ref=e1952]:
+                - generic [ref=e1954]: 
+            - generic [ref=e1955]:
+              - generic [ref=e1956]:
+                - generic [ref=e1957]: MOST POPULAR
+                - generic [ref=e1958]: KUMANO COSME - Reihaku Hatomugi The UV Milky Gel SPF 31 PA+++
+              - generic [ref=e1959]: ₩ 22,576₩ 23,755
+              - generic [ref=e1960]:
+                - generic [ref=e1961]:
+                  - text: 
+                  - generic [ref=e1962]: 
+                - generic [ref=e1963]: "572"
+            - generic [ref=e1966]: 4.9% OFF
+            - generic [ref=e1967]: "#87"
+          - 'link "kr-flag  FLASH SALE A''PIEU - Pure Block Tone-Up Sun Base SPF50+ PA+++ 50ml ₩ 16,144₩ 17,938   962 10% OFF #88" [ref=e1968] [cursor=pointer]':
+            - /url: /en/apieu-pure-block-tone-up-sun-base-spf50-pa-50ml-50ml/info.html/pid.1054075390
+            - generic [ref=e1969]:
+              - img "kr-flag" [ref=e1971]
+              - button "" [ref=e1972]:
+                - generic [ref=e1974]: 
+            - generic [ref=e1975]:
+              - generic [ref=e1976]:
+                - generic [ref=e1977]: FLASH SALE
+                - generic [ref=e1978]: A'PIEU - Pure Block Tone-Up Sun Base SPF50+ PA+++ 50ml
+              - generic [ref=e1979]: ₩ 16,144₩ 17,938
+              - generic [ref=e1980]:
+                - generic [ref=e1981]:
+                  - text: 
+                  - generic [ref=e1982]: 
+                - generic [ref=e1983]: "962"
+            - generic [ref=e1986]: 10% OFF
+            - generic [ref=e1987]: "#88"
+          - 'link "kr-flag  FLASH SALE ROUND LAB - Birch Juice Moisturizing Mild Up Sunscreen ₩ 16,402₩ 23,432   353 30% OFF #89" [ref=e1988] [cursor=pointer]':
+            - /url: /en/round-lab-birch-juice-moisturizing-mild-up-sunscreen-50ml/info.html/pid.1123980112
+            - generic [ref=e1989]:
+              - img "kr-flag" [ref=e1991]
+              - button "" [ref=e1992]:
+                - generic [ref=e1994]: 
+            - generic [ref=e1995]:
+              - generic [ref=e1996]:
+                - generic [ref=e1997]: FLASH SALE
+                - generic [ref=e1998]: ROUND LAB - Birch Juice Moisturizing Mild Up Sunscreen
+              - generic [ref=e1999]: ₩ 16,402₩ 23,432
+              - generic [ref=e2000]:
+                - generic [ref=e2001]:
+                  - text: 
+                  - generic [ref=e2002]: 
+                - generic [ref=e2003]: "353"
+            - generic [ref=e2006]: 30% OFF
+            - generic [ref=e2007]: "#89"
+          - 'link "kr-flag  SKIN1004 - Madagascar Centella Hyalu-Cica Water-Fit Sun Serum Mini Bundle Set ₩ 11,635₩ 22,624 48% OFF #90" [ref=e2008] [cursor=pointer]':
+            - /url: /en/skin1004-madagascar-centella-hyalu-cica-water-fit-sun-serum-mini-bundle/info.html/pid.1136173188
+            - generic [ref=e2009]:
+              - img "kr-flag" [ref=e2011]
+              - button "" [ref=e2012]:
+                - generic [ref=e2014]: 
+            - generic [ref=e2015]:
+              - generic [ref=e2018]: SKIN1004 - Madagascar Centella Hyalu-Cica Water-Fit Sun Serum Mini Bundle Set
+              - generic [ref=e2019]: ₩ 11,635₩ 22,624
+            - generic [ref=e2022]: 48% OFF
+            - generic [ref=e2023]: "#90"
+          - 'link "kr-flag  FLASH SALE ROUND LAB - Baby Mild Sun Stick ₩ 13,914₩ 19,877   117 30% OFF #91" [ref=e2024] [cursor=pointer]':
+            - /url: /en/round-lab-baby-mild-sun-stick-21g/info.html/pid.1135216298
+            - generic [ref=e2025]:
+              - img "kr-flag" [ref=e2027]
+              - button "" [ref=e2028]:
+                - generic [ref=e2030]: 
+            - generic [ref=e2031]:
+              - generic [ref=e2032]:
+                - generic [ref=e2033]: FLASH SALE
+                - generic [ref=e2034]: ROUND LAB - Baby Mild Sun Stick
+              - generic [ref=e2035]: ₩ 13,914₩ 19,877
+              - generic [ref=e2036]:
+                - generic [ref=e2037]:
+                  - text: 
+                  - generic [ref=e2038]: 
+                - generic [ref=e2039]: "117"
+            - generic [ref=e2042]: 30% OFF
+            - generic [ref=e2043]: "#91"
+          - 'link "kr-flag  FLASH SALE MISSHA - All-Around Safe Block Essence Sun SPF45 PA+++ ₩ 15,126₩ 16,806   3,834 10% OFF #92" [ref=e2044] [cursor=pointer]':
+            - /url: /en/missha-all-around-safe-block-essence-sun-spf45-pa-2017-new-all-around/info.html/pid.1048875972
+            - generic [ref=e2045]:
+              - img "kr-flag" [ref=e2047]
+              - button "" [ref=e2048]:
+                - generic [ref=e2050]: 
+            - generic [ref=e2051]:
+              - generic [ref=e2052]:
+                - generic [ref=e2053]: FLASH SALE
+                - generic [ref=e2054]: MISSHA - All-Around Safe Block Essence Sun SPF45 PA+++
+              - generic [ref=e2055]: ₩ 15,126₩ 16,806
+              - generic [ref=e2056]:
+                - generic [ref=e2057]:
+                  - text: 
+                  - generic [ref=e2058]: 
+                - generic [ref=e2059]: 3,834
+            - generic [ref=e2062]: 10% OFF
+            - generic [ref=e2063]: "#92"
+          - 'link "kr-flag  Trending New Tage - Cica-Tree Water Jelly Sun Serum ₩ 18,907₩ 21,008   11 10% OFF #93" [ref=e2064] [cursor=pointer]':
+            - /url: /en/tage-cica-tree-water-jelly-sun-serum-50ml/info.html/pid.1137389052
+            - generic [ref=e2065]:
+              - img "kr-flag" [ref=e2067]
+              - button "" [ref=e2068]:
+                - generic [ref=e2070]: 
+            - generic [ref=e2071]:
+              - generic [ref=e2072]:
+                - generic [ref=e2073]: Trending New
+                - generic [ref=e2074]: Tage - Cica-Tree Water Jelly Sun Serum
+              - generic [ref=e2075]: ₩ 18,907₩ 21,008
+              - generic [ref=e2076]:
+                - generic [ref=e2077]:
+                  - text: 
+                  - generic [ref=e2078]: 
+                - generic [ref=e2079]: "11"
+            - generic [ref=e2082]: 10% OFF
+            - generic [ref=e2083]: "#93"
+          - 'link "kr-flag  Trending New COSRX - Ultra Light Invisible Sunscreen 2pcs Bundle Set ₩ 33,160₩ 46,541 28% OFF #94" [ref=e2084] [cursor=pointer]':
+            - /url: /en/cosrx-ultra-light-invisible-sunscreen-2pcs-bundle-set-50ml-x-2-pcs/info.html/pid.1137514400
+            - generic [ref=e2085]:
+              - img "kr-flag" [ref=e2087]
+              - button "" [ref=e2088]:
+                - generic [ref=e2090]: 
+            - generic [ref=e2091]:
+              - generic [ref=e2092]:
+                - generic [ref=e2093]: Trending New
+                - generic [ref=e2094]: COSRX - Ultra Light Invisible Sunscreen 2pcs Bundle Set
+              - generic [ref=e2095]: ₩ 33,160₩ 46,541
+            - generic [ref=e2098]: 28% OFF
+            - generic [ref=e2099]: "#94"
+          - 'link "kr-flag  MOST POPULAR Cell Fusion C - Laser UV Sunscreen ₩ 29,088   350 #95" [ref=e2100] [cursor=pointer]':
+            - /url: /en/cell-fusion-c-laser-uv-sunscreen-50ml/info.html/pid.1133578668
+            - generic [ref=e2101]:
+              - img "kr-flag" [ref=e2103]
+              - button "" [ref=e2104]:
+                - generic [ref=e2106]: 
+            - generic [ref=e2107]:
+              - generic [ref=e2108]:
+                - generic [ref=e2109]: MOST POPULAR
+                - generic [ref=e2110]: Cell Fusion C - Laser UV Sunscreen
+              - generic [ref=e2111]: ₩ 29,088
+              - generic [ref=e2112]:
+                - generic [ref=e2113]:
+                  - text: 
+                  - generic [ref=e2114]: 
+                - generic [ref=e2115]: "350"
+            - generic [ref=e2116]: "#95"
+          - 'link "th-flag  Lipit - Everyday Sun Balm SPF 50+ PA++++ Green Grape ₩ 9,373₩ 9,858   19 4.9% OFF #96" [ref=e2117] [cursor=pointer]':
+            - /url: /en/lipit-everyday-sun-balm-spf-50-pa-green-grape-3g/info.html/pid.1136448559
+            - generic [ref=e2118]:
+              - img "th-flag" [ref=e2120]
+              - button "" [ref=e2121]:
+                - generic [ref=e2123]: 
+            - generic [ref=e2124]:
+              - generic [ref=e2127]: Lipit - Everyday Sun Balm SPF 50+ PA++++ Green Grape
+              - generic [ref=e2128]: ₩ 9,373₩ 9,858
+              - generic [ref=e2129]:
+                - generic [ref=e2130]:
+                  - text: 
+                  - generic [ref=e2131]: 
+                - generic [ref=e2132]: "19"
+            - generic [ref=e2135]: 4.9% OFF
+            - generic [ref=e2136]: "#96"
+          - 'link "kr-flag  FLASH SALE iUNIK - Centella Calming Daily Sunscreen ₩ 19,230₩ 23,755   2,091 19% OFF #97" [ref=e2137] [cursor=pointer]':
+            - /url: /en/iunik-centella-calming-daily-sunscreen-60ml/info.html/pid.1116072290
+            - generic [ref=e2138]:
+              - img "kr-flag" [ref=e2140]
+              - button "" [ref=e2141]:
+                - generic [ref=e2143]: 
+            - generic [ref=e2144]:
+              - generic [ref=e2145]:
+                - generic [ref=e2146]: FLASH SALE
+                - generic [ref=e2147]: iUNIK - Centella Calming Daily Sunscreen
+              - generic [ref=e2148]: ₩ 19,230₩ 23,755
+              - generic [ref=e2149]:
+                - generic [ref=e2150]:
+                  - text: 
+                  - generic [ref=e2151]: 
+                - generic [ref=e2152]: 2,091
+            - generic [ref=e2155]: 19% OFF
+            - generic [ref=e2156]: "#97"
+          - 'link "kr-flag  FLASH SALE heimish - Artless Glow Tinted Sunscreen ₩ 24,886₩ 27,472   287 9.4% OFF #98" [ref=e2157] [cursor=pointer]':
+            - /url: /en/heimish-artless-glow-tinted-sunscreen-40ml/info.html/pid.1124208396
+            - generic [ref=e2158]:
+              - img "kr-flag" [ref=e2160]
+              - button "" [ref=e2161]:
+                - generic [ref=e2163]: 
+            - generic [ref=e2164]:
+              - generic [ref=e2165]:
+                - generic [ref=e2166]: FLASH SALE
+                - generic [ref=e2167]: heimish - Artless Glow Tinted Sunscreen
+              - generic [ref=e2168]: ₩ 24,886₩ 27,472
+              - generic [ref=e2169]:
+                - generic [ref=e2170]:
+                  - text: 
+                  - generic [ref=e2171]: 
+                - generic [ref=e2172]: "287"
+            - generic [ref=e2175]: 9.4% OFF
+            - generic [ref=e2176]: "#98"
+          - 'link "Value Set Available kr-flag  FLASH SALE Dear, Klairs - All-day Airy Sunscreen ₩ 23,755₩ 33,936   515 30% OFF #99" [ref=e2177] [cursor=pointer]':
+            - /url: /en/dear-klairs-all-day-airy-sunscreen-50ml/info.html/pid.1113220634
+            - generic [ref=e2178]:
+              - generic [ref=e2180]:
+                - generic [ref=e2181]: Value Set Available
+                - img [ref=e2182]
+              - img "kr-flag" [ref=e2185]
+              - button "" [ref=e2186]:
+                - generic [ref=e2188]: 
+            - generic [ref=e2189]:
+              - generic [ref=e2190]:
+                - generic [ref=e2191]: FLASH SALE
+                - generic [ref=e2192]: Dear, Klairs - All-day Airy Sunscreen
+              - generic [ref=e2193]: ₩ 23,755₩ 33,936
+              - generic [ref=e2194]:
+                - generic [ref=e2195]:
+                  - text: 
+                  - generic [ref=e2196]: 
+                - generic [ref=e2197]: "515"
+            - generic [ref=e2200]: 30% OFF
+            - generic [ref=e2201]: "#99"
+      - button "Next" [ref=e2203] [cursor=pointer]
+      - generic [ref=e2205]:
+        - button "" [disabled]:
+          - generic: 
+        - link "1":
+          - /url: /en/beauty-sun-care/list.html/bcc.15600_bpt.46?pn=1
+          - generic: "1"
+        - link "2" [ref=e2206] [cursor=pointer]:
+          - /url: /en/beauty-sun-care/list.html/bcc.15600_bpt.46?pn=2
+          - generic [ref=e2207]: "2"
+        - link "3" [ref=e2208] [cursor=pointer]:
+          - /url: /en/beauty-sun-care/list.html/bcc.15600_bpt.46?pn=3
+          - generic [ref=e2209]: "3"
+        - generic [ref=e2210]: ...
+        - generic: "17"
+        - button "" [ref=e2211] [cursor=pointer]:
+          - generic [ref=e2212]: 
+      - generic [ref=e2213]:
+        - list [ref=e2216]:
+          - listitem [ref=e2217]:
+            - text: 
+            - link "Beauty" [ref=e2218] [cursor=pointer]:
+              - /url: /en/beauty-beauty/list.html/bcc.15478_bpt.46
+          - listitem [ref=e2219]: Sun Care
+        - generic [ref=e2220]:
+          - link "Sunscreens" [ref=e2221] [cursor=pointer]:
+            - /url: /en/beauty-sunscreens/list.html/bcc.15601_bpt.46
+          - link "After Sun Care" [ref=e2222] [cursor=pointer]:
+            - /url: /en/beauty-after-sun-care/list.html/bcc.15602_bpt.46
+      - generic [ref=e2224]:
+        - button "promotions" [ref=e2225] [cursor=pointer]:
+          - img [ref=e2227]
+        - button "friend rewards" [ref=e2230] [cursor=pointer]:
+          - img [ref=e2231]
+        - button "recommended for you" [disabled]:
+          - img
+          - generic:
+            - progressbar:
+              - img
+  - button "Message Us" [ref=e2235] [cursor=pointer]:
+    - generic [ref=e2236]: 
+  - contentinfo [ref=e2237]:
+    - generic [ref=e2238]:
+      - generic [ref=e2239]: Follow us
+      - generic [ref=e2240]:
+        - link "facebook" [ref=e2241] [cursor=pointer]:
+          - /url: https://www.facebook.com/yesstyle
+          - img [ref=e2242]
+        - link "youtube" [ref=e2244] [cursor=pointer]:
+          - /url: https://www.youtube.com/yesstyle
+          - img [ref=e2245]
+        - link "instagram" [ref=e2247] [cursor=pointer]:
+          - /url: https://instagram.com/yesstyle
+          - img [ref=e2248]
+        - link "tiktok" [ref=e2250] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@yesstyle
+          - img [ref=e2251]
+        - link "pinterest" [ref=e2253] [cursor=pointer]:
+          - /url: https://pinterest.com/yesstyle
+          - img [ref=e2254]
+      - link "Download our app and earn 50 YS Points" [ref=e2257] [cursor=pointer]:
+        - /url: /en/app
+      - generic [ref=e2258]:
+        - link "apple" [ref=e2259] [cursor=pointer]:
+          - /url: https://apps.apple.com/us/app/yesstyle/id868675907
+          - img [ref=e2260]
+        - link "googleplay" [ref=e2262] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.yesstyle.android
+          - img [ref=e2263]
+    - generic [ref=e2266]:
+      - generic [ref=e2267]:
+        - heading "Support" [level=4] [ref=e2268]
+        - list [ref=e2270]:
+          - listitem [ref=e2271]:
+            - link "Order Tracking" [ref=e2272] [cursor=pointer]:
+              - /url: /en/secure/myaccount/track-your-order.html
+          - listitem [ref=e2273]:
+            - link "Contact Us" [ref=e2274] [cursor=pointer]:
+              - /url: /en/help/contact-us.html
+          - listitem [ref=e2275]:
+            - link "Customer Service" [ref=e2276] [cursor=pointer]:
+              - /url: /en/help/main.html
+      - generic [ref=e2277]:
+        - heading "Programs" [level=4] [ref=e2278]
+        - list [ref=e2280]:
+          - listitem [ref=e2281]:
+            - link "Elite Club" [ref=e2282] [cursor=pointer]:
+              - /url: /en/elite-club.html
+          - listitem [ref=e2283]:
+            - link "Friend Rewards" [ref=e2284] [cursor=pointer]:
+              - /url: /en/friend-rewards.html
+          - listitem [ref=e2285]:
+            - link "Student Program" [ref=e2286] [cursor=pointer]:
+              - /url: /en/student-program.html
+      - generic [ref=e2287]:
+        - heading "Partnerships" [level=4] [ref=e2288]
+        - list [ref=e2290]:
+          - listitem [ref=e2291]:
+            - link "YesStyle Influencers" [ref=e2292] [cursor=pointer]:
+              - /url: /en/influencers.html
+          - listitem [ref=e2293]:
+            - link "Affiliate Program" [ref=e2294] [cursor=pointer]:
+              - /url: /en/affiliate-program.html
+      - generic [ref=e2295]:
+        - heading "Sitemap" [level=4] [ref=e2296]
+        - list [ref=e2298]:
+          - listitem [ref=e2299]:
+            - link "Category Sitemap" [ref=e2300] [cursor=pointer]:
+              - /url: /en/category-sitemap
+          - listitem [ref=e2301]:
+            - link "Product Sitemap" [ref=e2302] [cursor=pointer]:
+              - /url: /en/product-sitemap
+      - generic [ref=e2303]:
+        - heading "About Us" [level=4] [ref=e2304]
+        - list [ref=e2306]:
+          - listitem [ref=e2307]:
+            - link "About YesStyle" [ref=e2308] [cursor=pointer]:
+              - /url: /en/about-us.html
+          - listitem [ref=e2309]:
+            - link "Investor Relations" [ref=e2310] [cursor=pointer]:
+              - /url: https://www.yesasiaholdings.com/investor-relations.html
+          - listitem [ref=e2311]:
+            - link "Wholesale" [ref=e2312] [cursor=pointer]:
+              - /url: https://www.asianbeautywholesale.com/home.html
+          - listitem [ref=e2313]:
+            - link "Jobs & Business Opportunities" [ref=e2314] [cursor=pointer]:
+              - /url: /en/about-us/jobs.html
+    - img [ref=e2316]
+    - generic [ref=e2325]:
+      - generic [ref=e2326]:
+        - generic [ref=e2327]:
+          - link "English" [ref=e2328] [cursor=pointer]:
+            - /url: /en/beauty-sun-care/list.html/bcc.15600_bpt.46
+          - link "Français" [ref=e2329] [cursor=pointer]:
+            - /url: /fr/beauty-sun-care/list.html/bcc.15600_bpt.46
+          - link "Deutsch" [ref=e2330] [cursor=pointer]:
+            - /url: /de/beauty-sun-care/list.html/bcc.15600_bpt.46
+          - link "Español" [ref=e2331] [cursor=pointer]:
+            - /url: /es/beauty-sun-care/list.html/bcc.15600_bpt.46
+          - link "Italiano" [ref=e2332] [cursor=pointer]:
+            - /url: /it/beauty-sun-care/list.html/bcc.15600_bpt.46
+          - link "Nederlands" [ref=e2333] [cursor=pointer]:
+            - /url: /nl/beauty-sun-care/list.html/bcc.15600_bpt.46
+          - link "Polski" [ref=e2334] [cursor=pointer]:
+            - /url: /pl/beauty-sun-care/list.html/bcc.15600_bpt.46
+          - link "Português" [ref=e2335] [cursor=pointer]:
+            - /url: /pt/beauty-sun-care/list.html/bcc.15600_bpt.46
+          - link "Русский" [ref=e2336] [cursor=pointer]:
+            - /url: /ru/beauty-sun-care/list.html/bcc.15600_bpt.46
+          - link "عربي" [ref=e2337] [cursor=pointer]:
+            - /url: /ar/beauty-sun-care/list.html/bcc.15600_bpt.46
+        - generic [ref=e2339]:
+          - link "Terms of Use" [ref=e2340] [cursor=pointer]:
+            - /url: /en/terms-of-use/help/section.html/hsi.804
+          - link "Privacy Policy" [ref=e2341] [cursor=pointer]:
+            - /url: /en/privacy-security/help/section.html/hsi.754
+          - text: Cookie Preferences
+      - generic [ref=e2342]: Copyright © 2006-2026 YESSTYLE.COM LTD. All rights reserved.

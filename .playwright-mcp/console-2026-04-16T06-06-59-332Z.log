@@ -1,0 +1,6 @@
+[    1543ms] [LOG] MoEngage Web Personalization SDK ready @ https://www.yesstyle.com/_next/static/chunks/05lngtst.k~bf.js:0
+[  137945ms] [LOG] Moengage found {customer_id: , page: PageView, page_type: Category, sid: , sku: undefined} @ :0
+[  137945ms] [LOG] Moengage page view {baseLogTag: Analytics, landingPages: qa, getSdkVersion: , setIntegrationType: , setLogLevel: } @ :0
+[  138999ms] [LOG] MoEngage Web Personalization SDK ready @ https://www.yesstyle.com/_next/static/chunks/05lngtst.k~bf.js:0
+[ 7616289ms] [LOG] Moengage found {customer_id: , page: PageView, page_type: Category, sid: , sku: undefined} @ :0
+[ 7616289ms] [LOG] Moengage page view {baseLogTag: Analytics, landingPages: qa, getSdkVersion: , setIntegrationType: , setLogLevel: } @ :0

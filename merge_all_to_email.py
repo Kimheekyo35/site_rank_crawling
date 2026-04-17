@@ -8,7 +8,7 @@ from zoneinfo import ZoneInfo
 from typing import Optional, Iterable, Tuple, List, Dict
 from psycopg2 import Error
 from psycopg2 import sql
-from openpyxl.styles import Alignment, Font
+from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
 import smtplib
 from email.mime.multipart import MIMEMultipart
@@ -552,6 +552,7 @@ def write_channel_sheet(
     start_row = 5
     start_col = 3
 
+
     display_df.to_excel(
         writer,
         index=False,
@@ -593,6 +594,24 @@ def write_channel_sheet(
                 cell.alignment = Alignment(horizontal="right")
             else:
                 cell.alignment = Alignment(horizontal="left")
+
+    # 브랜드명이 특정 키워드를 포함하면 배경색으로 강조
+    highlight_keywords = ("fwee", "numbuzin", "knock")
+    highlight_fill = PatternFill(start_color="ffff99", end_color="ffff99", fill_type="solid")
+    # 엑셀에서 열은 문자로 되어있기 때문에 문자로 갖고 오기
+    brand_col_letter = get_column_letter(start_col + 1 + 1)
+    # 시작
+    min_data_col = start_col + 1
+    # 끝
+    max_data_col = start_col + len(display_df.columns)
+    for row_idx in range(data_row_start, data_row_start + len(display_df)):
+        # cell → 엑셀의 A2, B5 같은 “하나의 셀 객체”
+        cell = worksheet[f"{brand_col_letter}{row_idx}"]
+        # cell 안에 있는 값 의미
+        cell_value = str(cell.value).lower() if cell.value else ""
+        if any(keyword in cell_value for keyword in highlight_keywords):
+            for col_idx in range(min_data_col, max_data_col + 1):
+                worksheet.cell(row=row_idx, column=col_idx).fill = highlight_fill
 
     for offset in (4, 5):
         trend_col = get_column_letter(start_col + 1 + offset)
